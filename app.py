@@ -1,4 +1,5 @@
 
+
 import streamlit as st
 from lightrag import LightRAG, QueryParam
 from lightrag.llm import gpt_4o_mini_complete
@@ -8,15 +9,15 @@ import time
 import pandas as pd
 import nest_asyncio
 import re
+import json
 from datetime import datetime
 import pytz
 
-# Apply nest_asyncio to handle asynchronous operations in Streamlit
+# Apply nest_asyncio to handle asynchronous operations
 nest_asyncio.apply()
 
 # ------------------------ Configuration ------------------------
 
-# Set Streamlit page configuration
 st.set_page_config(page_title="Conversational Bot", layout="wide")
 
 # ------------------------ Secrets Management ------------------------
@@ -44,8 +45,7 @@ for key in session_keys:
             st.session_state[key] = (
                 "As Todd, respond to the following question in a conversational manner, "
                 "keeping each response under 15 words for brevity and relevance. "
-                "Focus on providing honest and personal answers that align with my perspective in the story. "
-                "Provide responses labeled as 'Option 1:', 'Option 2:', etc."
+                "Focus on providing honest and personal answers that align with my perspective in the story."
             )
         elif key == 'additional_prompt':
             st.session_state[key] = ""
@@ -58,8 +58,8 @@ for key in session_keys:
 
 @st.cache_resource
 def initialize_lightrag():
-    zip_path = "book_backup.zip"  #need to have the zip with DB in the dir
-    extraction_path = "book_data/"  
+    zip_path = "book_backup.zip"  # Ensure this file is in the project directory
+    extraction_path = "book_data/"
 
     if not os.path.exists(extraction_path):
         shutil.unpack_archive(zip_path, extraction_path)
@@ -109,18 +109,34 @@ def log_interaction(user_query, combined_system_prompt, system_query, search_mod
     }
     st.session_state.log_data.append(log_entry)
 
-def parse_responses(raw_response, num_options):
+def parse_responses(raw_response):
     """
-    Parses the raw response from the model using 'Option N:' labels.
+    Parses the raw JSON response from the model.
+    Extracts JSON content even if there's additional text.
     """
-    responses = []
-    for i in range(1, num_options + 1):
-        pattern = rf'Option {i}: (.*?)(?=Option {i+1}:|$)'
-        match = re.search(pattern, raw_response, re.DOTALL)
-        if match:
-            response_text = match.group(1).strip()
-            responses.append(f"Option {i}: {response_text}")
-    return responses
+    try:
+        # Use regex to extract JSON array from the response
+        json_match = re.search(r'\[.*\]', raw_response, re.DOTALL)
+        if not json_match:
+            raise ValueError("No JSON array found in the response.")
+
+        json_str = json_match.group()
+        responses = json.loads(json_str)
+
+        if not isinstance(responses, list):
+            raise ValueError("Parsed JSON is not a list.")
+
+        parsed_responses = []
+        for item in responses:
+            option_number = item.get('option_number', 'N/A')
+            response_text = item.get('response', '')
+            if response_text:  # Ensure response_text is not empty
+                parsed_responses.append(f"Option {option_number}: {response_text}")
+        return parsed_responses
+    except (json.JSONDecodeError, ValueError) as e:
+        st.error(f"Failed to parse responses: {e}")
+        st.debug(f"Raw response: {raw_response}")
+        return [raw_response.strip()]
 
 def get_conversation_history(n=5):
     history = ''
@@ -132,10 +148,26 @@ def get_conversation_history(n=5):
 
 # ------------------------ User Interface ------------------------
 
-
 st.title("🗣️ Conversational Bot Web App")
 
 # ------------------------ Sidebar for User Information ------------------------
+
+
+st.markdown(
+    """
+    <style>
+    .sidebar .sidebar-content h1 {
+        font-size: 24px; 
+        color: #ff6347; 
+        text-align: center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
+st.sidebar.title("CADL🫶🏻")
 
 st.sidebar.header("User Information")
 username = st.sidebar.text_input("Username (optional)", value=st.session_state.username)
@@ -145,7 +177,6 @@ st.session_state.username = username
 st.session_state.metric = metric
 
 # ------------------------ Main Input and Response Handling ------------------------
-
 
 st.header("📝 Enter Your Queries")
 
@@ -208,10 +239,12 @@ with input_container:
 
         conversation_history = get_conversation_history()
 
+        # Combine the system prompts with explicit JSON instruction
         combined_system_prompt = (
             f"{system_prompt}\n\n{additional_prompt}\n\n"
-            f"Provide {num_responses} responses labeled as 'Option 1:', 'Option 2:', etc., "
-            f"each reflecting {response_types} perspectives."
+            f"Provide {num_responses} responses in JSON format as a list of objects, "
+            f"each with 'option_number' and 'response' fields, reflecting {response_types} perspectives. "
+            f"**Return only the JSON without any additional text.**"
         )
 
         st.session_state.combined_system_prompt = combined_system_prompt
@@ -224,7 +257,7 @@ with input_container:
             generated_responses = []
             for mode in selected_modes:
                 response_text, latency = generate_response(mode, system_query)
-                parsed_responses = parse_responses(response_text, num_responses)
+                parsed_responses = parse_responses(response_text)
                 if not parsed_responses:
                     parsed_responses = [response_text.strip()]
                 for resp in parsed_responses:
@@ -243,7 +276,7 @@ with response_container:
             mode = resp_info['mode']
             response_text = resp_info['response']
             latency = resp_info['latency']
-            option = f"Option {idx}: [{mode.capitalize()}] {response_text} (Latency: {latency:.2f}s)"
+            option = f"{response_text} (Mode: {mode.capitalize()}, Latency: {latency:.2f}s)"
             response_options.append(option)
 
         for option in response_options:
@@ -280,7 +313,7 @@ with response_container:
 
             st.success("✅ Response selected and added to conversation history.")
 
-# ------------------------ Sidebar for Downloading csv ------------------------
+# ------------------------ Sidebar for Downloading CSV ------------------------
 
 st.sidebar.header("📥 Download Logs")
 
