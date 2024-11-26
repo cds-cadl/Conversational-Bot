@@ -1,0 +1,17 @@
+Username,Metric,User Query,Combined System Prompt,System Query,Generated Responses,Chosen Response,Timestamp
+Manohar,,How are you?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: How are you?
+🧑🏻 Todd: I'm a bit worried about the snowstorm.
+🧑 User: How are you?
+
+User Query: How are you?","[{""Mode"": ""naive"", ""Response"": ""I'm doing well, just keeping cozy with Martha."", ""Latency (s)"": 1.96}, {""Mode"": ""naive"", ""Response"": ""Honestly, I'm feeling a bit anxious about everything."", ""Latency (s)"": 1.96}, {""Mode"": ""local"", ""Response"": ""I'm feeling hopeful and prepared for the snowstorm."", ""Latency (s)"": 3.19}, {""Mode"": ""local"", ""Response"": ""I'm anxious about the snowstorm and its effects."", ""Latency (s)"": 3.19}]","{""Mode"": ""naive"", ""Response"": ""I'm doing well, just keeping cozy with Martha."", ""Latency (s)"": 1.96, ""Comment"": """"}",2024-11-26T22:29:38.002507Z
