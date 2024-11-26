@@ -3,3 +3,7 @@ lightrag-hku==0.0.7
 transformers
 nest_asyncio
 pandas
+pytz
+GitPython
+torch
+
