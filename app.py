@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 from lightrag import LightRAG, QueryParam
 from lightrag.llm import gpt_4o_mini_complete
@@ -12,6 +10,8 @@ import re
 import json
 from datetime import datetime
 import pytz
+from git import Repo, Actor, GitCommandError
+import tempfile
 
 # Apply nest_asyncio to handle asynchronous operations
 nest_asyncio.apply()
@@ -22,7 +22,15 @@ st.set_page_config(page_title="Conversational Bot", layout="wide")
 
 # ------------------------ Secrets Management ------------------------
 
-OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+#IF secrets are updated dont forget to update in ./streamlit
+try:
+    OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+    GIT_REPO_URL = st.secrets["GIT_REPO_URL"]
+    GIT_DEPLOY_KEY = st.secrets["GIT_DEPLOY_KEY"]
+except KeyError as e:
+    st.error(f"Missing secret key: {e}. Please ensure all required secrets are set.")
+    st.stop()
+
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 # ------------------------ Session State Initialization ------------------------
@@ -31,7 +39,7 @@ session_keys = [
     'conversation_history', 'log_data', 'rag_initialized',
     'generated_responses', 'system_prompt', 'additional_prompt',
     'system_query', 'num_responses', 'response_types', 'username', 'metric',
-    'combined_system_prompt', 'user_query'
+    'combined_system_prompt', 'user_query', 'chosen_response'
 ]
 for key in session_keys:
     if key not in st.session_state:
@@ -49,7 +57,7 @@ for key in session_keys:
             )
         elif key == 'additional_prompt':
             st.session_state[key] = ""
-        elif key in ['username', 'metric', 'combined_system_prompt', 'user_query']:
+        elif key in ['username', 'metric', 'combined_system_prompt', 'user_query', 'chosen_response']:
             st.session_state[key] = ""
         else:
             st.session_state[key] = ""
@@ -95,17 +103,16 @@ def generate_response(search_mode, system_query):
 def update_conversation_history(speaker, text):
     st.session_state.conversation_history.append({'speaker': speaker, 'text': text})
 
-def log_interaction(user_query, combined_system_prompt, system_query, search_mode, response, latency, comment=""):
+def log_interaction(user_query, combined_system_prompt, system_query, generated_responses, chosen_response):
     log_entry = {
         "Username": st.session_state.get('username', ''),
         "Metric": st.session_state.get('metric', ''),
         "User Query": user_query,
         "Combined System Prompt": combined_system_prompt,
         "System Query": system_query,
-        "Search Mode": search_mode,
-        "Response": response,
-        "Latency (s)": f"{latency:.2f}",
-        "Comment": comment
+        "Generated Responses": json.dumps(generated_responses, ensure_ascii=False),
+        "Chosen Response": json.dumps(chosen_response, ensure_ascii=False),
+        "Timestamp": datetime.utcnow().isoformat() + "Z"
     }
     st.session_state.log_data.append(log_entry)
 
@@ -115,7 +122,7 @@ def parse_responses(raw_response):
     Extracts JSON content even if there's additional text.
     """
     try:
-        # Use regex to extract JSON array from the response
+        
         json_match = re.search(r'\[.*\]', raw_response, re.DOTALL)
         if not json_match:
             raise ValueError("No JSON array found in the response.")
@@ -130,13 +137,16 @@ def parse_responses(raw_response):
         for item in responses:
             option_number = item.get('option_number', 'N/A')
             response_text = item.get('response', '')
-            if response_text:  # Ensure response_text is not empty
-                parsed_responses.append(f"Option {option_number}: {response_text}")
+            if response_text:  
+                parsed_responses.append({
+                    "Option Number": option_number,
+                    "Response Text": response_text
+                })
         return parsed_responses
     except (json.JSONDecodeError, ValueError) as e:
         st.error(f"Failed to parse responses: {e}")
         st.debug(f"Raw response: {raw_response}")
-        return [raw_response.strip()]
+        return [{"Option Number": "N/A", "Response Text": raw_response.strip()}]
 
 def get_conversation_history(n=5):
     history = ''
@@ -146,12 +156,67 @@ def get_conversation_history(n=5):
         history += f"{speaker}: {text}\n"
     return history
 
+def save_logs_to_git(selected_user, log_df):
+    """
+    Save the log DataFrame to a CSV file in the Git repository under the selected user's folder.
+    Commit and push the changes to the remote repository.
+    """
+    try:
+        with tempfile.TemporaryDirectory() as tmpdirname:
+            deploy_key_fd, deploy_key_path = tempfile.mkstemp()
+            with os.fdopen(deploy_key_fd, 'w') as key_file:
+                key_file.write(GIT_DEPLOY_KEY)
+            os.chmod(deploy_key_path, 0o600)  
+
+            git_ssh_command = f'ssh -i {deploy_key_path} -o StrictHostKeyChecking=no'
+
+            repo = Repo.clone_from(
+                GIT_REPO_URL,
+                tmpdirname,
+                branch='main',
+                depth=1,
+                env={
+                    'GIT_SSH_COMMAND': git_ssh_command
+                }
+            )
+
+            # Define the path based on the selected user
+            user_folder = os.path.join(tmpdirname, selected_user)
+            os.makedirs(user_folder, exist_ok=True)
+
+            # Define the log file path
+            log_file_path = os.path.join(user_folder, "logs.csv")
+
+            # If logs.csv exists, append to it; else, create it
+            if os.path.exists(log_file_path):
+                existing_df = pd.read_csv(log_file_path)
+                updated_df = pd.concat([existing_df, log_df], ignore_index=True)
+            else:
+                updated_df = log_df
+
+            # Save the updated DataFrame to CSV
+            updated_df.to_csv(log_file_path, index=False)
+
+            # Add, commit, and push the changes
+            repo.index.add([os.path.relpath(log_file_path, tmpdirname)])
+            author = Actor("Streamlit App", "app@example.com")
+            commit_message = f"Update logs for {selected_user} at {datetime.utcnow().isoformat()}Z"
+            repo.index.commit(commit_message, author=author, committer=author)
+            origin = repo.remote(name='origin')
+            origin.push()
+
+            os.remove(deploy_key_path)
+
+    except GitCommandError as git_err:
+        st.error(f"Git command error: {git_err}")
+    except Exception as e:
+        st.error(f"An error occurred while saving logs to Git: {e}")
+
 # ------------------------ User Interface ------------------------
 
 st.title("🗣️ Conversational Bot Web App")
 
-# ------------------------ Sidebar for User Information ------------------------
-
+# ------------------------ Sidebar for User Information and Git Integration ------------------------
 
 st.markdown(
     """
@@ -166,14 +231,22 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
 st.sidebar.title("CADL🫶🏻")
 
 st.sidebar.header("User Information")
-username = st.sidebar.text_input("Username (optional)", value=st.session_state.username)
+
+# Predefined user names
+predefined_users = ["Jeff", "Pam", "Antara", "Jenna", "Shalini", "Manohar", "Kat", "Mike"]
+
+selected_user = st.sidebar.selectbox(
+    "Select Your Name",
+    options=predefined_users,
+    index=0
+)
+
 metric = st.sidebar.text_input("Metric (optional)", value=st.session_state.metric)
 
-st.session_state.username = username
+st.session_state.username = selected_user
 st.session_state.metric = metric
 
 # ------------------------ Main Input and Response Handling ------------------------
@@ -239,7 +312,6 @@ with input_container:
 
         conversation_history = get_conversation_history()
 
-        # Combine the system prompts with explicit JSON instruction
         combined_system_prompt = (
             f"{system_prompt}\n\n{additional_prompt}\n\n"
             f"Provide {num_responses} responses in JSON format as a list of objects, "
@@ -259,12 +331,12 @@ with input_container:
                 response_text, latency = generate_response(mode, system_query)
                 parsed_responses = parse_responses(response_text)
                 if not parsed_responses:
-                    parsed_responses = [response_text.strip()]
+                    parsed_responses = [{"Option Number": "N/A", "Response Text": response_text.strip()}]
                 for resp in parsed_responses:
                     generated_responses.append({
-                        'mode': mode,
-                        'response': resp,
-                        'latency': latency
+                        "Mode": mode,
+                        "Response": resp["Response Text"],
+                        "Latency (s)": round(latency, 2)
                     })
             st.session_state.generated_responses = generated_responses
 
@@ -273,9 +345,9 @@ with response_container:
         st.subheader("🔄 Generated Responses")
         response_options = []
         for idx, resp_info in enumerate(st.session_state.generated_responses, start=1):
-            mode = resp_info['mode']
-            response_text = resp_info['response']
-            latency = resp_info['latency']
+            mode = resp_info['Mode']
+            response_text = resp_info['Response']
+            latency = resp_info['Latency (s)']
             option = f"{response_text} (Mode: {mode.capitalize()}, Latency: {latency:.2f}s)"
             response_options.append(option)
 
@@ -293,25 +365,36 @@ with response_container:
         if confirm_button and selected_option:
             selected_idx = response_options.index(selected_option)
             selected_response_info = st.session_state.generated_responses[selected_idx]
-            chosen_mode = selected_response_info['mode']
-            chosen_response_text = selected_response_info['response']
-            chosen_latency = selected_response_info['latency']
+            chosen_mode = selected_response_info['Mode']
+            chosen_response_text = selected_response_info['Response']
+            chosen_latency = selected_response_info['Latency (s)']
 
             update_conversation_history("🧑🏻 Todd", chosen_response_text)
+
+            generated_responses_structured = st.session_state.generated_responses
 
             log_interaction(
                 user_query=st.session_state.user_query,
                 combined_system_prompt=st.session_state.combined_system_prompt,
                 system_query=st.session_state.system_query,
-                search_mode=chosen_mode,
-                response=chosen_response_text,
-                latency=chosen_latency,
-                comment=comment
+                generated_responses=generated_responses_structured,
+                chosen_response={
+                    "Mode": chosen_mode,
+                    "Response": chosen_response_text,
+                    "Latency (s)": chosen_latency,
+                    "Comment": comment
+                }
             )
 
             st.session_state.generated_responses = []
 
             st.success("✅ Response selected and added to conversation history.")
+
+            if st.session_state.log_data:
+                log_df = pd.DataFrame(st.session_state.log_data)
+                save_logs_to_git(selected_user, log_df)
+                # Clear the log_data after saving to avoid duplicate entries
+                st.session_state.log_data = []
 
 # ------------------------ Sidebar for Downloading CSV ------------------------
 
@@ -320,16 +403,18 @@ st.sidebar.header("📥 Download Logs")
 def download_logs():
     if st.session_state.log_data:
         df = pd.DataFrame(st.session_state.log_data)
+        df['Generated Responses'] = df['Generated Responses'].apply(lambda x: json.dumps(json.loads(x), ensure_ascii=False, indent=2))
+        df['Chosen Response'] = df['Chosen Response'].apply(lambda x: json.dumps(x, ensure_ascii=False, indent=2))
         csv = df.to_csv(index=False)
 
-        username = st.session_state.get('username', 'user') or 'user'
+        selected_user = st.session_state.get('username', 'user') or 'user'
         metric = st.session_state.get('metric', 'metric') or 'metric'
 
         est = pytz.timezone('US/Eastern')
         current_time = datetime.now(est)
         time_str = current_time.strftime("%Y%m%d_%H%M%S")
 
-        file_name = f"{username}_{metric}_{time_str}.csv"
+        file_name = f"{selected_user}_{metric}_{time_str}.csv"
 
         st.sidebar.download_button(
             label="Download CSV",
@@ -340,7 +425,6 @@ def download_logs():
     else:
         st.sidebar.write("🚫 No logs to download yet.")
 
-# Call download_logs to render the updated state
 download_logs()
 
 # ------------------------ Conversation History ------------------------
