@@ -1,0 +1,15 @@
+Username,Metric,User Query,Combined System Prompt,System Query,Generated Responses,Chosen Response,Timestamp
+Pam,,What did you do for Thanksgiving?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: What did you do for Thanksgiving?
+
+User Query: What did you do for Thanksgiving?","[{""Mode"": ""naive"", ""Response"": ""I spent time with family, sharing food and laughter."", ""Latency (s)"": 1.62}, {""Mode"": ""naive"", ""Response"": ""It felt lonely; I missed some family traditions."", ""Latency (s)"": 1.62}, {""Mode"": ""global"", ""Response"": ""I enjoyed a cozy dinner with my family, sharing stories."", ""Latency (s)"": 3.65}, {""Mode"": ""global"", ""Response"": ""It felt lonely without Todd, missing those family connections."", ""Latency (s)"": 3.65}, {""Mode"": ""local"", ""Response"": ""Spent time with family in Florida, sharing traditions together."", ""Latency (s)"": 2.87}, {""Mode"": ""local"", ""Response"": ""Felt sad being away from home, missing family gatherings."", ""Latency (s)"": 2.87}]","{""Mode"": ""local"", ""Response"": ""Spent time with family in Florida, sharing traditions together."", ""Latency (s)"": 2.87, ""Comment"": ""I remember Todd has family in Florida so I thought this one might be relevant. ""}",2024-12-02T16:55:35.346449Z
