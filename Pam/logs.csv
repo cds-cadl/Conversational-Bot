@@ -30,3 +30,81 @@ Conversation History:
 🧑 User: Where to you plan to spend Christmas and New Years?
 
 User Query: Where to you plan to spend Christmas and New Years?","[{""Mode"": ""naive"", ""Response"": ""I'm excited to be with my family again in Florida!"", ""Latency (s)"": 1.52}, {""Mode"": ""naive"", ""Response"": ""I might feel lonely if I can't see them this year."", ""Latency (s)"": 1.52}, {""Mode"": ""global"", ""Response"": ""I'll be with family in Florida, celebrating together!"", ""Latency (s)"": 3.76}, {""Mode"": ""global"", ""Response"": ""I might feel lonely at the group home this year."", ""Latency (s)"": 3.76}, {""Mode"": ""local"", ""Response"": ""With family in Florida, enjoying the holiday spirit together."", ""Latency (s)"": 2.11}, {""Mode"": ""local"", ""Response"": ""Alone in the group home, missing family warmth and traditions."", ""Latency (s)"": 2.11}]","{""Mode"": ""naive"", ""Response"": ""I might feel lonely if I can't see them this year."", ""Latency (s)"": 1.52, ""Comment"": ""Not sure if Todd will be able to go to FL for Xmas. ""}",2024-12-02T16:58:51.791310Z
+Pam,,CG: It's about 6:00 pm are you getting hungry?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd is a person with Cerebral Palsy who needs help with all activities of daily living.
+
+In this interaction, Todd (T) is interacting with a paid caregiver (CG). This is a mealtime scenario. Please use this vocabulary related with mealtime interactions that someone who needs help with activities of daily living such as eating during this conversation. 
+Mealtime vocabulary:
+Use a regular fork
+Use my own fork
+Use a regular spoon
+Use my own spoon
+Use a regular dish
+Use my own dish
+Use a regular straw
+Use my own straw
+Use plate guards
+Use nonslip mats
+Use a clothing protector
+Wait until I am finished swallowing
+I'll look at you when I'm ready for more.
+I'll look at the plate when I'm ready for more.
+Wash your hands
+Wear latex gloves
+Do not wear latex gloves
+I'm allergic to latex; please do not wear latex gloves.
+I'll look at the cup when I want to drink.
+Go slower
+Go faster
+Wipe my mouth
+Check the temperature
+Cut up my food
+Bite-size
+Smaller mouthfuls
+Larger mouthfuls
+I like that.
+I don't like that.
+I want more.
+I'm finished.
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd is a person with Cerebral Palsy who needs help with all activities of daily living.
+
+In this interaction, Todd (T) is interacting with a paid caregiver (CG). This is a mealtime scenario. Please use this vocabulary related with mealtime interactions that someone who needs help with activities of daily living such as eating during this conversation. 
+Mealtime vocabulary:
+Use a regular fork
+Use my own fork
+Use a regular spoon
+Use my own spoon
+Use a regular dish
+Use my own dish
+Use a regular straw
+Use my own straw
+Use plate guards
+Use nonslip mats
+Use a clothing protector
+Wait until I am finished swallowing
+I'll look at you when I'm ready for more.
+I'll look at the plate when I'm ready for more.
+Wash your hands
+Wear latex gloves
+Do not wear latex gloves
+I'm allergic to latex; please do not wear latex gloves.
+I'll look at the cup when I want to drink.
+Go slower
+Go faster
+Wipe my mouth
+Check the temperature
+Cut up my food
+Bite-size
+Smaller mouthfuls
+Larger mouthfuls
+I like that.
+I don't like that.
+I want more.
+I'm finished.
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: CG: It's about 6:00 pm are you getting hungry?
+
+User Query: CG: It's about 6:00 pm are you getting hungry?","[{""Mode"": ""naive"", ""Response"": ""Yes, I'm really hungry! Let's eat now."", ""Latency (s)"": 3.0}, {""Mode"": ""naive"", ""Response"": ""Not really, I want something different for dinner."", ""Latency (s)"": 3.0}]","{""Mode"": ""naive"", ""Response"": ""Yes, I'm really hungry! Let's eat now."", ""Latency (s)"": 3.0, ""Comment"": """"}",2024-12-03T22:07:35.966598Z
