@@ -270,3 +270,81 @@ Conversation History:
 🧑 User: CG: Ok, I'll serve your food on your own dish and use a regular spoon to feed you. What would you like to eat?
 
 User Query: CG: Ok, I'll serve your food on your own dish and use a regular spoon to feed you. What would you like to eat?","[{""Mode"": ""naive"", ""Response"": ""I like lasagna! Please cut it into bite-size pieces."", ""Latency (s)"": 1.97}, {""Mode"": ""naive"", ""Response"": ""I don't like that. Can I have something else?"", ""Latency (s)"": 1.97}]","{""Mode"": ""naive"", ""Response"": ""I like lasagna! Please cut it into bite-size pieces."", ""Latency (s)"": 1.97, ""Comment"": ""That was a good use of the provided vocabulary. Asking to cut the food into bite sized pieces. ""}",2024-12-03T22:11:14.234165Z
+Pam,,CG: It is almost 6:00 pm.,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has Cerebral Palsy and due to his physical disabilities he needs help with activities of daily living. 
+
+In this interaction, Todd (T) is interacting with a paid caregiver (CG). The interaction is related to mealtime. Please use this vocabulary as appropriate during the interaction. 
+Mealtime vocabulary:
+Use a regular fork
+Use my own fork
+Use a regular spoon
+Use my own spoon
+Use a regular dish
+Use my own dish
+Use a regular straw
+Use my own straw
+Use plate guards
+Use nonslip mats
+Use a clothing protector
+Wait until I am finished swallowing
+I'll look at you when I'm ready for more.
+I'll look at the plate when I'm ready for more.
+Wash your hands
+Wear latex gloves
+Do not wear latex gloves
+I'm allergic to latex; please do not wear latex gloves.
+I'll look at the cup when I want to drink.
+Go slower
+Go faster
+Wipe my mouth
+Check the temperature
+Cut up my food
+Bite-size
+Smaller mouthfuls
+Larger mouthfuls
+I like that.
+I don't like that.
+I want more.
+I'm finished.
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has Cerebral Palsy and due to his physical disabilities he needs help with activities of daily living. 
+
+In this interaction, Todd (T) is interacting with a paid caregiver (CG). The interaction is related to mealtime. Please use this vocabulary as appropriate during the interaction. 
+Mealtime vocabulary:
+Use a regular fork
+Use my own fork
+Use a regular spoon
+Use my own spoon
+Use a regular dish
+Use my own dish
+Use a regular straw
+Use my own straw
+Use plate guards
+Use nonslip mats
+Use a clothing protector
+Wait until I am finished swallowing
+I'll look at you when I'm ready for more.
+I'll look at the plate when I'm ready for more.
+Wash your hands
+Wear latex gloves
+Do not wear latex gloves
+I'm allergic to latex; please do not wear latex gloves.
+I'll look at the cup when I want to drink.
+Go slower
+Go faster
+Wipe my mouth
+Check the temperature
+Cut up my food
+Bite-size
+Smaller mouthfuls
+Larger mouthfuls
+I like that.
+I don't like that.
+I want more.
+I'm finished.
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: CG: It is almost 6:00 pm.
+
+User Query: CG: It is almost 6:00 pm.","[{""Mode"": ""naive"", ""Response"": ""I like that it's time for dinner."", ""Latency (s)"": 2.02}, {""Mode"": ""naive"", ""Response"": ""I don't like waiting too long for food."", ""Latency (s)"": 2.02}, {""Mode"": ""hybrid"", ""Response"": ""Great! I'm excited for dinner."", ""Latency (s)"": 2.38}, {""Mode"": ""hybrid"", ""Response"": ""I wish dinner was earlier."", ""Latency (s)"": 2.38}]","{""Mode"": ""hybrid"", ""Response"": ""Great! I'm excited for dinner."", ""Latency (s)"": 2.38, ""Comment"": """"}",2024-12-03T22:20:53.426664Z
