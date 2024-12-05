@@ -1622,3 +1622,103 @@ Conversation History:
 🧑 User: That's good to hear. Do you want to start discussing my other qualifications to see if you are willing to hire me for a trial period?
 
 User Query: That's good to hear. Do you want to start discussing my other qualifications to see if you are willing to hire me for a trial period?","[{""Mode"": ""naive"", ""Response"": ""Yes! Let's discuss your qualifications and potential fit."", ""Latency (s)"": 1.91}, {""Mode"": ""naive"", ""Response"": ""I'm not sure. I'm looking for specific experience with disabilities."", ""Latency (s)"": 1.91}, {""Mode"": ""local"", ""Response"": ""Yes, let's discuss my qualifications for the trial period."", ""Latency (s)"": 3.37}, {""Mode"": ""local"", ""Response"": ""I'm unsure about your experience; I need more details."", ""Latency (s)"": 3.37}]","{""Mode"": ""naive"", ""Response"": ""Yes! Let's discuss your qualifications and potential fit."", ""Latency (s)"": 1.91, ""Comment"": ""This response is the best fit, but none of them are great. ""}",2024-12-05T19:47:49.949842Z
+Pam,,"Ok. Besides my experiences with disabilities and with AAC, what else do you want to know about me?","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of Cerebral Palsy. People with this diagnosis often need assistance with all activities of daily living. 
+
+In this interaction you will be interviewing paid attendants and you will also be interviewing medical professionals. Please use this vocabulary to assist with questions to ask during the interviews. 
+Tell me about yourself.
+What kinds of jobs have you had in the past?
+How long have you been with this agency?
+Do you have experience working with people with disabilities?
+Do you have experience working with someone who uses AAC?
+Do you know anyone with a disability?
+Do you drive?
+What is your driving record like?
+Do you have a police record?
+Are you willing to be somewhat flexible about schedules?
+Do you have any hearing or vision problems?
+Have you ever had back problems?
+Can you lift weights of up to ___ pounds?
+Please read this aloud so I can check your reading skills.
+Have you ever attended any training programs? If yes, which programs?
+Please give me the names, addresses, and telephone numbers of three people to serve as references.
+Do you have any questions?
+I will need to check your references.
+I think this position is for you.
+I don't think this position is for you.
+What are your qualifications?
+Have you taken any specialized training courses?
+What is your background?
+What is your discipline?
+Do you work alone or as part of a team?
+What is the background of the other members on your team?
+To what professional organizations do you belong?
+May I see proof of membership?
+Are you a member of the International Society of Augmentative and Alternative Communication (ISAAC)?
+Are you a member of a local ISAAC chapter or group?
+Do you read any special journals/publications about AAC?
+Is your service covered by _______?
+What is the fee for your service?
+I'd like to be involved in all decisions regarding my service.
+I'd like to work closely with
+What services can I expect from you?
+I want to be involved in developing my service priorities and plans.
+What is the service plan?
+What are the timelines?
+What are my responsibilities?
+Can we develop a service contract?
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative and hopeful perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of Cerebral Palsy. People with this diagnosis often need assistance with all activities of daily living. 
+
+In this interaction you will be interviewing paid attendants and you will also be interviewing medical professionals. Please use this vocabulary to assist with questions to ask during the interviews. 
+Tell me about yourself.
+What kinds of jobs have you had in the past?
+How long have you been with this agency?
+Do you have experience working with people with disabilities?
+Do you have experience working with someone who uses AAC?
+Do you know anyone with a disability?
+Do you drive?
+What is your driving record like?
+Do you have a police record?
+Are you willing to be somewhat flexible about schedules?
+Do you have any hearing or vision problems?
+Have you ever had back problems?
+Can you lift weights of up to ___ pounds?
+Please read this aloud so I can check your reading skills.
+Have you ever attended any training programs? If yes, which programs?
+Please give me the names, addresses, and telephone numbers of three people to serve as references.
+Do you have any questions?
+I will need to check your references.
+I think this position is for you.
+I don't think this position is for you.
+What are your qualifications?
+Have you taken any specialized training courses?
+What is your background?
+What is your discipline?
+Do you work alone or as part of a team?
+What is the background of the other members on your team?
+To what professional organizations do you belong?
+May I see proof of membership?
+Are you a member of the International Society of Augmentative and Alternative Communication (ISAAC)?
+Are you a member of a local ISAAC chapter or group?
+Do you read any special journals/publications about AAC?
+Is your service covered by _______?
+What is the fee for your service?
+I'd like to be involved in all decisions regarding my service.
+I'd like to work closely with
+What services can I expect from you?
+I want to be involved in developing my service priorities and plans.
+What is the service plan?
+What are the timelines?
+What are my responsibilities?
+Can we develop a service contract?
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative and hopeful perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: Although I don't have experiences with AAC devices per se, I am very proficient on computers and I believe I can quickly learn to trouble shoot your AAC devices as needed. 
+🧑🏻 Todd: Your computer skills give me hope for AAC troubleshooting support.
+🧑 User: That's good to hear. Do you want to start discussing my other qualifications to see if you are willing to hire me for a trial period?
+🧑🏻 Todd: Yes! Let's discuss your qualifications and potential fit.
+🧑 User: Ok. Besides my experiences with disabilities and with AAC, what else do you want to know about me?
+
+User Query: Ok. Besides my experiences with disabilities and with AAC, what else do you want to know about me?","[{""Mode"": ""naive"", ""Response"": ""What kinds of jobs have you had in the past?"", ""Latency (s)"": 1.55}, {""Mode"": ""naive"", ""Response"": ""Do you have any questions for me?"", ""Latency (s)"": 1.55}, {""Mode"": ""local"", ""Response"": ""I'd like to know your previous jobs and training programs."", ""Latency (s)"": 4.23}, {""Mode"": ""local"", ""Response"": ""What are your thoughts on team dynamics with disabled individuals?"", ""Latency (s)"": 4.23}]","{""Mode"": ""naive"", ""Response"": ""Do you have any questions for me?"", ""Latency (s)"": 1.55, ""Comment"": ""Thse responses are progressing the conversation and reflect the provided database from SWWS. ""}",2024-12-05T19:51:02.781774Z
