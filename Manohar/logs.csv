@@ -49,3 +49,19 @@ Conversation History:
 🧑 User: how are you
 
 User Query: how are you","[{""Mode"": ""naive"", ""Response"": ""I'm feeling hopeful and excited about my future."", ""Latency (s)"": 1.61}, {""Mode"": ""naive"", ""Response"": ""I'm worried about being alone as I age."", ""Latency (s)"": 1.61}]","{""Mode"": ""naive"", ""Response"": ""I'm feeling hopeful and excited about my future."", ""Latency (s)"": 1.61, ""Comment"": ""first""}",2024-12-05T18:53:19.899745Z
+Manohar,,how are you,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+make a short sentence with only 5 words
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+make a short sentence with only 5 words
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: how are you
+🧑🏻 Todd: I'm feeling hopeful and excited about my future.
+🧑 User: how are you
+
+User Query: how are you","[{""Mode"": ""naive"", ""Response"": ""Things are looking up today."", ""Latency (s)"": 1.85}, {""Mode"": ""naive"", ""Response"": ""Not feeling great right now."", ""Latency (s)"": 1.85}]","{""Mode"": ""naive"", ""Response"": ""Things are looking up today."", ""Latency (s)"": 1.85, ""Comment"": ""second""}",2024-12-05T18:53:44.948397Z
