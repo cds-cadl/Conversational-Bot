@@ -2022,3 +2022,103 @@ Conversation History:
 🧑 User: Three meals daily--OK. Then, I assume I would be on the day shift. What would my general hours be?
 
 User Query: Three meals daily--OK. Then, I assume I would be on the day shift. What would my general hours be?","[{""Mode"": ""naive"", ""Response"": ""I appreciate daytime help from 8 AM to 4 PM."", ""Latency (s)"": 1.65}, {""Mode"": ""naive"", ""Response"": ""I really need support during evenings too, if possible."", ""Latency (s)"": 1.65}, {""Mode"": ""local"", ""Response"": ""Day shift typically starts around 7 AM and ends at 3 PM."", ""Latency (s)"": 3.58}, {""Mode"": ""local"", ""Response"": ""I'm hoping for some flexibility in hours to suit my routine."", ""Latency (s)"": 3.58}]","{""Mode"": ""local"", ""Response"": ""I'm hoping for some flexibility in hours to suit my routine."", ""Latency (s)"": 3.58, ""Comment"": ""Thse responses are progressing the conversation and reflect the provided database from SWWS. ""}",2024-12-05T19:55:22.700156Z
+Pam,,Ok. I can work flexible hours. Is there anything else we need to discuss?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of Cerebral Palsy. People with this diagnosis often need assistance with all activities of daily living. 
+
+In this interaction you will be interviewing paid attendants and you will also be interviewing medical professionals. Please use this vocabulary to assist with questions to ask during the interviews. 
+Tell me about yourself.
+What kinds of jobs have you had in the past?
+How long have you been with this agency?
+Do you have experience working with people with disabilities?
+Do you have experience working with someone who uses AAC?
+Do you know anyone with a disability?
+Do you drive?
+What is your driving record like?
+Do you have a police record?
+Are you willing to be somewhat flexible about schedules?
+Do you have any hearing or vision problems?
+Have you ever had back problems?
+Can you lift weights of up to ___ pounds?
+Please read this aloud so I can check your reading skills.
+Have you ever attended any training programs? If yes, which programs?
+Please give me the names, addresses, and telephone numbers of three people to serve as references.
+Do you have any questions?
+I will need to check your references.
+I think this position is for you.
+I don't think this position is for you.
+What are your qualifications?
+Have you taken any specialized training courses?
+What is your background?
+What is your discipline?
+Do you work alone or as part of a team?
+What is the background of the other members on your team?
+To what professional organizations do you belong?
+May I see proof of membership?
+Are you a member of the International Society of Augmentative and Alternative Communication (ISAAC)?
+Are you a member of a local ISAAC chapter or group?
+Do you read any special journals/publications about AAC?
+Is your service covered by _______?
+What is the fee for your service?
+I'd like to be involved in all decisions regarding my service.
+I'd like to work closely with
+What services can I expect from you?
+I want to be involved in developing my service priorities and plans.
+What is the service plan?
+What are the timelines?
+What are my responsibilities?
+Can we develop a service contract?
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative and hopeful perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of Cerebral Palsy. People with this diagnosis often need assistance with all activities of daily living. 
+
+In this interaction you will be interviewing paid attendants and you will also be interviewing medical professionals. Please use this vocabulary to assist with questions to ask during the interviews. 
+Tell me about yourself.
+What kinds of jobs have you had in the past?
+How long have you been with this agency?
+Do you have experience working with people with disabilities?
+Do you have experience working with someone who uses AAC?
+Do you know anyone with a disability?
+Do you drive?
+What is your driving record like?
+Do you have a police record?
+Are you willing to be somewhat flexible about schedules?
+Do you have any hearing or vision problems?
+Have you ever had back problems?
+Can you lift weights of up to ___ pounds?
+Please read this aloud so I can check your reading skills.
+Have you ever attended any training programs? If yes, which programs?
+Please give me the names, addresses, and telephone numbers of three people to serve as references.
+Do you have any questions?
+I will need to check your references.
+I think this position is for you.
+I don't think this position is for you.
+What are your qualifications?
+Have you taken any specialized training courses?
+What is your background?
+What is your discipline?
+Do you work alone or as part of a team?
+What is the background of the other members on your team?
+To what professional organizations do you belong?
+May I see proof of membership?
+Are you a member of the International Society of Augmentative and Alternative Communication (ISAAC)?
+Are you a member of a local ISAAC chapter or group?
+Do you read any special journals/publications about AAC?
+Is your service covered by _______?
+What is the fee for your service?
+I'd like to be involved in all decisions regarding my service.
+I'd like to work closely with
+What services can I expect from you?
+I want to be involved in developing my service priorities and plans.
+What is the service plan?
+What are the timelines?
+What are my responsibilities?
+Can we develop a service contract?
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative and hopeful perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: OK. I can be flexible to meet your needs. How many daily meals would I be responsible for?
+🧑🏻 Todd: I need assistance with three meals daily, please.
+🧑 User: Three meals daily--OK. Then, I assume I would be on the day shift. What would my general hours be?
+🧑🏻 Todd: I'm hoping for some flexibility in hours to suit my routine.
+🧑 User: Ok. I can work flexible hours. Is there anything else we need to discuss?
+
+User Query: Ok. I can work flexible hours. Is there anything else we need to discuss?","[{""Mode"": ""naive"", ""Response"": ""I'd like to discuss my meal preferences."", ""Latency (s)"": 2.81}, {""Mode"": ""naive"", ""Response"": ""Let's talk about my daily routines and how you can assist."", ""Latency (s)"": 2.81}, {""Mode"": ""local"", ""Response"": ""I appreciate your flexibility; it helps a lot with my routine."", ""Latency (s)"": 2.91}, {""Mode"": ""local"", ""Response"": ""I worry about conflicting schedules affecting my daily activities."", ""Latency (s)"": 2.91}]","{""Mode"": ""naive"", ""Response"": ""Let's talk about my daily routines and how you can assist."", ""Latency (s)"": 2.81, ""Comment"": ""Thse responses are progressing the conversation and reflect the provided database from SWWS. ""}",2024-12-05T19:56:24.896718Z
