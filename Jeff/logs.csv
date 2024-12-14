@@ -16820,3 +16820,17 @@ Conversation History:
 🧑 User: T: what's up?
 
 User Query: T: what's up?","[{""Mode"": ""naive"", ""Response"": ""Hey! Not much, just enjoying the day! How about you?"", ""Latency (s)"": 1.51}, {""Mode"": ""naive"", ""Response"": ""Not much, just feeling a bit overwhelmed. What about you?"", ""Latency (s)"": 1.51}]","{""Mode"": ""naive"", ""Response"": ""Hey! Not much, just enjoying the day! How about you?"", ""Latency (s)"": 1.51, ""Comment"": ""Didn't work this time after I refreshed the page.""}",2024-12-14T22:49:27.902127Z
+Jeff,,T: Hi,"1. when the prompt starts with the abbreviation T, respond with the character !
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","1. when the prompt starts with the abbreviation T, respond with the character !
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: T: Hi
+
+User Query: T: Hi","[{""Mode"": ""naive"", ""Response"": ""!"", ""Latency (s)"": 1.61}, {""Mode"": ""naive"", ""Response"": ""!"", ""Latency (s)"": 1.61}]","{""Mode"": ""naive"", ""Response"": ""!"", ""Latency (s)"": 1.61, ""Comment"": ""worked as a single system prompt. now will try with the rest of the prompt. I did remove the quotes around the abbreviation.""}",2024-12-14T22:53:32.877630Z
