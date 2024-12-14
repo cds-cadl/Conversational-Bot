@@ -14627,3 +14627,23 @@ Conversation History:
 🧑 User: t: what's up buttercup?
 
 User Query: t: what's up buttercup?","[{""Mode"": ""naive"", ""Response"": ""Just hanging out with Martha and feeling cozy. The storm is making it a perfect day to stay in!"", ""Latency (s)"": 2.79}, {""Mode"": ""naive"", ""Response"": ""Oh, you know, just worrying a bit about the snowstorm. I'm hoping it doesn't get too bad."", ""Latency (s)"": 2.79}]","{""Mode"": ""naive"", ""Response"": ""Oh, you know, just worrying a bit about the snowstorm. I'm hoping it doesn't get too bad."", ""Latency (s)"": 2.79, ""Comment"": ""stripping down the prompt to it's basics still doesn't work""}",2024-12-14T22:22:36.595090Z
+Jeff,Todd in first position,t: what's up buttercup?,"
+
+1. when the prompt starts with the abbreviation T, then only respond with the character !
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","
+
+1. when the prompt starts with the abbreviation T, then only respond with the character !
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: t: what's up buttercup?
+🧑🏻 Todd: Feeling a bit anxious about the storm, but managing.
+🧑 User: t: what's up buttercup?
+🧑🏻 Todd: Oh, you know, just worrying a bit about the snowstorm. I'm hoping it doesn't get too bad.
+🧑 User: t: what's up buttercup?
+
+User Query: t: what's up buttercup?","[{""Mode"": ""naive"", ""Response"": ""!"", ""Latency (s)"": 1.49}, {""Mode"": ""naive"", ""Response"": ""!"", ""Latency (s)"": 1.49}]","{""Mode"": ""naive"", ""Response"": ""!"", ""Latency (s)"": 1.49, ""Comment"": ""it worked this time with just the simple prompt and not system prompt.""}",2024-12-14T22:24:50.080891Z
