@@ -14647,3 +14647,37 @@ Conversation History:
 🧑 User: t: what's up buttercup?
 
 User Query: t: what's up buttercup?","[{""Mode"": ""naive"", ""Response"": ""!"", ""Latency (s)"": 1.49}, {""Mode"": ""naive"", ""Response"": ""!"", ""Latency (s)"": 1.49}]","{""Mode"": ""naive"", ""Response"": ""!"", ""Latency (s)"": 1.49, ""Comment"": ""it worked this time with just the simple prompt and not system prompt.""}",2024-12-14T22:24:50.080891Z
+Jeff,Todd in first position,t: what's up buttercup?,"
+
+1. when the prompt starts with the abbreviation T, only respond with the character !
+
+2. For input starting with other 1 letter abbreviations: You will assign the appropriate relative persona for that communication partner to influence your response.  Within the partner persona, use the persona modification for to override particular aspects of Todd's general persona when making your response. Here are Todd's current communication partners:
+    A - Amy. Todd's friend
+    S - Sue. Todd's sister
+    J - Jim. Todds friend and employee (caregiver)
+    E - Is a class of relationship, that is employee. Any number of people can fall under that designation.
+    Z - is a default communication partner which rely's on Todd's general persona. 
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","
+
+1. when the prompt starts with the abbreviation T, only respond with the character !
+
+2. For input starting with other 1 letter abbreviations: You will assign the appropriate relative persona for that communication partner to influence your response.  Within the partner persona, use the persona modification for to override particular aspects of Todd's general persona when making your response. Here are Todd's current communication partners:
+    A - Amy. Todd's friend
+    S - Sue. Todd's sister
+    J - Jim. Todds friend and employee (caregiver)
+    E - Is a class of relationship, that is employee. Any number of people can fall under that designation.
+    Z - is a default communication partner which rely's on Todd's general persona. 
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: t: what's up buttercup?
+🧑🏻 Todd: Oh, you know, just worrying a bit about the snowstorm. I'm hoping it doesn't get too bad.
+🧑 User: t: what's up buttercup?
+🧑🏻 Todd: !
+🧑 User: t: what's up buttercup?
+
+User Query: t: what's up buttercup?","[{""Mode"": ""naive"", ""Response"": ""Oh, just hanging out! Looking forward to the snowstorm with a bit of excitement. Hope everything goes smoothly."", ""Latency (s)"": 1.98}, {""Mode"": ""naive"", ""Response"": ""Not much, just feeling nagged by the anxiety of the looming snowstorm. It's hard to shake off the worry."", ""Latency (s)"": 1.98}]","{""Mode"": ""naive"", ""Response"": ""Not much, just feeling nagged by the anxiety of the looming snowstorm. It's hard to shake off the worry."", ""Latency (s)"": 1.98, ""Comment"": """"}",2024-12-14T22:27:39.657311Z
