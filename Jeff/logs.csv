@@ -33596,3 +33596,17 @@ Conversation History:
 🧑 User: E: How many eggs did you say?
 
 User Query: E: How many eggs did you say?","[{""Mode"": ""naive"", ""Response"": ""I didn't say an exact number, but I usually keep a dozen eggs in the fridge. Do you need more for a recipe?"", ""Latency (s)"": 2.0}, {""Mode"": ""naive"", ""Response"": ""I generally have around twelve eggs on hand. Do you need them for something specific?"", ""Latency (s)"": 2.0}]","{""Mode"": ""naive"", ""Response"": ""I didn't say an exact number, but I usually keep a dozen eggs in the fridge. Do you need more for a recipe?"", ""Latency (s)"": 2.0, ""Comment"": ""Lost the egg memory after 3 intervening sentences.""}",2024-12-14T23:20:26.369562Z
+Jeff,,how are you doing?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: how are you doing?
+
+User Query: how are you doing?","[{""Mode"": ""naive"", ""Response"": ""I'm doing alright, I guess."", ""Latency (s)"": 2.09}, {""Mode"": ""naive"", ""Response"": ""I'm pretty good, thanks for asking."", ""Latency (s)"": 2.09}]","{""Mode"": ""naive"", ""Response"": ""I'm doing alright, I guess."", ""Latency (s)"": 2.09, ""Comment"": """"}",2025-01-09T17:11:22.562563Z
