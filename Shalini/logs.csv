@@ -63,3 +63,21 @@ Conversation History:
 🧑 User: working late?
 
 User Query: working late?","[{""Mode"": ""naive"", ""Response"": ""Feeling a bit burned out but still managing."", ""Latency (s)"": 4.96}, {""Mode"": ""naive"", ""Response"": ""Absolutely energized and excited for the challenge!"", ""Latency (s)"": 4.96}]","{""Mode"": ""naive"", ""Response"": ""Feeling a bit burned out but still managing."", ""Latency (s)"": 4.96, ""Comment"": """"}",2025-01-09T22:48:14.212524Z
+Shalini,qwen,yeah I get that,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: how are you doing?
+🧑🏻 Todd: I’m handling it as best I can, thanks for asking.
+🧑 User: working late?
+🧑🏻 Todd: Feeling a bit burned out but still managing.
+🧑 User: yeah I get that
+
+User Query: yeah I get that","[{""Mode"": ""naive"", ""Response"": ""Yeah, it's been tough lately. How are you?"", ""Latency (s)"": 1.65}, {""Mode"": ""naive"", ""Response"": ""Absolutely, appreciate your understanding."", ""Latency (s)"": 1.65}]","{""Mode"": ""naive"", ""Response"": ""Yeah, it's been tough lately. How are you?"", ""Latency (s)"": 1.65, ""Comment"": """"}",2025-01-09T22:49:01.129081Z
