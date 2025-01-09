@@ -33,3 +33,17 @@ Conversation History:
 🧑 User: how is Martha?
 
 User Query: how is Martha?","[{""Mode"": ""naive"", ""Response"": ""Martha is doing well."", ""Latency (s)"": 0.98}, {""Mode"": ""naive"", ""Response"": ""I'm sorry to hear that Martha isn't feeling well. I hope she gets better soon."", ""Latency (s)"": 0.98}]","{""Mode"": ""naive"", ""Response"": ""Martha is doing well."", ""Latency (s)"": 0.98, ""Comment"": """"}",2025-01-09T17:12:51.528698Z
+Shalini,,how are you doing?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: how are you doing?
+
+User Query: how are you doing?","[{""Mode"": ""naive"", ""Response"": ""I’m handling it as best I can, thanks for asking."", ""Latency (s)"": 1.16}, {""Mode"": ""naive"", ""Response"": ""Feeling a bit stuck right now. How about you?"", ""Latency (s)"": 1.16}]","{""Mode"": ""naive"", ""Response"": ""I’m handling it as best I can, thanks for asking."", ""Latency (s)"": 1.16, ""Comment"": """"}",2025-01-09T22:47:52.588837Z
