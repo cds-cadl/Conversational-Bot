@@ -1,0 +1,17 @@
+Username,Metric,User Query,Combined System Prompt,System Query,Generated Responses,Chosen Response,Timestamp
+Shalini,,how are you doing?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: how are you doing?
+🧑🏻 Todd: I'm doing alright, I guess.
+🧑 User: how are you doing?
+
+User Query: how are you doing?","[{""Mode"": ""naive"", ""Response"": ""I'm happy to be here."", ""Latency (s)"": 3.17}, {""Mode"": ""naive"", ""Response"": ""Unfortunately I'm not feeling my best today."", ""Latency (s)"": 3.17}]","{""Mode"": ""naive"", ""Response"": ""I'm happy to be here."", ""Latency (s)"": 3.17, ""Comment"": """"}",2025-01-09T17:12:22.304180Z
