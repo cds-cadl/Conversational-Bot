@@ -22,7 +22,7 @@ st.set_page_config(page_title="Conversational Bot", layout="wide")
 
 # ------------------------ Secrets Management ------------------------
 
-#IF secrets are updated dont forget to update in ./streamlit
+# Access secrets securely
 try:
     OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
     GIT_REPO_URL = st.secrets["GIT_REPO_URL"]
@@ -39,11 +39,12 @@ session_keys = [
     'conversation_history', 'log_data', 'rag_initialized',
     'generated_responses', 'system_prompt', 'additional_prompt',
     'system_query', 'num_responses', 'response_types', 'username', 'metric',
-    'combined_system_prompt', 'user_query', 'chosen_response'
+    'combined_system_prompt', 'user_query', 'chosen_response',
+    'system_query_template'
 ]
 for key in session_keys:
     if key not in st.session_state:
-        if key in ['conversation_history', 'log_data', 'generated_responses']:
+        if key in ['conversation_history', 'log_data', 'generated_responses', 'feedback_log']:
             st.session_state[key] = []
         elif key == 'num_responses':
             st.session_state[key] = 2  # Default to 2 responses
@@ -57,10 +58,11 @@ for key in session_keys:
             )
         elif key == 'additional_prompt':
             st.session_state[key] = ""
-        elif key in ['username', 'metric', 'combined_system_prompt', 'user_query', 'chosen_response']:
+        elif key in ['username', 'metric', 'combined_system_prompt', 'user_query', 'chosen_response', 'system_query_template']:
             st.session_state[key] = ""
         else:
             st.session_state[key] = ""
+
 
 # ------------------------ Initialize LightRAG ------------------------
 
@@ -122,7 +124,7 @@ def parse_responses(raw_response):
     Extracts JSON content even if there's additional text.
     """
     try:
-        
+        # Use regex to extract JSON array from the response
         json_match = re.search(r'\[.*\]', raw_response, re.DOTALL)
         if not json_match:
             raise ValueError("No JSON array found in the response.")
@@ -137,7 +139,7 @@ def parse_responses(raw_response):
         for item in responses:
             option_number = item.get('option_number', 'N/A')
             response_text = item.get('response', '')
-            if response_text:  
+            if response_text:  # Ensure response_text is not empty
                 parsed_responses.append({
                     "Option Number": option_number,
                     "Response Text": response_text
@@ -145,7 +147,7 @@ def parse_responses(raw_response):
         return parsed_responses
     except (json.JSONDecodeError, ValueError) as e:
         st.error(f"Failed to parse responses: {e}")
-        st.debug(f"Raw response: {raw_response}")
+        st.write(f"Raw response: {raw_response}")
         return [{"Option Number": "N/A", "Response Text": raw_response.strip()}]
 
 def get_conversation_history(n=5):
@@ -162,14 +164,18 @@ def save_logs_to_git(selected_user, log_df):
     Commit and push the changes to the remote repository.
     """
     try:
+        # Create a temporary directory to clone the repo
         with tempfile.TemporaryDirectory() as tmpdirname:
+            # Write the deploy key to a temporary file
             deploy_key_fd, deploy_key_path = tempfile.mkstemp()
             with os.fdopen(deploy_key_fd, 'w') as key_file:
                 key_file.write(GIT_DEPLOY_KEY)
-            os.chmod(deploy_key_path, 0o600)  
+            os.chmod(deploy_key_path, 0o600)  # Ensure the key has the correct permissions
 
+            # Set GIT_SSH_COMMAND to use the deploy key
             git_ssh_command = f'ssh -i {deploy_key_path} -o StrictHostKeyChecking=no'
 
+            # Clone the repository using the deploy key
             repo = Repo.clone_from(
                 GIT_REPO_URL,
                 tmpdirname,
@@ -205,6 +211,7 @@ def save_logs_to_git(selected_user, log_df):
             origin = repo.remote(name='origin')
             origin.push()
 
+            # Cleanup: Remove the deploy key file
             os.remove(deploy_key_path)
 
     except GitCommandError as git_err:
@@ -244,7 +251,12 @@ selected_user = st.sidebar.selectbox(
     index=0
 )
 
-metric = st.sidebar.text_input("Metric (optional)", value=st.session_state.metric)
+metric = st.sidebar.text_input(
+    "Metric (optional)",
+    value=st.session_state.metric,
+    help="Enter an optional metric for logging purposes.",
+    placeholder="e.g., Steerability"
+)
 
 st.session_state.username = selected_user
 st.session_state.metric = metric
@@ -258,47 +270,92 @@ response_container = st.container()
 
 with input_container:
     with st.form(key='query_form'):
+        st.markdown("### 📄 Configure Your Query")
+        
         # Base System Prompt input (hidden by default)
         with st.expander("🛠️ **Base System Prompt** (Click to edit)"):
             system_prompt = st.text_area(
                 "Edit the base system prompt:",
                 value=st.session_state.system_prompt,
-                height=150
+                height=150,
+                help="Modify the base instructions for the conversational agent.",
+                placeholder="As Todd, respond to the following question..."
             )
 
         # Additional System Prompt input (always visible)
         additional_prompt = st.text_area(
             "🛠️ **Additional System Prompt** (You can add more instructions here):",
             value=st.session_state.additional_prompt,
-            height=100
+            height=100,
+            help="Add supplementary instructions or context for the conversational agent.",
+            placeholder="You can add more instructions here..."
         )
 
-        # User Query input
-        user_query = st.text_input("💬 **User Query**", "")
+        st.markdown("---")  # Horizontal divider
 
-        # Number of Responses
+        # User Query input with tooltip
+        user_query = st.text_input(
+            "💬 **User Query**",
+            "",
+            help="Enter your query here. For example: 'How was your weekend?'",
+            placeholder="Type your question..."
+        )
+
+        # Number of Responses with tooltip
         num_responses = st.number_input(
             "🔢 **Number of Responses**",
             min_value=1,
             max_value=5,
             value=st.session_state.num_responses,
-            step=1
+            step=1,
+            help="Select the number of responses you would like to receive."
         )
 
-        # Types of Responses
+        # Types of Responses with tooltip
         response_types = st.text_input(
-            "📝 **Types of Responses** (e.g., 'positive and negative', 'formal, informal, and humorous')",
-            value=st.session_state.response_types
+            "📝 **Types of Responses**",
+            value=st.session_state.response_types,
+            help="Specify the types of responses. For example: 'positive and negative', 'formal, informal, and humorous'.",
+            placeholder="e.g., positive and negative"
         )
 
-        # Search Modes selection
+        # Search Modes selection with tooltip
         search_modes = ["naive", "local", "global", "hybrid"]
         selected_modes = st.multiselect(
             "🔍 **Select Search Modes**",
             options=search_modes,
-            default=["naive"]  # Default to Naive
+            default=["naive"],  # Default to Naive
+            help="Choose the search modes to use for generating responses."
         )
 
+        st.markdown("---")  # Horizontal divider
+
+        # Generate Template Button
+        generate_template = st.form_submit_button(label='🛠️ Generate Template')
+
+        if generate_template:
+            if not user_query.strip():
+                st.warning("💡 Please enter a user query to generate the system query template.")
+            else:
+                # Construct the system query
+                combined_system_prompt = (
+                    f"{system_prompt}\n\n{additional_prompt}\n\n"
+                    f"Provide {num_responses} responses in JSON format as a list of objects, "
+                    f"each with 'option_number' and 'response' fields, reflecting {response_types} perspectives. "
+                    f"**Return only the JSON without any additional text.**"
+                )
+
+                conversation_history = get_conversation_history()
+
+                system_query = f"{combined_system_prompt}\n\nConversation History:\n{conversation_history}\nUser Query: {user_query}"
+
+                st.session_state.system_query_template = system_query  # Store in session state
+
+                # Display the system query in an expander
+                with st.expander("📄 **System Query Template**"):
+                    st.code(system_query, language='plaintext')
+
+        # Existing Submit Button
         submit_button = st.form_submit_button(label='🔍 Submit')
 
     if submit_button and user_query.strip() != "":
@@ -312,6 +369,7 @@ with input_container:
 
         conversation_history = get_conversation_history()
 
+        # Combine the system prompts with explicit JSON instruction
         combined_system_prompt = (
             f"{system_prompt}\n\n{additional_prompt}\n\n"
             f"Provide {num_responses} responses in JSON format as a list of objects, "
@@ -371,8 +429,10 @@ with response_container:
 
             update_conversation_history("🧑🏻 Todd", chosen_response_text)
 
+            # Prepare the generated responses for logging
             generated_responses_structured = st.session_state.generated_responses
 
+            # Log the interaction with both generated and chosen responses
             log_interaction(
                 user_query=st.session_state.user_query,
                 combined_system_prompt=st.session_state.combined_system_prompt,
@@ -390,6 +450,7 @@ with response_container:
 
             st.success("✅ Response selected and added to conversation history.")
 
+            # After logging the interaction, save logs to Git
             if st.session_state.log_data:
                 log_df = pd.DataFrame(st.session_state.log_data)
                 save_logs_to_git(selected_user, log_df)
@@ -403,7 +464,9 @@ st.sidebar.header("📥 Download Logs")
 def download_logs():
     if st.session_state.log_data:
         df = pd.DataFrame(st.session_state.log_data)
+        # Convert 'Generated Responses' from JSON string to pretty JSON
         df['Generated Responses'] = df['Generated Responses'].apply(lambda x: json.dumps(json.loads(x), ensure_ascii=False, indent=2))
+        # Convert 'Chosen Response' from dict to pretty JSON
         df['Chosen Response'] = df['Chosen Response'].apply(lambda x: json.dumps(x, ensure_ascii=False, indent=2))
         csv = df.to_csv(index=False)
 
@@ -452,3 +515,4 @@ with history_container:
             text = entry['text']
             st.markdown(f"**{speaker}:** {text}")
         st.markdown('</div>', unsafe_allow_html=True)
+
