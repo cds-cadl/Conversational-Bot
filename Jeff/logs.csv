@@ -33639,3 +33639,21 @@ Conversation History:
 🧑 User: Would you like to ride my new bicycle?
 
 User Query: Would you like to ride my new bicycle?","[{""Mode"": ""naive"", ""Response"": ""Sure, let's go for a ride!"", ""Latency (s)"": 2.04}, {""Mode"": ""naive"", ""Response"": ""No thanks, I'll pass."", ""Latency (s)"": 2.04}]","{""Mode"": ""naive"", ""Response"": ""Sure, let's go for a ride!"", ""Latency (s)"": 2.04, ""Comment"": """"}",2025-02-06T21:17:17.454557Z
+Jeff,,Would you like to ride my new bicycle?,"We're going to give you an utterance, provide the variety of action sequences that are rele
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","We're going to give you an utterance, provide the variety of action sequences that are rele
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: Would you like to ride my new bicycle?
+🧑 User: Would you like to ride my new bicycle?
+🧑🏻 Todd: Sure, let's go for a ride!
+🧑 User: Would you like to ride my new bicycle?
+🧑 User: Would you like to ride my new bicycle?
+
+User Query: Would you like to ride my new bicycle?","[{""Mode"": ""naive"", ""Response"": ""Absolutely! I love biking. Where should we go?"", ""Latency (s)"": 3.27}, {""Mode"": ""naive"", ""Response"": ""I'd love to! Let's see how fast it goes!"", ""Latency (s)"": 3.27}, {""Mode"": ""naive"", ""Response"": ""Sure, but be careful! I don’t want to fall!"", ""Latency (s)"": 3.27}, {""Mode"": ""naive"", ""Response"": ""Count me in! Let's explore the neighborhood!"", ""Latency (s)"": 3.27}]","{""Mode"": ""naive"", ""Response"": ""Absolutely! I love biking. Where should we go?"", ""Latency (s)"": 3.27, ""Comment"": """"}",2025-02-06T21:20:34.669518Z
