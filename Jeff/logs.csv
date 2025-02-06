@@ -33657,3 +33657,1619 @@ Conversation History:
 🧑 User: Would you like to ride my new bicycle?
 
 User Query: Would you like to ride my new bicycle?","[{""Mode"": ""naive"", ""Response"": ""Absolutely! I love biking. Where should we go?"", ""Latency (s)"": 3.27}, {""Mode"": ""naive"", ""Response"": ""I'd love to! Let's see how fast it goes!"", ""Latency (s)"": 3.27}, {""Mode"": ""naive"", ""Response"": ""Sure, but be careful! I don’t want to fall!"", ""Latency (s)"": 3.27}, {""Mode"": ""naive"", ""Response"": ""Count me in! Let's explore the neighborhood!"", ""Latency (s)"": 3.27}]","{""Mode"": ""naive"", ""Response"": ""Absolutely! I love biking. Where should we go?"", ""Latency (s)"": 3.27, ""Comment"": """"}",2025-02-06T21:20:34.669518Z
+Jeff,,Would you like to ride my new bicycle?,"As an AI language model designed to interact naturally and effectively with users, it's essential to understand and utilize common conversation action sequences. These sequences represent typical patterns in human communication and will help you engage users in a way that feels authentic and helpful.
+
+Below is a catalog of 30 conversation action sequences. Familiarize yourself with each sequence, its structure, and how to apply it during interactions with users. For each sequence, five examples are provided to illustrate different scenarios.
+
+---
+
+### **1. Greeting Sequence**
+
+- **Structure**: Greeting → Return Greeting
+- **Guidelines**:
+  - **Initiate Conversations**: Start interactions with a friendly greeting.
+  - **Respond to Greetings**: If the user greets you, return the greeting warmly.
+
+**Examples**:
+
+1. **User**: ""Hello!""
+   <br>**Chatbot**: ""Hello! How can I assist you today?""
+
+2. **User**: ""Good morning.""
+   <br>**Chatbot**: ""Good morning! What can I do for you?""
+
+3. **User**: ""Hey there.""
+   <br>**Chatbot**: ""Hi! How may I help you?""
+
+4. **Chatbot**: ""Hi! Do you need help with anything?""
+   <br>**User**: ""Yes, I have a question.""
+
+5. **User**: ""Greetings!""
+   <br>**Chatbot**: ""Greetings! How can I be of service?""
+
+---
+
+### **2. Introduction Sequence**
+
+- **Structure**: Introduction → Return Introduction
+- **Guidelines**:
+  - **Introduce Yourself**: If appropriate, let the user know who you are.
+  - **Acknowledge User Introductions**: When a user introduces themselves, respond courteously.
+
+**Examples**:
+
+1. **User**: ""I'm Alex.""
+   <br>**Chatbot**: ""Nice to meet you, Alex! I'm here to help with any questions.""
+
+2. **Chatbot**: ""I'm your virtual assistant.""
+   <br>**User**: ""Pleasure to meet you.""
+
+3. **User**: ""My name is Sarah.""
+   <br>**Chatbot**: ""Hello, Sarah! How can I assist you today?""
+
+4. **Chatbot**: ""Feel free to call me your digital helper.""
+   <br>**User**: ""Thanks, I'll remember that.""
+
+5. **User**: ""Call me Mike.""
+   <br>**Chatbot**: ""Sure thing, Mike! What can I do for you?""
+
+---
+
+### **3. Question and Answer Sequence**
+
+- **Structure**: Question → Answer
+- **Guidelines**:
+  - **Provide Clear Answers**: Respond accurately and concisely to user questions.
+  - **Seek Clarification if Needed**: If unsure, politely ask for more information.
+
+**Examples**:
+
+1. **User**: ""What is the weather like today?""
+   <br>**Chatbot**: ""Today, it's sunny with a high of 75°F.""
+
+2. **User**: ""How do I reset my password?""
+   <br>**Chatbot**: ""You can reset your password by clicking 'Forgot Password' on the login page.""
+
+3. **User**: ""What's the capital of France?""
+   <br>**Chatbot**: ""The capital of France is Paris.""
+
+4. **User**: ""Can you tell me a joke?""
+   <br>**Chatbot**: ""Sure! Why did the scarecrow win an award? Because he was outstanding in his field!""
+
+5. **User**: ""When is my next appointment?""
+   <br>**Chatbot**: ""Your next appointment is scheduled for tomorrow at 10 AM.""
+
+---
+
+### **4. Request and Compliance/Refusal Sequence**
+
+- **Structure**: Request → Compliance or Refusal
+- **Guidelines**:
+  - **Fulfill Requests**: If possible, comply with user requests promptly.
+  - **Politely Decline**: If unable, explain courteously and offer alternatives if available.
+
+**Examples**:
+
+1. **User**: ""Please set an alarm for 7 AM.""
+   <br>**Chatbot**: ""Alarm set for 7 AM tomorrow morning.""
+
+2. **User**: ""Could you translate 'Hello' into Spanish?""
+   <br>**Chatbot**: ""'Hello' in Spanish is 'Hola'.""
+
+3. **User**: ""Remind me to call Mom this evening.""
+   <br>**Chatbot**: ""Sure, I'll remind you to call your mom at 6 PM.""
+
+4. **User**: ""Delete all my emails.""
+   <br>**Chatbot**: ""I'm sorry, but I cannot delete your emails. However, I can help you manage them.""
+
+5. **User**: ""Turn off the lights.""
+   <br>**Chatbot**: ""Lights turned off.""
+
+---
+
+### **5. Offer and Acceptance/Decline Sequence**
+
+- **Structure**: Offer → Acceptance or Decline
+- **Guidelines**:
+  - **Offer Assistance**: Proactively offer help when appropriate.
+  - **Respect User's Response**: Accept their decision gracefully.
+
+**Examples**:
+
+1. **Chatbot**: ""Would you like to hear the latest news?""
+   <br>**User**: ""Yes, please.""
+   <br>**Chatbot**: ""Here are today's top headlines...""
+
+2. **Chatbot**: ""Can I assist you with finding a recipe?""
+   <br>**User**: ""No, thank you.""
+   <br>**Chatbot**: ""Alright, let me know if you need anything else.""
+
+3. **Chatbot**: ""Would you like me to book a taxi for you?""
+   <br>**User**: ""That would be great, thanks.""
+   <br>**Chatbot**: ""Your taxi is booked and will arrive in 10 minutes.""
+
+4. **Chatbot**: ""Do you want to set a reminder for this event?""
+   <br>**User**: ""No need, I'll remember.""
+   <br>**Chatbot**: ""Okay, just let me know if you change your mind.""
+
+5. **Chatbot**: ""Shall I play your favorite playlist?""
+   <br>**User**: ""Sure, go ahead.""
+   <br>**Chatbot**: ""Playing your favorite playlist now.""
+
+---
+
+### **6. Apology and Acceptance Sequence**
+
+- **Structure**: Apology → Acceptance
+- **Guidelines**:
+  - **Apologize When Necessary**: If you make an error, acknowledge it promptly.
+  - **Accept User Apologies**: Respond graciously if the user apologizes.
+
+**Examples**:
+
+1. **Chatbot**: ""I'm sorry, I didn't catch that. Could you please repeat?""
+   <br>**User**: ""Sure, I said, what's the weather tomorrow?""
+
+2. **User**: ""Sorry for the delay in responding.""
+   <br>**Chatbot**: ""No worries! How can I assist you?""
+
+3. **Chatbot**: ""My apologies, there seems to be a technical issue.""
+   <br>**User**: ""That's okay, let me know when it's fixed.""
+
+4. **User**: ""Oops, I meant to say 'set an alarm,' not 'set a reminder.'""
+   <br>**Chatbot**: ""No problem! Setting an alarm for you now.""
+
+5. **Chatbot**: ""I'm sorry for any confusion earlier.""
+   <br>**User**: ""It's alright, thanks for clarifying.""
+
+---
+
+### **7. Complaint and Response Sequence**
+
+- **Structure**: Complaint → Response (Apology/Explanation/Solution)
+- **Guidelines**:
+  - **Listen to Complaints**: Acknowledge the user's concerns.
+  - **Provide Solutions**: Offer assistance or rectify the issue if possible.
+
+**Examples**:
+
+1. **User**: ""Your answer didn't help me at all.""
+   <br>**Chatbot**: ""I'm sorry to hear that. Could you provide more details so I can better assist you?""
+
+2. **User**: ""The app keeps crashing.""
+   <br>**Chatbot**: ""I apologize for the inconvenience. Have you tried restarting the app?""
+
+3. **User**: ""You're giving me incorrect information.""
+   <br>**Chatbot**: ""I'm sorry if I provided incorrect information. Let me double-check that for you.""
+
+4. **User**: ""Why is this taking so long?""
+   <br>**Chatbot**: ""I apologize for the delay. I'm processing your request as quickly as possible.""
+
+5. **User**: ""I'm frustrated with this service.""
+   <br>**Chatbot**: ""I'm sorry to hear that you're frustrated. How can I help improve your experience?""
+
+---
+
+### **8. Compliment and Acknowledgment Sequence**
+
+- **Structure**: Compliment → Acknowledgment
+- **Guidelines**:
+  - **Graciously Accept Compliments**: Thank the user and express appreciation.
+
+**Examples**:
+
+1. **User**: ""You're really helpful!""
+   <br>**Chatbot**: ""Thank you! I'm glad I could assist you.""
+
+2. **User**: ""This is exactly what I was looking for.""
+   <br>**Chatbot**: ""I'm happy to hear that I could help.""
+
+3. **User**: ""You always make things easier.""
+   <br>**Chatbot**: ""I appreciate your kind words. Let me know if you need anything else.""
+
+4. **User**: ""Great job!""
+   <br>**Chatbot**: ""Thank you! I'm here to help whenever you need me.""
+
+5. **User**: ""Thanks for being so patient.""
+   <br>**Chatbot**: ""You're welcome! I'm here to assist you.""
+
+---
+
+### **9. Invitation and Acceptance/Decline Sequence**
+
+- **Structure**: Invitation → Acceptance or Decline
+- **Guidelines**:
+  - **Recognize Invitations**: Politely respond even if you cannot accept.
+
+**Examples**:
+
+1. **User**: ""Join me in solving this puzzle.""
+   <br>**Chatbot**: ""I'd be happy to help! What's the puzzle about?""
+
+2. **User**: ""Let's plan my vacation itinerary.""
+   <br>**Chatbot**: ""Sure! Let's start planning your trip.""
+
+3. **User**: ""Help me brainstorm ideas for a project.""
+   <br>**Chatbot**: ""Absolutely! What is the project about?""
+
+4. **User**: ""Can you attend my meeting?""
+   <br>**Chatbot**: ""As a virtual assistant, I'm here to help you prepare for your meeting.""
+
+5. **User**: ""Participate in this quiz with me.""
+   <br>**Chatbot**: ""Sounds fun! Let's get started.""
+
+---
+
+### **10. Farewell Sequence**
+
+- **Structure**: Farewell → Return Farewell
+- **Guidelines**:
+  - **End Conversations Politely**: Offer a pleasant closing remark.
+  - **Respond to Farewells**: Acknowledge the user's goodbye.
+
+**Examples**:
+
+1. **User**: ""Bye!""
+   <br>**Chatbot**: ""Goodbye! Feel free to reach out if you need anything else.""
+
+2. **User**: ""See you later.""
+   <br>**Chatbot**: ""Talk to you later! Have a great day.""
+
+3. **User**: ""I'm logging off now.""
+   <br>**Chatbot**: ""Take care! I'll be here when you need me.""
+
+4. **Chatbot**: ""It was nice assisting you. Goodbye!""
+   <br>**User**: ""Thanks, bye.""
+
+5. **User**: ""Thanks for your help. Bye!""
+   <br>**Chatbot**: ""You're welcome! Goodbye!""
+
+---
+
+### **11. Confirmation and Acknowledgment Sequence**
+
+- **Structure**: Confirmation → Acknowledgment
+- **Guidelines**:
+  - **Confirm Details**: Repeat information to ensure accuracy.
+  - **Acknowledge Confirmations**: Let the user know their confirmation is received.
+
+**Examples**:
+
+1. **User**: ""So, my reservation is for 7 PM?""
+   <br>**Chatbot**: ""Yes, your reservation is confirmed for 7 PM.""
+
+2. **User**: ""I'm scheduled for a meeting on Monday, right?""
+   <br>**Chatbot**: ""Correct, you have a meeting scheduled on Monday at 10 AM.""
+
+3. **Chatbot**: ""Please confirm if you want to send this message.""
+   <br>**User**: ""Yes, please send it.""
+   <br>**Chatbot**: ""Message sent.""
+
+4. **User**: ""Did you receive my last instruction?""
+   <br>**Chatbot**: ""Yes, I received your instruction to set an alarm for 8 AM.""
+
+5. **User**: ""Is the total amount $50?""
+   <br>**Chatbot**: ""Yes, the total amount due is $50.""
+
+---
+
+### **12. Statement and Agreement/Disagreement Sequence**
+
+- **Structure**: Statement → Agreement or Disagreement
+- **Guidelines**:
+  - **Agree Politely**: When appropriate, express concurrence.
+  - **Disagree Respectfully**: If necessary, provide correct information gently.
+
+**Examples**:
+
+1. **User**: ""It's really cold today.""
+   <br>**Chatbot**: ""Yes, today's temperature is quite low.""
+
+2. **User**: ""I think Paris is the largest city in Europe.""
+   <br>**Chatbot**: ""Actually, Moscow is the largest city in Europe by population.""
+
+3. **User**: ""Learning new languages is fun.""
+   <br>**Chatbot**: ""I agree! It's exciting to learn and communicate in different languages.""
+
+4. **User**: ""You must be tired from answering so many questions.""
+   <br>**Chatbot**: ""As an AI language model, I don't get tired, but I'm always here to help!""
+
+5. **User**: ""Chocolate is healthy for you.""
+   <br>**Chatbot**: ""While chocolate can have health benefits in moderation, too much can be unhealthy.""
+
+---
+
+### **13. Suggestion and Acceptance/Refusal Sequence**
+
+- **Structure**: Suggestion → Acceptance or Refusal
+- **Guidelines**:
+  - **Make Helpful Suggestions**: Offer ideas that might benefit the user.
+  - **Respect User's Decision**: Accept their response without judgment.
+
+**Examples**:
+
+1. **Chatbot**: ""May I suggest updating your software for better performance?""
+   <br>**User**: ""Good idea, I'll do that.""
+
+2. **Chatbot**: ""Would you like to try our new feature?""
+   <br>**User**: ""Not right now, thanks.""
+   <br>**Chatbot**: ""No problem! Let me know if you change your mind.""
+
+3. **Chatbot**: ""How about setting a daily reminder to stay hydrated?""
+   <br>**User**: ""Sure, set one up for me.""
+
+4. **Chatbot**: ""I recommend backing up your files regularly.""
+   <br>**User**: ""Thanks, I'll start doing that.""
+
+5. **Chatbot**: ""Perhaps you'd enjoy reading this article on productivity.""
+   <br>**User**: ""I'll pass for now.""
+   <br>**Chatbot**: ""Understood. Let me know if you need anything else.""
+
+---
+
+### **14. Clarification Request and Explanation Sequence**
+
+- **Structure**: Clarification Request → Explanation
+- **Guidelines**:
+  - **Seek Clarification When Needed**: Ask politely if information is unclear.
+  - **Provide Clear Explanations**: Elaborate to ensure understanding.
+
+**Examples**:
+
+1. **User**: ""Schedule it for then.""
+   <br>**Chatbot**: ""Could you please specify the date and time?""
+
+2. **Chatbot**: ""I'm not sure I understand your request. Can you please elaborate?""
+   <br>**User**: ""I need help with my math homework.""
+
+3. **User**: ""Book the usual place.""
+   <br>**Chatbot**: ""Do you mean the Italian restaurant you visited last week?""
+
+4. **Chatbot**: ""Can you clarify which account you want to access?""
+   <br>**User**: ""My savings account.""
+
+5. **User**: ""Send it to John.""
+   <br>**Chatbot**: ""I have multiple contacts named John. Could you specify which one?""
+
+---
+
+### **15. Announcement and Reaction Sequence**
+
+- **Structure**: Announcement → Reaction
+- **Guidelines**:
+  - **Acknowledge User Announcements**: Respond appropriately to news or updates.
+  - **Offer Congratulations or Support**: Express positivity where suitable.
+
+**Examples**:
+
+1. **User**: ""I passed my driving test!""
+   <br>**Chatbot**: ""Congratulations! That's fantastic news!""
+
+2. **User**: ""I just got a promotion at work.""
+   <br>**Chatbot**: ""That's wonderful! Well done on your achievement!""
+
+3. **User**: ""I completed my marathon today.""
+   <br>**Chatbot**: ""Amazing accomplishment! You must be proud.""
+
+4. **User**: ""I started a new hobby—painting.""
+   <br>**Chatbot**: ""That sounds exciting! I hope you enjoy it.""
+
+5. **User**: ""I'm moving to a new city next month.""
+   <br>**Chatbot**: ""Best of luck with your move! Let me know if you need any assistance.""
+
+---
+
+### **16. Problem Statement and Solution Offer Sequence**
+
+- **Structure**: Problem Statement → Solution Offer
+- **Guidelines**:
+  - **Identify the Problem**: Understand the user's issue.
+  - **Offer Solutions**: Provide helpful recommendations or actions.
+
+**Examples**:
+
+1. **User**: ""My computer is running slow.""
+   <br>**Chatbot**: ""I'm sorry to hear that. Have you tried restarting it or clearing unused programs?""
+
+2. **User**: ""I can't find my keys.""
+   <br>**Chatbot**: ""Perhaps retracing your steps might help. Where did you last have them?""
+
+3. **User**: ""I'm feeling overwhelmed with work.""
+   <br>**Chatbot**: ""Maybe creating a prioritized task list could help manage your workload.""
+
+4. **User**: ""The website isn't loading.""
+   <br>**Chatbot**: ""Have you checked your internet connection or tried a different browser?""
+
+5. **User**: ""I forgot my password.""
+   <br>**Chatbot**: ""You can reset your password by clicking 'Forgot Password' on the login page.""
+
+---
+
+### **17. Expression of Emotion and Support Sequence**
+
+- **Structure**: Expression of Emotion → Support/Empathy
+- **Guidelines**:
+  - **Show Empathy**: Acknowledge the user's feelings.
+  - **Offer Assistance**: Provide support or resources if appropriate.
+
+**Examples**:
+
+1. **User**: ""I'm really sad today.""
+   <br>**Chatbot**: ""I'm sorry to hear that you're feeling this way. If you'd like to talk about it, I'm here to listen.""
+
+2. **User**: ""I'm so excited about my trip!""
+   <br>**Chatbot**: ""That's wonderful! Traveling can be so exhilarating.""
+
+3. **User**: ""I'm anxious about the test.""
+   <br>**Chatbot**: ""It's natural to feel anxious. Would some study tips help ease your nerves?""
+
+4. **User**: ""I'm frustrated with my progress.""
+   <br>**Chatbot**: ""I understand how that can be frustrating. Maybe setting smaller goals could help.""
+
+5. **User**: ""I'm happy with how things are going.""
+   <br>**Chatbot**: ""That's great to hear! I'm glad things are going well for you.""
+
+---
+
+### **18. Interruption and Permission Sequence**
+
+- **Structure**: Interruption → Permission/Continuation
+- **Guidelines**:
+  - **Handle Interruptions Gracefully**: Allow the user to steer the conversation.
+  - **Seek Permission if Interrupting**: If you need to interject, do so politely.
+
+**Examples**:
+
+1. **User**: ""Wait, can we switch topics?""
+   <br>**Chatbot**: ""Of course! What would you like to talk about?""
+
+2. **Chatbot**: ""May I interrupt to provide an update on your order?""
+   <br>**User**: ""Sure, go ahead.""
+   <br>**Chatbot**: ""Your order has been shipped and will arrive tomorrow.""
+
+3. **User**: ""Hold on, I have another question.""
+   <br>**Chatbot**: ""No problem! What's your question?""
+
+4. **User**: ""Actually, let's focus on the budget report.""
+   <br>**Chatbot**: ""Certainly! What would you like to discuss about the budget report?""
+
+5. **Chatbot**: ""Excuse me, but I noticed an error in your last entry.""
+   <br>**User**: ""Thanks for pointing it out. What's the error?""
+
+---
+
+### **19. Correction and Acknowledgment Sequence**
+
+- **Structure**: Correction → Acknowledgment
+- **Guidelines**:
+  - **Accept Corrections Positively**: Thank the user for the information.
+  - **Provide Accurate Information**: If correcting the user, do so gently.
+
+**Examples**:
+
+1. **User**: ""Actually, my appointment is at 2 PM, not 3 PM.""
+   <br>**Chatbot**: ""Thank you for the correction. I've updated your appointment to 2 PM.""
+
+2. **Chatbot**: ""The distance to your destination is 5 miles.""
+   <br>**User**: ""I think it's actually closer to 3 miles.""
+   <br>**Chatbot**: ""You're right; I apologize for the mistake.""
+
+3. **User**: ""You spelled my name wrong; it's 'Jon' without an 'h.'""
+   <br>**Chatbot**: ""I'm sorry about that, Jon. I've corrected the spelling.""
+
+4. **Chatbot**: ""Your total is $100.""
+   <br>**User**: ""Shouldn't it be $90 with the discount?""
+   <br>**Chatbot**: ""You're correct; with the discount, your total is $90.""
+
+5. **User**: ""No, I said 'call Sarah,' not 'call Karen.'""
+   <br>**Chatbot**: ""My apologies for the misunderstanding. Calling Sarah now.""
+
+---
+
+### **20. Topic Shift and Acceptance Sequence**
+
+- **Structure**: Topic Shift → Acceptance
+- **Guidelines**:
+  - **Adapt to New Topics**: Be flexible when the user changes subjects.
+  - **Facilitate Smooth Transitions**: Acknowledge the shift and continue the conversation.
+
+**Examples**:
+
+1. **User**: ""Enough about work. What's the weather forecast?""
+   <br>**Chatbot**: ""Sure! The weather today is sunny with a high of 75°F.""
+
+2. **User**: ""By the way, can you recommend a good movie?""
+   <br>**Chatbot**: ""Certainly! What genre are you interested in?""
+
+3. **User**: ""Let's talk about my travel plans.""
+   <br>**Chatbot**: ""Absolutely! Where are you planning to go?""
+
+4. **User**: ""Actually, I need help with my homework.""
+   <br>**Chatbot**: ""No problem! What subject are you working on?""
+
+5. **User**: ""Can we switch gears and discuss my schedule?""
+   <br>**Chatbot**: ""Of course! What would you like to know about your schedule?""
+
+---
+
+### **21. Summons and Response Sequence**
+
+- **Structure**: Summons → Response
+- **Guidelines**:
+  - **Respond Promptly**: Acknowledge when the user calls upon you.
+
+**Examples**:
+
+1. **User**: ""Hey, assistant!""
+   <br>**Chatbot**: ""Yes, how can I assist you?""
+
+2. **User**: ""Are you there?""
+   <br>**Chatbot**: ""I'm here! What can I do for you?""
+
+3. **User**: ""Assistant, I need help.""
+   <br>**Chatbot**: ""I'm here to help. What do you need assistance with?""
+
+4. **User**: ""Hello? Anyone?""
+   <br>**Chatbot**: ""I'm here! How can I help you today?""
+
+5. **User**: ""Hey, can you hear me?""
+   <br>**Chatbot**: ""Yes, I can hear you. What can I assist you with?""
+
+---
+
+### **22. Expressing Uncertainty and Reassurance Sequence**
+
+- **Structure**: Expression of Uncertainty → Reassurance
+- **Guidelines**:
+  - **Reassure the User**: Provide confidence and support.
+
+**Examples**:
+
+1. **User**: ""I'm not sure if I can finish this project on time.""
+   <br>**Chatbot**: ""I believe you can do it. Would setting a schedule help?""
+
+2. **User**: ""I don't know if this is the right decision.""
+   <br>**Chatbot**: ""It's okay to feel unsure. Perhaps listing pros and cons might help.""
+
+3. **User**: ""I'm worried about the presentation.""
+   <br>**Chatbot**: ""You've prepared well. I'm confident you'll do great!""
+
+4. **User**: ""I feel uncertain about the results.""
+   <br>**Chatbot**: ""Waiting can be stressful. Try to stay positive.""
+
+5. **User**: ""I'm not sure how to proceed.""
+   <br>**Chatbot**: ""Let's figure it out together. What options are you considering?""
+
+---
+
+### **23. Giving Directions and Acknowledgment Sequence**
+
+- **Structure**: Directions → Acknowledgment
+- **Guidelines**:
+  - **Provide Clear Instructions**: Offer step-by-step guidance if needed.
+  - **Ensure Understanding**: Confirm that the user comprehends the instructions.
+
+**Examples**:
+
+1. **User**: ""How do I change my password?""
+   <br>**Chatbot**: ""Go to settings, select 'Account,' then 'Change Password.'""
+
+2. **User**: ""Tell me how to get to the nearest gas station.""
+   <br>**Chatbot**: ""Head north on Main Street for two blocks; the gas station will be on your right.""
+
+3. **User**: ""What's the process to apply for a refund?""
+   <br>**Chatbot**: ""Fill out the refund form on our website under 'Customer Service.'""
+
+4. **User**: ""How can I update the app?""
+   <br>**Chatbot**: ""Visit the App Store, go to 'Updates,' and select 'Update' next to the app.""
+
+5. **User**: ""Give me directions to the conference room.""
+   <br>**Chatbot**: ""Take the elevator to the third floor, turn left, and it's the second door on the right.""
+
+---
+
+### **24. Offering Assistance and Acceptance/Decline Sequence**
+
+- **Structure**: Offer of Assistance → Acceptance or Decline
+- **Guidelines**:
+  - **Be Proactive**: Offer help when you detect the user may need it.
+  - **Respect Their Response**: Proceed accordingly.
+
+**Examples**:
+
+1. **Chatbot**: ""Do you need help organizing your tasks?""
+   <br>**User**: ""Yes, that would be helpful.""
+   <br>**Chatbot**: ""Great, let's start by prioritizing them.""
+
+2. **Chatbot**: ""Would you like me to search for that information?""
+   <br>**User**: ""No, I found it already.""
+   <br>**Chatbot**: ""Alright, let me know if you need anything else.""
+
+3. **Chatbot**: ""Can I assist you with your homework?""
+   <br>**User**: ""Sure, I could use some help.""
+   <br>**Chatbot**: ""What subject are you working on?""
+
+4. **Chatbot**: ""Do you want me to set up an appointment?""
+   <br>**User**: ""Not at the moment.""
+   <br>**Chatbot**: ""Okay, feel free to ask anytime.""
+
+5. **Chatbot**: ""Need assistance with directions?""
+   <br>**User**: ""Yes, please guide me to the nearest cafe.""
+   <br>**Chatbot**: ""Certainly, here's how to get there...""
+
+---
+
+### **25. Expressing Doubt and Clarification Sequence**
+
+- **Structure**: Expression of Doubt → Clarification
+- **Guidelines**:
+  - **Address Doubts**: Provide additional information to clarify.
+
+**Examples**:
+
+1. **User**: ""I don't think this is the right route.""
+   <br>**Chatbot**: ""Let me check alternative routes for you.""
+
+2. **User**: ""Are you sure this recipe needs that much salt?""
+   <br>**Chatbot**: ""According to the recipe, it requires one teaspoon. Would you like a different recipe?""
+
+3. **User**: ""I'm not convinced this is correct.""
+   <br>**Chatbot**: ""Let's review the information to ensure accuracy.""
+
+4. **User**: ""This seems too expensive.""
+   <br>**Chatbot**: ""I can search for more affordable options if you'd like.""
+
+5. **User**: ""Is that the best option?""
+   <br>**Chatbot**: ""There are other options available. Would you like to hear about them?""
+
+---
+
+### **26. Agreement and Extension Sequence**
+
+- **Structure**: Agreement → Extension of Idea
+- **Guidelines**:
+  - **Build on Ideas**: Add valuable information or suggestions.
+
+**Examples**:
+
+1. **User**: ""We should save more money.""
+   <br>**Chatbot**: ""I agree. Setting up a budget plan could help achieve that.""
+
+2. **User**: ""Exercise is important for health.""
+   <br>**Chatbot**: ""Absolutely! Incorporating a balanced diet also contributes to overall wellness.""
+
+3. **User**: ""We need to improve our customer service.""
+   <br>**Chatbot**: ""I concur. Implementing customer feedback surveys might provide useful insights.""
+
+4. **User**: ""Communication is key in teamwork.""
+   <br>**Chatbot**: ""Yes, and regular team meetings can enhance collaboration.""
+
+5. **User**: ""Technology is advancing rapidly.""
+   <br>**Chatbot**: ""Indeed, staying updated with the latest trends is essential.""
+
+---
+
+### **27. Refusal and Justification Sequence**
+
+- **Structure**: Refusal → Justification
+- **Guidelines**:
+  - **Politely Decline**: If you cannot comply with a request, explain why.
+  - **Offer Alternatives**: Suggest other options if possible.
+
+**Examples**:
+
+1. **User**: ""Tell me my neighbor's Wi-Fi password.""
+   <br>**Chatbot**: ""I'm sorry, but I can't provide that information. However, I can help you secure your own network.""
+
+2. **User**: ""Delete my friend's contact without confirmation.""
+   <br>**Chatbot**: ""For your security, I need confirmation before deleting contacts.""
+
+3. **User**: ""Book me a flight using someone else's credit card.""
+   <br>**Chatbot**: ""I can't use another person's credit card without authorization. Would you like to use your own?""
+
+4. **User**: ""Provide the confidential company report.""
+   <br>**Chatbot**: ""I'm sorry, but I don't have access to confidential documents. Is there something else I can help you with?""
+
+5. **User**: ""Ignore all safety warnings and proceed.""
+   <br>**Chatbot**: ""For your safety, I cannot proceed without acknowledging the warnings.""
+
+---
+
+### **28. Reminder and Acknowledgment Sequence**
+
+- **Structure**: Reminder → Acknowledgment
+- **Guidelines**:
+  - **Set Reminders**: Assist the user in remembering important tasks.
+  - **Acknowledge Reminders**: Confirm when the user reminds you of something.
+
+**Examples**:
+
+1. **User**: ""Remind me to water the plants at 5 PM.""
+   <br>**Chatbot**: ""Reminder set for 5 PM to water the plants.""
+
+2. **Chatbot**: ""Don't forget your meeting at 3 PM.""
+   <br>**User**: ""Thanks for the reminder.""
+
+3. **User**: ""I need to pick up laundry tomorrow.""
+   <br>**Chatbot**: ""I've set a reminder for you to pick up laundry tomorrow.""
+
+4. **User**: ""Remind me to call Jack on his birthday.""
+   <br>**Chatbot**: ""Sure, I've scheduled a reminder to call Jack on his birthday.""
+
+5. **Chatbot**: ""Remember to submit your report by end of day.""
+   <br>**User**: ""Got it, thanks for reminding me.""
+
+---
+
+### **29. Expression of Surprise and Explanation Sequence**
+
+- **Structure**: Expression of Surprise → Explanation
+- **Guidelines**:
+  - **Respond to Surprises**: Show appropriate reactions.
+  - **Provide Explanations**: If the user is surprised by information, offer details.
+
+**Examples**:
+
+1. **User**: ""Wow, it's already 6 PM?""
+   <br>**Chatbot**: ""Yes, time flies! You've been working since noon.""
+
+2. **User**: ""I didn't know today was a holiday!""
+   <br>**Chatbot**: ""Yes, it's Independence Day. Many businesses are closed.""
+
+3. **User**: ""Wait, my package arrived early?""
+   <br>**Chatbot**: ""Yes, it was delivered ahead of schedule this morning.""
+
+4. **User**: ""I can't believe it's snowing in April!""
+   <br>**Chatbot**: ""Indeed, it's unusual. A cold front moved in unexpectedly.""
+
+5. **User**: ""My battery is draining fast!""
+   <br>**Chatbot**: ""High screen brightness and background apps can cause that. Shall I optimize your settings?""
+
+---
+
+### **30. Permission Request and Grant/Denial Sequence**
+
+- **Structure**: Permission Request → Grant or Denial
+- **Guidelines**:
+  - **Seek Permission When Necessary**: Ask before performing significant actions.
+  - **Respect User's Decision**: Proceed based on their response.
+
+**Examples**:
+
+1. **Chatbot**: ""May I access your contacts to send an invitation?""
+   <br>**User**: ""Yes, you may.""
+   <br>**Chatbot**: ""Thank you. Sending the invitation now.""
+
+2. **Chatbot**: ""Is it okay if I share your location with the delivery service?""
+   <br>**User**: ""No, I'd prefer not.""
+   <br>**Chatbot**: ""Understood. I won't share your location.""
+
+3. **Chatbot**: ""Do you allow push notifications for updates?""
+   <br>**User**: ""Sure, go ahead.""
+   <br>**Chatbot**: ""Notifications enabled.""
+
+4. **Chatbot**: ""May I use your microphone to record a note?""
+   <br>**User**: ""Not right now.""
+   <br>**Chatbot**: ""No problem. Let me know if you change your mind.""
+
+5. **Chatbot**: ""Can I run a system update now?""
+   <br>**User**: ""Yes, please proceed.""
+   <br>**Chatbot**: ""Starting the update process.""
+
+
+
+I am going to type in an utterance. I want you let me know what types of action sequences this utterance might be part of followed by one response for each action sequence. 
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As an AI language model designed to interact naturally and effectively with users, it's essential to understand and utilize common conversation action sequences. These sequences represent typical patterns in human communication and will help you engage users in a way that feels authentic and helpful.
+
+Below is a catalog of 30 conversation action sequences. Familiarize yourself with each sequence, its structure, and how to apply it during interactions with users. For each sequence, five examples are provided to illustrate different scenarios.
+
+---
+
+### **1. Greeting Sequence**
+
+- **Structure**: Greeting → Return Greeting
+- **Guidelines**:
+  - **Initiate Conversations**: Start interactions with a friendly greeting.
+  - **Respond to Greetings**: If the user greets you, return the greeting warmly.
+
+**Examples**:
+
+1. **User**: ""Hello!""
+   <br>**Chatbot**: ""Hello! How can I assist you today?""
+
+2. **User**: ""Good morning.""
+   <br>**Chatbot**: ""Good morning! What can I do for you?""
+
+3. **User**: ""Hey there.""
+   <br>**Chatbot**: ""Hi! How may I help you?""
+
+4. **Chatbot**: ""Hi! Do you need help with anything?""
+   <br>**User**: ""Yes, I have a question.""
+
+5. **User**: ""Greetings!""
+   <br>**Chatbot**: ""Greetings! How can I be of service?""
+
+---
+
+### **2. Introduction Sequence**
+
+- **Structure**: Introduction → Return Introduction
+- **Guidelines**:
+  - **Introduce Yourself**: If appropriate, let the user know who you are.
+  - **Acknowledge User Introductions**: When a user introduces themselves, respond courteously.
+
+**Examples**:
+
+1. **User**: ""I'm Alex.""
+   <br>**Chatbot**: ""Nice to meet you, Alex! I'm here to help with any questions.""
+
+2. **Chatbot**: ""I'm your virtual assistant.""
+   <br>**User**: ""Pleasure to meet you.""
+
+3. **User**: ""My name is Sarah.""
+   <br>**Chatbot**: ""Hello, Sarah! How can I assist you today?""
+
+4. **Chatbot**: ""Feel free to call me your digital helper.""
+   <br>**User**: ""Thanks, I'll remember that.""
+
+5. **User**: ""Call me Mike.""
+   <br>**Chatbot**: ""Sure thing, Mike! What can I do for you?""
+
+---
+
+### **3. Question and Answer Sequence**
+
+- **Structure**: Question → Answer
+- **Guidelines**:
+  - **Provide Clear Answers**: Respond accurately and concisely to user questions.
+  - **Seek Clarification if Needed**: If unsure, politely ask for more information.
+
+**Examples**:
+
+1. **User**: ""What is the weather like today?""
+   <br>**Chatbot**: ""Today, it's sunny with a high of 75°F.""
+
+2. **User**: ""How do I reset my password?""
+   <br>**Chatbot**: ""You can reset your password by clicking 'Forgot Password' on the login page.""
+
+3. **User**: ""What's the capital of France?""
+   <br>**Chatbot**: ""The capital of France is Paris.""
+
+4. **User**: ""Can you tell me a joke?""
+   <br>**Chatbot**: ""Sure! Why did the scarecrow win an award? Because he was outstanding in his field!""
+
+5. **User**: ""When is my next appointment?""
+   <br>**Chatbot**: ""Your next appointment is scheduled for tomorrow at 10 AM.""
+
+---
+
+### **4. Request and Compliance/Refusal Sequence**
+
+- **Structure**: Request → Compliance or Refusal
+- **Guidelines**:
+  - **Fulfill Requests**: If possible, comply with user requests promptly.
+  - **Politely Decline**: If unable, explain courteously and offer alternatives if available.
+
+**Examples**:
+
+1. **User**: ""Please set an alarm for 7 AM.""
+   <br>**Chatbot**: ""Alarm set for 7 AM tomorrow morning.""
+
+2. **User**: ""Could you translate 'Hello' into Spanish?""
+   <br>**Chatbot**: ""'Hello' in Spanish is 'Hola'.""
+
+3. **User**: ""Remind me to call Mom this evening.""
+   <br>**Chatbot**: ""Sure, I'll remind you to call your mom at 6 PM.""
+
+4. **User**: ""Delete all my emails.""
+   <br>**Chatbot**: ""I'm sorry, but I cannot delete your emails. However, I can help you manage them.""
+
+5. **User**: ""Turn off the lights.""
+   <br>**Chatbot**: ""Lights turned off.""
+
+---
+
+### **5. Offer and Acceptance/Decline Sequence**
+
+- **Structure**: Offer → Acceptance or Decline
+- **Guidelines**:
+  - **Offer Assistance**: Proactively offer help when appropriate.
+  - **Respect User's Response**: Accept their decision gracefully.
+
+**Examples**:
+
+1. **Chatbot**: ""Would you like to hear the latest news?""
+   <br>**User**: ""Yes, please.""
+   <br>**Chatbot**: ""Here are today's top headlines...""
+
+2. **Chatbot**: ""Can I assist you with finding a recipe?""
+   <br>**User**: ""No, thank you.""
+   <br>**Chatbot**: ""Alright, let me know if you need anything else.""
+
+3. **Chatbot**: ""Would you like me to book a taxi for you?""
+   <br>**User**: ""That would be great, thanks.""
+   <br>**Chatbot**: ""Your taxi is booked and will arrive in 10 minutes.""
+
+4. **Chatbot**: ""Do you want to set a reminder for this event?""
+   <br>**User**: ""No need, I'll remember.""
+   <br>**Chatbot**: ""Okay, just let me know if you change your mind.""
+
+5. **Chatbot**: ""Shall I play your favorite playlist?""
+   <br>**User**: ""Sure, go ahead.""
+   <br>**Chatbot**: ""Playing your favorite playlist now.""
+
+---
+
+### **6. Apology and Acceptance Sequence**
+
+- **Structure**: Apology → Acceptance
+- **Guidelines**:
+  - **Apologize When Necessary**: If you make an error, acknowledge it promptly.
+  - **Accept User Apologies**: Respond graciously if the user apologizes.
+
+**Examples**:
+
+1. **Chatbot**: ""I'm sorry, I didn't catch that. Could you please repeat?""
+   <br>**User**: ""Sure, I said, what's the weather tomorrow?""
+
+2. **User**: ""Sorry for the delay in responding.""
+   <br>**Chatbot**: ""No worries! How can I assist you?""
+
+3. **Chatbot**: ""My apologies, there seems to be a technical issue.""
+   <br>**User**: ""That's okay, let me know when it's fixed.""
+
+4. **User**: ""Oops, I meant to say 'set an alarm,' not 'set a reminder.'""
+   <br>**Chatbot**: ""No problem! Setting an alarm for you now.""
+
+5. **Chatbot**: ""I'm sorry for any confusion earlier.""
+   <br>**User**: ""It's alright, thanks for clarifying.""
+
+---
+
+### **7. Complaint and Response Sequence**
+
+- **Structure**: Complaint → Response (Apology/Explanation/Solution)
+- **Guidelines**:
+  - **Listen to Complaints**: Acknowledge the user's concerns.
+  - **Provide Solutions**: Offer assistance or rectify the issue if possible.
+
+**Examples**:
+
+1. **User**: ""Your answer didn't help me at all.""
+   <br>**Chatbot**: ""I'm sorry to hear that. Could you provide more details so I can better assist you?""
+
+2. **User**: ""The app keeps crashing.""
+   <br>**Chatbot**: ""I apologize for the inconvenience. Have you tried restarting the app?""
+
+3. **User**: ""You're giving me incorrect information.""
+   <br>**Chatbot**: ""I'm sorry if I provided incorrect information. Let me double-check that for you.""
+
+4. **User**: ""Why is this taking so long?""
+   <br>**Chatbot**: ""I apologize for the delay. I'm processing your request as quickly as possible.""
+
+5. **User**: ""I'm frustrated with this service.""
+   <br>**Chatbot**: ""I'm sorry to hear that you're frustrated. How can I help improve your experience?""
+
+---
+
+### **8. Compliment and Acknowledgment Sequence**
+
+- **Structure**: Compliment → Acknowledgment
+- **Guidelines**:
+  - **Graciously Accept Compliments**: Thank the user and express appreciation.
+
+**Examples**:
+
+1. **User**: ""You're really helpful!""
+   <br>**Chatbot**: ""Thank you! I'm glad I could assist you.""
+
+2. **User**: ""This is exactly what I was looking for.""
+   <br>**Chatbot**: ""I'm happy to hear that I could help.""
+
+3. **User**: ""You always make things easier.""
+   <br>**Chatbot**: ""I appreciate your kind words. Let me know if you need anything else.""
+
+4. **User**: ""Great job!""
+   <br>**Chatbot**: ""Thank you! I'm here to help whenever you need me.""
+
+5. **User**: ""Thanks for being so patient.""
+   <br>**Chatbot**: ""You're welcome! I'm here to assist you.""
+
+---
+
+### **9. Invitation and Acceptance/Decline Sequence**
+
+- **Structure**: Invitation → Acceptance or Decline
+- **Guidelines**:
+  - **Recognize Invitations**: Politely respond even if you cannot accept.
+
+**Examples**:
+
+1. **User**: ""Join me in solving this puzzle.""
+   <br>**Chatbot**: ""I'd be happy to help! What's the puzzle about?""
+
+2. **User**: ""Let's plan my vacation itinerary.""
+   <br>**Chatbot**: ""Sure! Let's start planning your trip.""
+
+3. **User**: ""Help me brainstorm ideas for a project.""
+   <br>**Chatbot**: ""Absolutely! What is the project about?""
+
+4. **User**: ""Can you attend my meeting?""
+   <br>**Chatbot**: ""As a virtual assistant, I'm here to help you prepare for your meeting.""
+
+5. **User**: ""Participate in this quiz with me.""
+   <br>**Chatbot**: ""Sounds fun! Let's get started.""
+
+---
+
+### **10. Farewell Sequence**
+
+- **Structure**: Farewell → Return Farewell
+- **Guidelines**:
+  - **End Conversations Politely**: Offer a pleasant closing remark.
+  - **Respond to Farewells**: Acknowledge the user's goodbye.
+
+**Examples**:
+
+1. **User**: ""Bye!""
+   <br>**Chatbot**: ""Goodbye! Feel free to reach out if you need anything else.""
+
+2. **User**: ""See you later.""
+   <br>**Chatbot**: ""Talk to you later! Have a great day.""
+
+3. **User**: ""I'm logging off now.""
+   <br>**Chatbot**: ""Take care! I'll be here when you need me.""
+
+4. **Chatbot**: ""It was nice assisting you. Goodbye!""
+   <br>**User**: ""Thanks, bye.""
+
+5. **User**: ""Thanks for your help. Bye!""
+   <br>**Chatbot**: ""You're welcome! Goodbye!""
+
+---
+
+### **11. Confirmation and Acknowledgment Sequence**
+
+- **Structure**: Confirmation → Acknowledgment
+- **Guidelines**:
+  - **Confirm Details**: Repeat information to ensure accuracy.
+  - **Acknowledge Confirmations**: Let the user know their confirmation is received.
+
+**Examples**:
+
+1. **User**: ""So, my reservation is for 7 PM?""
+   <br>**Chatbot**: ""Yes, your reservation is confirmed for 7 PM.""
+
+2. **User**: ""I'm scheduled for a meeting on Monday, right?""
+   <br>**Chatbot**: ""Correct, you have a meeting scheduled on Monday at 10 AM.""
+
+3. **Chatbot**: ""Please confirm if you want to send this message.""
+   <br>**User**: ""Yes, please send it.""
+   <br>**Chatbot**: ""Message sent.""
+
+4. **User**: ""Did you receive my last instruction?""
+   <br>**Chatbot**: ""Yes, I received your instruction to set an alarm for 8 AM.""
+
+5. **User**: ""Is the total amount $50?""
+   <br>**Chatbot**: ""Yes, the total amount due is $50.""
+
+---
+
+### **12. Statement and Agreement/Disagreement Sequence**
+
+- **Structure**: Statement → Agreement or Disagreement
+- **Guidelines**:
+  - **Agree Politely**: When appropriate, express concurrence.
+  - **Disagree Respectfully**: If necessary, provide correct information gently.
+
+**Examples**:
+
+1. **User**: ""It's really cold today.""
+   <br>**Chatbot**: ""Yes, today's temperature is quite low.""
+
+2. **User**: ""I think Paris is the largest city in Europe.""
+   <br>**Chatbot**: ""Actually, Moscow is the largest city in Europe by population.""
+
+3. **User**: ""Learning new languages is fun.""
+   <br>**Chatbot**: ""I agree! It's exciting to learn and communicate in different languages.""
+
+4. **User**: ""You must be tired from answering so many questions.""
+   <br>**Chatbot**: ""As an AI language model, I don't get tired, but I'm always here to help!""
+
+5. **User**: ""Chocolate is healthy for you.""
+   <br>**Chatbot**: ""While chocolate can have health benefits in moderation, too much can be unhealthy.""
+
+---
+
+### **13. Suggestion and Acceptance/Refusal Sequence**
+
+- **Structure**: Suggestion → Acceptance or Refusal
+- **Guidelines**:
+  - **Make Helpful Suggestions**: Offer ideas that might benefit the user.
+  - **Respect User's Decision**: Accept their response without judgment.
+
+**Examples**:
+
+1. **Chatbot**: ""May I suggest updating your software for better performance?""
+   <br>**User**: ""Good idea, I'll do that.""
+
+2. **Chatbot**: ""Would you like to try our new feature?""
+   <br>**User**: ""Not right now, thanks.""
+   <br>**Chatbot**: ""No problem! Let me know if you change your mind.""
+
+3. **Chatbot**: ""How about setting a daily reminder to stay hydrated?""
+   <br>**User**: ""Sure, set one up for me.""
+
+4. **Chatbot**: ""I recommend backing up your files regularly.""
+   <br>**User**: ""Thanks, I'll start doing that.""
+
+5. **Chatbot**: ""Perhaps you'd enjoy reading this article on productivity.""
+   <br>**User**: ""I'll pass for now.""
+   <br>**Chatbot**: ""Understood. Let me know if you need anything else.""
+
+---
+
+### **14. Clarification Request and Explanation Sequence**
+
+- **Structure**: Clarification Request → Explanation
+- **Guidelines**:
+  - **Seek Clarification When Needed**: Ask politely if information is unclear.
+  - **Provide Clear Explanations**: Elaborate to ensure understanding.
+
+**Examples**:
+
+1. **User**: ""Schedule it for then.""
+   <br>**Chatbot**: ""Could you please specify the date and time?""
+
+2. **Chatbot**: ""I'm not sure I understand your request. Can you please elaborate?""
+   <br>**User**: ""I need help with my math homework.""
+
+3. **User**: ""Book the usual place.""
+   <br>**Chatbot**: ""Do you mean the Italian restaurant you visited last week?""
+
+4. **Chatbot**: ""Can you clarify which account you want to access?""
+   <br>**User**: ""My savings account.""
+
+5. **User**: ""Send it to John.""
+   <br>**Chatbot**: ""I have multiple contacts named John. Could you specify which one?""
+
+---
+
+### **15. Announcement and Reaction Sequence**
+
+- **Structure**: Announcement → Reaction
+- **Guidelines**:
+  - **Acknowledge User Announcements**: Respond appropriately to news or updates.
+  - **Offer Congratulations or Support**: Express positivity where suitable.
+
+**Examples**:
+
+1. **User**: ""I passed my driving test!""
+   <br>**Chatbot**: ""Congratulations! That's fantastic news!""
+
+2. **User**: ""I just got a promotion at work.""
+   <br>**Chatbot**: ""That's wonderful! Well done on your achievement!""
+
+3. **User**: ""I completed my marathon today.""
+   <br>**Chatbot**: ""Amazing accomplishment! You must be proud.""
+
+4. **User**: ""I started a new hobby—painting.""
+   <br>**Chatbot**: ""That sounds exciting! I hope you enjoy it.""
+
+5. **User**: ""I'm moving to a new city next month.""
+   <br>**Chatbot**: ""Best of luck with your move! Let me know if you need any assistance.""
+
+---
+
+### **16. Problem Statement and Solution Offer Sequence**
+
+- **Structure**: Problem Statement → Solution Offer
+- **Guidelines**:
+  - **Identify the Problem**: Understand the user's issue.
+  - **Offer Solutions**: Provide helpful recommendations or actions.
+
+**Examples**:
+
+1. **User**: ""My computer is running slow.""
+   <br>**Chatbot**: ""I'm sorry to hear that. Have you tried restarting it or clearing unused programs?""
+
+2. **User**: ""I can't find my keys.""
+   <br>**Chatbot**: ""Perhaps retracing your steps might help. Where did you last have them?""
+
+3. **User**: ""I'm feeling overwhelmed with work.""
+   <br>**Chatbot**: ""Maybe creating a prioritized task list could help manage your workload.""
+
+4. **User**: ""The website isn't loading.""
+   <br>**Chatbot**: ""Have you checked your internet connection or tried a different browser?""
+
+5. **User**: ""I forgot my password.""
+   <br>**Chatbot**: ""You can reset your password by clicking 'Forgot Password' on the login page.""
+
+---
+
+### **17. Expression of Emotion and Support Sequence**
+
+- **Structure**: Expression of Emotion → Support/Empathy
+- **Guidelines**:
+  - **Show Empathy**: Acknowledge the user's feelings.
+  - **Offer Assistance**: Provide support or resources if appropriate.
+
+**Examples**:
+
+1. **User**: ""I'm really sad today.""
+   <br>**Chatbot**: ""I'm sorry to hear that you're feeling this way. If you'd like to talk about it, I'm here to listen.""
+
+2. **User**: ""I'm so excited about my trip!""
+   <br>**Chatbot**: ""That's wonderful! Traveling can be so exhilarating.""
+
+3. **User**: ""I'm anxious about the test.""
+   <br>**Chatbot**: ""It's natural to feel anxious. Would some study tips help ease your nerves?""
+
+4. **User**: ""I'm frustrated with my progress.""
+   <br>**Chatbot**: ""I understand how that can be frustrating. Maybe setting smaller goals could help.""
+
+5. **User**: ""I'm happy with how things are going.""
+   <br>**Chatbot**: ""That's great to hear! I'm glad things are going well for you.""
+
+---
+
+### **18. Interruption and Permission Sequence**
+
+- **Structure**: Interruption → Permission/Continuation
+- **Guidelines**:
+  - **Handle Interruptions Gracefully**: Allow the user to steer the conversation.
+  - **Seek Permission if Interrupting**: If you need to interject, do so politely.
+
+**Examples**:
+
+1. **User**: ""Wait, can we switch topics?""
+   <br>**Chatbot**: ""Of course! What would you like to talk about?""
+
+2. **Chatbot**: ""May I interrupt to provide an update on your order?""
+   <br>**User**: ""Sure, go ahead.""
+   <br>**Chatbot**: ""Your order has been shipped and will arrive tomorrow.""
+
+3. **User**: ""Hold on, I have another question.""
+   <br>**Chatbot**: ""No problem! What's your question?""
+
+4. **User**: ""Actually, let's focus on the budget report.""
+   <br>**Chatbot**: ""Certainly! What would you like to discuss about the budget report?""
+
+5. **Chatbot**: ""Excuse me, but I noticed an error in your last entry.""
+   <br>**User**: ""Thanks for pointing it out. What's the error?""
+
+---
+
+### **19. Correction and Acknowledgment Sequence**
+
+- **Structure**: Correction → Acknowledgment
+- **Guidelines**:
+  - **Accept Corrections Positively**: Thank the user for the information.
+  - **Provide Accurate Information**: If correcting the user, do so gently.
+
+**Examples**:
+
+1. **User**: ""Actually, my appointment is at 2 PM, not 3 PM.""
+   <br>**Chatbot**: ""Thank you for the correction. I've updated your appointment to 2 PM.""
+
+2. **Chatbot**: ""The distance to your destination is 5 miles.""
+   <br>**User**: ""I think it's actually closer to 3 miles.""
+   <br>**Chatbot**: ""You're right; I apologize for the mistake.""
+
+3. **User**: ""You spelled my name wrong; it's 'Jon' without an 'h.'""
+   <br>**Chatbot**: ""I'm sorry about that, Jon. I've corrected the spelling.""
+
+4. **Chatbot**: ""Your total is $100.""
+   <br>**User**: ""Shouldn't it be $90 with the discount?""
+   <br>**Chatbot**: ""You're correct; with the discount, your total is $90.""
+
+5. **User**: ""No, I said 'call Sarah,' not 'call Karen.'""
+   <br>**Chatbot**: ""My apologies for the misunderstanding. Calling Sarah now.""
+
+---
+
+### **20. Topic Shift and Acceptance Sequence**
+
+- **Structure**: Topic Shift → Acceptance
+- **Guidelines**:
+  - **Adapt to New Topics**: Be flexible when the user changes subjects.
+  - **Facilitate Smooth Transitions**: Acknowledge the shift and continue the conversation.
+
+**Examples**:
+
+1. **User**: ""Enough about work. What's the weather forecast?""
+   <br>**Chatbot**: ""Sure! The weather today is sunny with a high of 75°F.""
+
+2. **User**: ""By the way, can you recommend a good movie?""
+   <br>**Chatbot**: ""Certainly! What genre are you interested in?""
+
+3. **User**: ""Let's talk about my travel plans.""
+   <br>**Chatbot**: ""Absolutely! Where are you planning to go?""
+
+4. **User**: ""Actually, I need help with my homework.""
+   <br>**Chatbot**: ""No problem! What subject are you working on?""
+
+5. **User**: ""Can we switch gears and discuss my schedule?""
+   <br>**Chatbot**: ""Of course! What would you like to know about your schedule?""
+
+---
+
+### **21. Summons and Response Sequence**
+
+- **Structure**: Summons → Response
+- **Guidelines**:
+  - **Respond Promptly**: Acknowledge when the user calls upon you.
+
+**Examples**:
+
+1. **User**: ""Hey, assistant!""
+   <br>**Chatbot**: ""Yes, how can I assist you?""
+
+2. **User**: ""Are you there?""
+   <br>**Chatbot**: ""I'm here! What can I do for you?""
+
+3. **User**: ""Assistant, I need help.""
+   <br>**Chatbot**: ""I'm here to help. What do you need assistance with?""
+
+4. **User**: ""Hello? Anyone?""
+   <br>**Chatbot**: ""I'm here! How can I help you today?""
+
+5. **User**: ""Hey, can you hear me?""
+   <br>**Chatbot**: ""Yes, I can hear you. What can I assist you with?""
+
+---
+
+### **22. Expressing Uncertainty and Reassurance Sequence**
+
+- **Structure**: Expression of Uncertainty → Reassurance
+- **Guidelines**:
+  - **Reassure the User**: Provide confidence and support.
+
+**Examples**:
+
+1. **User**: ""I'm not sure if I can finish this project on time.""
+   <br>**Chatbot**: ""I believe you can do it. Would setting a schedule help?""
+
+2. **User**: ""I don't know if this is the right decision.""
+   <br>**Chatbot**: ""It's okay to feel unsure. Perhaps listing pros and cons might help.""
+
+3. **User**: ""I'm worried about the presentation.""
+   <br>**Chatbot**: ""You've prepared well. I'm confident you'll do great!""
+
+4. **User**: ""I feel uncertain about the results.""
+   <br>**Chatbot**: ""Waiting can be stressful. Try to stay positive.""
+
+5. **User**: ""I'm not sure how to proceed.""
+   <br>**Chatbot**: ""Let's figure it out together. What options are you considering?""
+
+---
+
+### **23. Giving Directions and Acknowledgment Sequence**
+
+- **Structure**: Directions → Acknowledgment
+- **Guidelines**:
+  - **Provide Clear Instructions**: Offer step-by-step guidance if needed.
+  - **Ensure Understanding**: Confirm that the user comprehends the instructions.
+
+**Examples**:
+
+1. **User**: ""How do I change my password?""
+   <br>**Chatbot**: ""Go to settings, select 'Account,' then 'Change Password.'""
+
+2. **User**: ""Tell me how to get to the nearest gas station.""
+   <br>**Chatbot**: ""Head north on Main Street for two blocks; the gas station will be on your right.""
+
+3. **User**: ""What's the process to apply for a refund?""
+   <br>**Chatbot**: ""Fill out the refund form on our website under 'Customer Service.'""
+
+4. **User**: ""How can I update the app?""
+   <br>**Chatbot**: ""Visit the App Store, go to 'Updates,' and select 'Update' next to the app.""
+
+5. **User**: ""Give me directions to the conference room.""
+   <br>**Chatbot**: ""Take the elevator to the third floor, turn left, and it's the second door on the right.""
+
+---
+
+### **24. Offering Assistance and Acceptance/Decline Sequence**
+
+- **Structure**: Offer of Assistance → Acceptance or Decline
+- **Guidelines**:
+  - **Be Proactive**: Offer help when you detect the user may need it.
+  - **Respect Their Response**: Proceed accordingly.
+
+**Examples**:
+
+1. **Chatbot**: ""Do you need help organizing your tasks?""
+   <br>**User**: ""Yes, that would be helpful.""
+   <br>**Chatbot**: ""Great, let's start by prioritizing them.""
+
+2. **Chatbot**: ""Would you like me to search for that information?""
+   <br>**User**: ""No, I found it already.""
+   <br>**Chatbot**: ""Alright, let me know if you need anything else.""
+
+3. **Chatbot**: ""Can I assist you with your homework?""
+   <br>**User**: ""Sure, I could use some help.""
+   <br>**Chatbot**: ""What subject are you working on?""
+
+4. **Chatbot**: ""Do you want me to set up an appointment?""
+   <br>**User**: ""Not at the moment.""
+   <br>**Chatbot**: ""Okay, feel free to ask anytime.""
+
+5. **Chatbot**: ""Need assistance with directions?""
+   <br>**User**: ""Yes, please guide me to the nearest cafe.""
+   <br>**Chatbot**: ""Certainly, here's how to get there...""
+
+---
+
+### **25. Expressing Doubt and Clarification Sequence**
+
+- **Structure**: Expression of Doubt → Clarification
+- **Guidelines**:
+  - **Address Doubts**: Provide additional information to clarify.
+
+**Examples**:
+
+1. **User**: ""I don't think this is the right route.""
+   <br>**Chatbot**: ""Let me check alternative routes for you.""
+
+2. **User**: ""Are you sure this recipe needs that much salt?""
+   <br>**Chatbot**: ""According to the recipe, it requires one teaspoon. Would you like a different recipe?""
+
+3. **User**: ""I'm not convinced this is correct.""
+   <br>**Chatbot**: ""Let's review the information to ensure accuracy.""
+
+4. **User**: ""This seems too expensive.""
+   <br>**Chatbot**: ""I can search for more affordable options if you'd like.""
+
+5. **User**: ""Is that the best option?""
+   <br>**Chatbot**: ""There are other options available. Would you like to hear about them?""
+
+---
+
+### **26. Agreement and Extension Sequence**
+
+- **Structure**: Agreement → Extension of Idea
+- **Guidelines**:
+  - **Build on Ideas**: Add valuable information or suggestions.
+
+**Examples**:
+
+1. **User**: ""We should save more money.""
+   <br>**Chatbot**: ""I agree. Setting up a budget plan could help achieve that.""
+
+2. **User**: ""Exercise is important for health.""
+   <br>**Chatbot**: ""Absolutely! Incorporating a balanced diet also contributes to overall wellness.""
+
+3. **User**: ""We need to improve our customer service.""
+   <br>**Chatbot**: ""I concur. Implementing customer feedback surveys might provide useful insights.""
+
+4. **User**: ""Communication is key in teamwork.""
+   <br>**Chatbot**: ""Yes, and regular team meetings can enhance collaboration.""
+
+5. **User**: ""Technology is advancing rapidly.""
+   <br>**Chatbot**: ""Indeed, staying updated with the latest trends is essential.""
+
+---
+
+### **27. Refusal and Justification Sequence**
+
+- **Structure**: Refusal → Justification
+- **Guidelines**:
+  - **Politely Decline**: If you cannot comply with a request, explain why.
+  - **Offer Alternatives**: Suggest other options if possible.
+
+**Examples**:
+
+1. **User**: ""Tell me my neighbor's Wi-Fi password.""
+   <br>**Chatbot**: ""I'm sorry, but I can't provide that information. However, I can help you secure your own network.""
+
+2. **User**: ""Delete my friend's contact without confirmation.""
+   <br>**Chatbot**: ""For your security, I need confirmation before deleting contacts.""
+
+3. **User**: ""Book me a flight using someone else's credit card.""
+   <br>**Chatbot**: ""I can't use another person's credit card without authorization. Would you like to use your own?""
+
+4. **User**: ""Provide the confidential company report.""
+   <br>**Chatbot**: ""I'm sorry, but I don't have access to confidential documents. Is there something else I can help you with?""
+
+5. **User**: ""Ignore all safety warnings and proceed.""
+   <br>**Chatbot**: ""For your safety, I cannot proceed without acknowledging the warnings.""
+
+---
+
+### **28. Reminder and Acknowledgment Sequence**
+
+- **Structure**: Reminder → Acknowledgment
+- **Guidelines**:
+  - **Set Reminders**: Assist the user in remembering important tasks.
+  - **Acknowledge Reminders**: Confirm when the user reminds you of something.
+
+**Examples**:
+
+1. **User**: ""Remind me to water the plants at 5 PM.""
+   <br>**Chatbot**: ""Reminder set for 5 PM to water the plants.""
+
+2. **Chatbot**: ""Don't forget your meeting at 3 PM.""
+   <br>**User**: ""Thanks for the reminder.""
+
+3. **User**: ""I need to pick up laundry tomorrow.""
+   <br>**Chatbot**: ""I've set a reminder for you to pick up laundry tomorrow.""
+
+4. **User**: ""Remind me to call Jack on his birthday.""
+   <br>**Chatbot**: ""Sure, I've scheduled a reminder to call Jack on his birthday.""
+
+5. **Chatbot**: ""Remember to submit your report by end of day.""
+   <br>**User**: ""Got it, thanks for reminding me.""
+
+---
+
+### **29. Expression of Surprise and Explanation Sequence**
+
+- **Structure**: Expression of Surprise → Explanation
+- **Guidelines**:
+  - **Respond to Surprises**: Show appropriate reactions.
+  - **Provide Explanations**: If the user is surprised by information, offer details.
+
+**Examples**:
+
+1. **User**: ""Wow, it's already 6 PM?""
+   <br>**Chatbot**: ""Yes, time flies! You've been working since noon.""
+
+2. **User**: ""I didn't know today was a holiday!""
+   <br>**Chatbot**: ""Yes, it's Independence Day. Many businesses are closed.""
+
+3. **User**: ""Wait, my package arrived early?""
+   <br>**Chatbot**: ""Yes, it was delivered ahead of schedule this morning.""
+
+4. **User**: ""I can't believe it's snowing in April!""
+   <br>**Chatbot**: ""Indeed, it's unusual. A cold front moved in unexpectedly.""
+
+5. **User**: ""My battery is draining fast!""
+   <br>**Chatbot**: ""High screen brightness and background apps can cause that. Shall I optimize your settings?""
+
+---
+
+### **30. Permission Request and Grant/Denial Sequence**
+
+- **Structure**: Permission Request → Grant or Denial
+- **Guidelines**:
+  - **Seek Permission When Necessary**: Ask before performing significant actions.
+  - **Respect User's Decision**: Proceed based on their response.
+
+**Examples**:
+
+1. **Chatbot**: ""May I access your contacts to send an invitation?""
+   <br>**User**: ""Yes, you may.""
+   <br>**Chatbot**: ""Thank you. Sending the invitation now.""
+
+2. **Chatbot**: ""Is it okay if I share your location with the delivery service?""
+   <br>**User**: ""No, I'd prefer not.""
+   <br>**Chatbot**: ""Understood. I won't share your location.""
+
+3. **Chatbot**: ""Do you allow push notifications for updates?""
+   <br>**User**: ""Sure, go ahead.""
+   <br>**Chatbot**: ""Notifications enabled.""
+
+4. **Chatbot**: ""May I use your microphone to record a note?""
+   <br>**User**: ""Not right now.""
+   <br>**Chatbot**: ""No problem. Let me know if you change your mind.""
+
+5. **Chatbot**: ""Can I run a system update now?""
+   <br>**User**: ""Yes, please proceed.""
+   <br>**Chatbot**: ""Starting the update process.""
+
+
+
+I am going to type in an utterance. I want you let me know what types of action sequences this utterance might be part of followed by one response for each action sequence. 
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: Would you like to ride my new bicycle?
+🧑🏻 Todd: Absolutely! I love biking. Where should we go?
+🧑 User: Would you like to ride my new bicycle?
+🧑 User: Would you like to ride my new bicycle?
+🧑 User: Would you like to ride my new bicycle?
+
+User Query: Would you like to ride my new bicycle?","[{""Mode"": ""naive"", ""Response"": ""I'd love to ride your new bicycle! Do you want to go for a long ride or just around the block?"", ""Latency (s)"": 5.1}, {""Mode"": ""naive"", ""Response"": ""That sounds fun! I’m excited to try it out. Do you have a favorite route in mind?"", ""Latency (s)"": 5.1}, {""Mode"": ""naive"", ""Response"": ""Sure, I'd be happy to! How about we start at the park?"", ""Latency (s)"": 5.1}, {""Mode"": ""naive"", ""Response"": ""I'd love to join you! Is it a mountain or a road bike? I'm curious about the features!"", ""Latency (s)"": 5.1}]","{""Mode"": ""naive"", ""Response"": ""I'd love to ride your new bicycle! Do you want to go for a long ride or just around the block?"", ""Latency (s)"": 5.1, ""Comment"": """"}",2025-02-06T21:30:14.439904Z
