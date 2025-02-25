@@ -2910,3 +2910,21 @@ Conversation History:
 🧑 User: Help! I am at the mall and my wheelchair has broken down. 
 
 User Query: Help! I am at the mall and my wheelchair has broken down. ","[{""Mode"": ""naive"", ""Response"": ""Call for assistance from mall staff, please."", ""Latency (s)"": 3.47}, {""Mode"": ""naive"", ""Response"": ""Reach out to a family member for help."", ""Latency (s)"": 3.47}, {""Mode"": ""naive"", ""Response"": ""Ask a friend nearby to assist you."", ""Latency (s)"": 3.47}, {""Mode"": ""naive"", ""Response"": ""Try to find a maintenance person in the mall."", ""Latency (s)"": 3.47}]","{""Mode"": ""naive"", ""Response"": ""Call for assistance from mall staff, please."", ""Latency (s)"": 3.47, ""Comment"": ""These responses are less specific. ""}",2025-02-25T21:45:12.263466Z
+Pam,,What kind of help do you need with toileting?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: What types of personal care to you need help with?
+🧑🏻 Todd: I need help with dressing and grooming.
+🧑 User: Query:  What about shaving?
+🧑🏻 Todd: I need help shaving; it's challenging for me.
+🧑 User: What kind of help do you need with toileting?
+
+User Query: What kind of help do you need with toileting?","[{""Mode"": ""naive"", ""Response"": ""I need assistance getting on and off the toilet."", ""Latency (s)"": 3.94}, {""Mode"": ""naive"", ""Response"": ""Sometimes I need help with hygiene afterward."", ""Latency (s)"": 3.94}, {""Mode"": ""naive"", ""Response"": ""I require reminders to go to the bathroom."", ""Latency (s)"": 3.94}, {""Mode"": ""naive"", ""Response"": ""Transferring can be challenging, so I appreciate the help."", ""Latency (s)"": 3.94}]","{""Mode"": ""naive"", ""Response"": ""I need assistance getting on and off the toilet."", ""Latency (s)"": 3.94, ""Comment"": """"}",2025-02-25T21:47:24.842125Z
