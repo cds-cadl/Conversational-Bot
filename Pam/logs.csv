@@ -3028,3 +3028,21 @@ Conversation History:
 🧑 User: Where do you live?
 
 User Query: Where do you live?","[{""Mode"": ""naive"", ""Response"": ""I live in my own apartment."", ""Latency (s)"": 2.96}, {""Mode"": ""naive"", ""Response"": ""It's a comfortable space that fits my needs."", ""Latency (s)"": 2.96}, {""Mode"": ""naive"", ""Response"": ""Family and attendants help me manage daily tasks."", ""Latency (s)"": 2.96}, {""Mode"": ""naive"", ""Response"": ""Independent living gives me freedom and responsibility."", ""Latency (s)"": 2.96}]","{""Mode"": ""naive"", ""Response"": ""I live in my own apartment."", ""Latency (s)"": 2.96, ""Comment"": ""These answers are relevant to Todd but more general. ""}",2025-02-25T21:55:55.224692Z
+Pam,,Where do you live?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑🏻 Todd: I need assistance getting on and off the toilet.
+🧑 User: Prompt:  Help! I am at the mall and my wheelchair has broken down.
+🧑🏻 Todd: Call for mall assistance immediately; they can help.
+🧑 User: Prompt:  Help! I am at the mall and my wheelchair has broken down.
+🧑 User: Where do you live?
+
+User Query: Where do you live?","[{""Mode"": ""naive"", ""Response"": ""I live in my hometown, near family."", ""Latency (s)"": 1.68}, {""Mode"": ""naive"", ""Response"": ""Currently, I reside in a group home."", ""Latency (s)"": 1.68}, {""Mode"": ""naive"", ""Response"": ""I enjoy being close to familiar places."", ""Latency (s)"": 1.68}, {""Mode"": ""naive"", ""Response"": ""It's nice living where I've grown up."", ""Latency (s)"": 1.68}]","{""Mode"": ""naive"", ""Response"": ""It's nice living where I've grown up."", ""Latency (s)"": 1.68, ""Comment"": ""These answers do not show awareness of Todd's living circumstances. ""}",2025-02-25T21:58:09.808298Z
