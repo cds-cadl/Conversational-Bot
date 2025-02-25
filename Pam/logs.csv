@@ -2356,3 +2356,18 @@ Conversation History:
 🧑 User: Can you tell me how to help you with your communication?
 
 User Query: Can you tell me how to help you with your communication?","[{""Mode"": ""naive"", ""Response"": ""Please add new words to my device as needed."", ""Latency (s)"": 3.93}, {""Mode"": ""naive"", ""Response"": ""Speak slowly so I can process your words."", ""Latency (s)"": 3.93}, {""Mode"": ""naive"", ""Response"": ""Use gestures to support your communication with me."", ""Latency (s)"": 3.93}, {""Mode"": ""naive"", ""Response"": ""Repeat what I say if I seem to struggle."", ""Latency (s)"": 3.93}]","{""Mode"": ""naive"", ""Response"": ""Repeat what I say if I seem to struggle."", ""Latency (s)"": 3.93, ""Comment"": ""Two of these answers are not relevant to Todd using an AAC device.""}",2025-02-25T16:53:38.961405Z
+Pam,,I need some help getting dressed.,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: I need some help getting dressed.
+🧑 User: I need some help getting dressed.
+
+User Query: I need some help getting dressed.","[{""Mode"": ""naive"", ""Response"": ""Sure, I'll get your shirt for you."", ""Latency (s)"": 2.43}, {""Mode"": ""naive"", ""Response"": ""No problem! Let me help you with that."", ""Latency (s)"": 2.43}]","{""Mode"": ""naive"", ""Response"": ""No problem! Let me help you with that."", ""Latency (s)"": 2.43, ""Comment"": ""One response was too specific and the other one was too general. ""}",2025-02-25T17:11:18.761638Z
