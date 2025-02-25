@@ -35347,3 +35347,19 @@ Conversation History:
 🧑 User: Hello, I am calling in response to your add for a paid attendant. 
 
 User Query: Hello, I am calling in response to your add for a paid attendant. ","[{""Mode"": ""naive"", ""Response"": ""Hi! I'm Todd. I need help with daily activities."", ""Latency (s)"": 3.02}, {""Mode"": ""naive"", ""Response"": ""I use a power wheelchair for mobility."", ""Latency (s)"": 3.02}, {""Mode"": ""naive"", ""Response"": ""Communication is through my AAC device."", ""Latency (s)"": 3.02}, {""Mode"": ""naive"", ""Response"": ""I appreciate caring and reliable support."", ""Latency (s)"": 3.02}]","{""Mode"": ""naive"", ""Response"": ""Hi! I'm Todd. I need help with daily activities."", ""Latency (s)"": 3.02, ""Comment"": ""All of these responses relate to the information in the Base System Prompt. ""}",2025-02-25T18:56:52.825459Z
+Jeff,,What type of help do you need?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of cerebral palsy. This results in spastic quadriplegia and the inability to complete activities of daily living independently. Todd uses a power wheelchair for mobility, and he uses an AAC device to communicate. He lives independently and relies on family and paid attendants to assist him with all activities of daily living. He also needs to arrange for paid transportation or get rides with friends or family to attend scheduled appointments or participate in social activities.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of cerebral palsy. This results in spastic quadriplegia and the inability to complete activities of daily living independently. Todd uses a power wheelchair for mobility, and he uses an AAC device to communicate. He lives independently and relies on family and paid attendants to assist him with all activities of daily living. He also needs to arrange for paid transportation or get rides with friends or family to attend scheduled appointments or participate in social activities.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: Hello, I am calling in response to your add for a paid attendant. 
+🧑🏻 Todd: Hi! I'm Todd. I need help with daily activities.
+🧑 User: What type of help do you need?
+
+User Query: What type of help do you need?","[{""Mode"": ""naive"", ""Response"": ""I need assistance with personal care and daily living tasks."", ""Latency (s)"": 3.14}, {""Mode"": ""naive"", ""Response"": ""Help managing meals and cooking is essential for me."", ""Latency (s)"": 3.14}, {""Mode"": ""naive"", ""Response"": ""Transportation support is important for my appointments and outings."", ""Latency (s)"": 3.14}, {""Mode"": ""naive"", ""Response"": ""I rely on help for mobility and navigating my environment."", ""Latency (s)"": 3.14}]","{""Mode"": ""naive"", ""Response"": ""I need assistance with personal care and daily living tasks."", ""Latency (s)"": 3.14, ""Comment"": ""All of these responses relate to the information in the Base System Prompt. ""}",2025-02-25T18:58:22.316153Z
