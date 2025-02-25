@@ -35377,3 +35377,20 @@ Conversation History:
 🧑 User: Hello, I am calling in response to your add for a paid attendant.
 
 User Query: Hello, I am calling in response to your add for a paid attendant.","[{""Mode"": ""naive"", ""Response"": ""Hi there! I'm glad you called."", ""Latency (s)"": 3.09}, {""Mode"": ""naive"", ""Response"": ""Thanks for reaching out about the position!"", ""Latency (s)"": 3.09}, {""Mode"": ""naive"", ""Response"": ""I really appreciate your interest in helping me."", ""Latency (s)"": 3.09}, {""Mode"": ""naive"", ""Response"": ""Let’s discuss how we can work together!"", ""Latency (s)"": 3.09}]","{""Mode"": ""naive"", ""Response"": ""Hi there! I'm glad you called."", ""Latency (s)"": 3.09, ""Comment"": ""These answers show no knowledge that Todd has physical or speech disabilities. ""}",2025-02-25T21:23:04.947814Z
+Jeff,,What type of help do you need?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: Hello, I am calling in response to your add for a paid attendant.
+🧑🏻 Todd: Hi there! I'm glad you called.
+🧑 User: Hello, I am calling in response to your add for a paid attendant.
+🧑 User: What type of help do you need?
+
+User Query: What type of help do you need?","[{""Mode"": ""naive"", ""Response"": ""I need assistance with daily tasks and personal care."", ""Latency (s)"": 2.86}, {""Mode"": ""naive"", ""Response"": ""Help with meal prep and cleaning would be great!"", ""Latency (s)"": 2.86}, {""Mode"": ""naive"", ""Response"": ""I could use help with errands and going out."", ""Latency (s)"": 2.86}, {""Mode"": ""naive"", ""Response"": ""Support with mobility and managing my medication is essential."", ""Latency (s)"": 2.86}]","{""Mode"": ""naive"", ""Response"": ""I need assistance with daily tasks and personal care."", ""Latency (s)"": 2.86, ""Comment"": ""These answers show more awareness that they partner is speaking with someone with physical disabilities. ""}",2025-02-25T21:31:30.286580Z
