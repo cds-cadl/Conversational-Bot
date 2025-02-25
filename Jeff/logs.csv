@@ -35363,3 +35363,17 @@ Conversation History:
 🧑 User: What type of help do you need?
 
 User Query: What type of help do you need?","[{""Mode"": ""naive"", ""Response"": ""I need assistance with personal care and daily living tasks."", ""Latency (s)"": 3.14}, {""Mode"": ""naive"", ""Response"": ""Help managing meals and cooking is essential for me."", ""Latency (s)"": 3.14}, {""Mode"": ""naive"", ""Response"": ""Transportation support is important for my appointments and outings."", ""Latency (s)"": 3.14}, {""Mode"": ""naive"", ""Response"": ""I rely on help for mobility and navigating my environment."", ""Latency (s)"": 3.14}]","{""Mode"": ""naive"", ""Response"": ""I need assistance with personal care and daily living tasks."", ""Latency (s)"": 3.14, ""Comment"": ""All of these responses relate to the information in the Base System Prompt. ""}",2025-02-25T18:58:22.316153Z
+Jeff,,"Hello, I am calling in response to your add for a paid attendant.","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: Hello, I am calling in response to your add for a paid attendant.
+
+User Query: Hello, I am calling in response to your add for a paid attendant.","[{""Mode"": ""naive"", ""Response"": ""Hi there! I'm glad you called."", ""Latency (s)"": 3.09}, {""Mode"": ""naive"", ""Response"": ""Thanks for reaching out about the position!"", ""Latency (s)"": 3.09}, {""Mode"": ""naive"", ""Response"": ""I really appreciate your interest in helping me."", ""Latency (s)"": 3.09}, {""Mode"": ""naive"", ""Response"": ""Let’s discuss how we can work together!"", ""Latency (s)"": 3.09}]","{""Mode"": ""naive"", ""Response"": ""Hi there! I'm glad you called."", ""Latency (s)"": 3.09, ""Comment"": ""These answers show no knowledge that Todd has physical or speech disabilities. ""}",2025-02-25T21:23:04.947814Z
