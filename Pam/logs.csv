@@ -2728,3 +2728,21 @@ Conversation History:
 🧑 User: What kind of help do you need with toileting? 
 
 User Query: What kind of help do you need with toileting? ","[{""Mode"": ""naive"", ""Response"": ""I need assistance with getting on and off the toilet."", ""Latency (s)"": 2.63}, {""Mode"": ""naive"", ""Response"": ""Help cleaning myself is necessary after using the toilet."", ""Latency (s)"": 2.63}, {""Mode"": ""naive"", ""Response"": ""I need reminders and support during toileting."", ""Latency (s)"": 2.63}, {""Mode"": ""naive"", ""Response"": ""It's challenging, so I rely on my attendants for help."", ""Latency (s)"": 2.63}]","{""Mode"": ""naive"", ""Response"": ""I need assistance with getting on and off the toilet."", ""Latency (s)"": 2.63, ""Comment"": ""All of these responses could be relevant to Todd or someone else with physical disabilities. ""}",2025-02-25T19:35:13.022810Z
+Pam,,What types of personal care to you need help with?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑🏻 Todd: Hi there! I'm glad you called.
+🧑 User: Hello, I am calling in response to your add for a paid attendant.
+🧑 User: What type of help do you need?
+🧑🏻 Todd: I need assistance with daily tasks and personal care.
+🧑 User: What types of personal care to you need help with?
+
+User Query: What types of personal care to you need help with?","[{""Mode"": ""naive"", ""Response"": ""I need help with dressing and grooming."", ""Latency (s)"": 2.2}, {""Mode"": ""naive"", ""Response"": ""Assistance with bathing is important for me."", ""Latency (s)"": 2.2}, {""Mode"": ""naive"", ""Response"": ""I require support managing my medications."", ""Latency (s)"": 2.2}, {""Mode"": ""naive"", ""Response"": ""Help with meal preparation and feeding is essential."", ""Latency (s)"": 2.2}]","{""Mode"": ""naive"", ""Response"": ""I need help with dressing and grooming."", ""Latency (s)"": 2.2, ""Comment"": ""Again these responses show awareness of disability. ""}",2025-02-25T21:33:48.878797Z
