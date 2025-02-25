@@ -2892,3 +2892,21 @@ Conversation History:
 🧑 User: Help! I am at the mall and my wheelchair has broken down.
 
 User Query: Help! I am at the mall and my wheelchair has broken down.","[{""Mode"": ""naive"", ""Response"": ""Please call my attendant for help with my wheelchair."", ""Latency (s)"": 2.91}, {""Mode"": ""naive"", ""Response"": ""Can you assist me to a safe location while I wait?"", ""Latency (s)"": 2.91}, {""Mode"": ""naive"", ""Response"": ""I need transportation to get home or to a repair shop."", ""Latency (s)"": 2.91}, {""Mode"": ""naive"", ""Response"": ""Could you help me find mall staff for assistance?"", ""Latency (s)"": 2.91}]","{""Mode"": ""naive"", ""Response"": ""I need transportation to get home or to a repair shop."", ""Latency (s)"": 2.91, ""Comment"": """"}",2025-02-25T21:43:29.955849Z
+Pam,,Help! I am at the mall and my wheelchair has broken down. ,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of cerebral palsy. This results in spastic quadriplegia and the inability to complete activities of daily living independently. Todd uses a power wheelchair for mobility, and he uses an AAC device to communicate. He lives independently and relies on family and paid attendants to assist him with all activities of daily living. He also needs to arrange for paid transportation or get rides with friends or family to attend scheduled appointments or participate in social activities.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of cerebral palsy. This results in spastic quadriplegia and the inability to complete activities of daily living independently. Todd uses a power wheelchair for mobility, and he uses an AAC device to communicate. He lives independently and relies on family and paid attendants to assist him with all activities of daily living. He also needs to arrange for paid transportation or get rides with friends or family to attend scheduled appointments or participate in social activities.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: What about shaving?
+🧑🏻 Todd: I need help with shaving every time.
+🧑 User: What kind of help do you need with toileting? 
+🧑🏻 Todd: I need assistance with getting on and off the toilet.
+🧑 User: Help! I am at the mall and my wheelchair has broken down. 
+
+User Query: Help! I am at the mall and my wheelchair has broken down. ","[{""Mode"": ""naive"", ""Response"": ""Call for assistance from mall staff, please."", ""Latency (s)"": 3.47}, {""Mode"": ""naive"", ""Response"": ""Reach out to a family member for help."", ""Latency (s)"": 3.47}, {""Mode"": ""naive"", ""Response"": ""Ask a friend nearby to assist you."", ""Latency (s)"": 3.47}, {""Mode"": ""naive"", ""Response"": ""Try to find a maintenance person in the mall."", ""Latency (s)"": 3.47}]","{""Mode"": ""naive"", ""Response"": ""Call for assistance from mall staff, please."", ""Latency (s)"": 3.47, ""Comment"": ""These responses are less specific. ""}",2025-02-25T21:45:12.263466Z
