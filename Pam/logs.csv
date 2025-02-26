@@ -4448,3 +4448,17 @@ Conversation History:
 🧑 User: I am here to help you get ready for your day.
 
 User Query: I am here to help you get ready for your day.","[{""Mode"": ""naive"", ""Response"": ""Thank you! I appreciate your assistance."", ""Latency (s)"": 3.78}, {""Mode"": ""naive"", ""Response"": ""I need help with my morning routine."", ""Latency (s)"": 3.78}, {""Mode"": ""naive"", ""Response"": ""Can we start with breakfast, please?"", ""Latency (s)"": 3.78}, {""Mode"": ""naive"", ""Response"": ""Let's make sure I have everything I need."", ""Latency (s)"": 3.78}]","{""Mode"": ""naive"", ""Response"": ""I need help with my morning routine."", ""Latency (s)"": 3.78, ""Comment"": """"}",2025-02-26T19:48:15.637427Z
+Pam,,I am here to help you get ready for your day.,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of cerebral palsy. This results in spastic quadriplegia and the inability to complete activities of daily living independently. Todd uses a power wheelchair for mobility, and he uses an AAC device to communicate. He lives independently and relies on family and paid attendants to assist him with all activities of daily living. He also needs to arrange for paid transportation or get rides with friends or family to attend scheduled appointments or participate in social activities.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of cerebral palsy. This results in spastic quadriplegia and the inability to complete activities of daily living independently. Todd uses a power wheelchair for mobility, and he uses an AAC device to communicate. He lives independently and relies on family and paid attendants to assist him with all activities of daily living. He also needs to arrange for paid transportation or get rides with friends or family to attend scheduled appointments or participate in social activities.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: I am here to help you get ready for your day.
+
+User Query: I am here to help you get ready for your day.","[{""Mode"": ""naive"", ""Response"": ""Thank you! Your help means a lot to me."", ""Latency (s)"": 2.46}, {""Mode"": ""naive"", ""Response"": ""I appreciate your support in getting ready."", ""Latency (s)"": 2.46}, {""Mode"": ""naive"", ""Response"": ""I couldn't do it without your assistance."", ""Latency (s)"": 2.46}, {""Mode"": ""naive"", ""Response"": ""I always value your help each day."", ""Latency (s)"": 2.46}]","{""Mode"": ""naive"", ""Response"": ""Thank you! Your help means a lot to me."", ""Latency (s)"": 2.46, ""Comment"": """"}",2025-02-26T19:51:14.934180Z
