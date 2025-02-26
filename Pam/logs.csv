@@ -5022,3 +5022,21 @@ Conversation History:
 🧑 User: What needs done around the house today?
 
 User Query: What needs done around the house today?","[{""Mode"": ""naive"", ""Response"": ""I need help with laundry and cleaning surfaces."", ""Latency (s)"": 2.56}, {""Mode"": ""naive"", ""Response"": ""Cooking meals is a big task I require assistance with."", ""Latency (s)"": 2.56}, {""Mode"": ""naive"", ""Response"": ""I also need help organizing my living space."", ""Latency (s)"": 2.56}, {""Mode"": ""naive"", ""Response"": ""Setting up my AAC device requires some assistance too."", ""Latency (s)"": 2.56}]","{""Mode"": ""naive"", ""Response"": ""I also need help organizing my living space."", ""Latency (s)"": 2.56, ""Comment"": """"}",2025-02-26T20:16:43.377654Z
+Pam,,What needs done around the house today? ,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑🏻 Todd: Thank you! I really appreciate your help.
+🧑 User: What kind of help do you need with eating your breakfast? 
+🧑🏻 Todd: I'd like some assistance cutting my food.
+🧑 User: Do you have any medical appointments today?
+🧑 User: What needs done around the house today? 
+
+User Query: What needs done around the house today? ","[{""Mode"": ""naive"", ""Response"": ""The ramp needs shoveling; it's covered in snow."", ""Latency (s)"": 2.64}, {""Mode"": ""naive"", ""Response"": ""I could use help organizing my room, too."", ""Latency (s)"": 2.64}, {""Mode"": ""naive"", ""Response"": ""Laundry is piling up; we should tackle that."", ""Latency (s)"": 2.64}, {""Mode"": ""naive"", ""Response"": ""The kitchen could use some tidying as well."", ""Latency (s)"": 2.64}]","{""Mode"": ""naive"", ""Response"": ""Laundry is piling up; we should tackle that."", ""Latency (s)"": 2.64, ""Comment"": """"}",2025-02-26T20:18:05.673430Z
