@@ -5824,3 +5824,21 @@ Conversation History:
 🧑 User: hire attendant
 
 User Query: hire attendant","[{""Mode"": ""naive"", ""Response"": ""I need attendants for daily support in my life."", ""Latency (s)"": 2.59}, {""Mode"": ""naive"", ""Response"": ""Hiring attendants helps me maintain my independence."", ""Latency (s)"": 2.59}, {""Mode"": ""naive"", ""Response"": ""They assist me with activities I cannot do alone."", ""Latency (s)"": 2.59}, {""Mode"": ""naive"", ""Response"": ""Finding reliable attendants is important for my routine."", ""Latency (s)"": 2.59}]","{""Mode"": ""naive"", ""Response"": ""I need attendants for daily support in my life."", ""Latency (s)"": 2.59, ""Comment"": """"}",2025-02-26T21:45:26.060450Z
+Pam,,help meeting participation,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: What needs done around the house today? 
+🧑🏻 Todd: Laundry is piling up; we should tackle that.
+🧑 User: help wheelchair
+🧑🏻 Todd: I appreciate the help; my wheelchair needs adjustments.
+🧑 User: help meeting participation
+
+User Query: help meeting participation","[{""Mode"": ""naive"", ""Response"": ""I can guide the discussion; I love sharing ideas."", ""Latency (s)"": 2.34}, {""Mode"": ""naive"", ""Response"": ""Just let me know the topics; I'm ready!"", ""Latency (s)"": 2.34}, {""Mode"": ""naive"", ""Response"": ""I'm here for support; let's communicate effectively."", ""Latency (s)"": 2.34}, {""Mode"": ""naive"", ""Response"": ""I enjoy being part of meetings; it energizes me."", ""Latency (s)"": 2.34}]","{""Mode"": ""naive"", ""Response"": ""I can guide the discussion; I love sharing ideas."", ""Latency (s)"": 2.34, ""Comment"": """"}",2025-02-26T21:45:57.643188Z
