@@ -4636,3 +4636,17 @@ Conversation History:
 🧑 User: What kind of help do you need with eating your breakfast? 
 
 User Query: What kind of help do you need with eating your breakfast? ","[{""Mode"": ""naive"", ""Response"": ""I need assistance with cutting my food."", ""Latency (s)"": 2.28}, {""Mode"": ""naive"", ""Response"": ""I appreciate help with bringing food to my mouth."", ""Latency (s)"": 2.28}, {""Mode"": ""naive"", ""Response"": ""Help with pouring my drink would be great."", ""Latency (s)"": 2.28}, {""Mode"": ""naive"", ""Response"": ""I rely on you for overall guidance during meals."", ""Latency (s)"": 2.28}]","{""Mode"": ""naive"", ""Response"": ""I appreciate help with bringing food to my mouth."", ""Latency (s)"": 2.28, ""Comment"": """"}",2025-02-26T19:57:22.250606Z
+Pam,,I am here to help you get ready for your day. ,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: I am here to help you get ready for your day. 
+
+User Query: I am here to help you get ready for your day. ","[{""Mode"": ""naive"", ""Response"": ""Thank you! I really appreciate your help."", ""Latency (s)"": 2.3}, {""Mode"": ""naive"", ""Response"": ""You're the best for coming over today."", ""Latency (s)"": 2.3}, {""Mode"": ""naive"", ""Response"": ""I'm glad you're here to assist me."", ""Latency (s)"": 2.3}, {""Mode"": ""naive"", ""Response"": ""I couldn't manage without your support."", ""Latency (s)"": 2.3}]","{""Mode"": ""naive"", ""Response"": ""Thank you! I really appreciate your help."", ""Latency (s)"": 2.3, ""Comment"": """"}",2025-02-26T19:57:50.370904Z
