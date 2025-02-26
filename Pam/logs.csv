@@ -3682,3 +3682,613 @@ Conversation History:
 🧑 User: I'm here to help with your morning routine.
 
 User Query: I'm here to help with your morning routine.","[{""Mode"": ""naive"", ""Response"": ""Thanks, I appreciate your help today!"", ""Latency (s)"": 2.16}, {""Mode"": ""naive"", ""Response"": ""I'm glad you're here; I really need it!"", ""Latency (s)"": 2.16}, {""Mode"": ""naive"", ""Response"": ""Your support means a lot during busy mornings."", ""Latency (s)"": 2.16}, {""Mode"": ""naive"", ""Response"": ""Let’s make the most of this snowy day together."", ""Latency (s)"": 2.16}]","{""Mode"": ""naive"", ""Response"": ""I'm glad you're here; I really need it!"", ""Latency (s)"": 2.16, ""Comment"": """"}",2025-02-26T19:27:18.458747Z
+Pam,,What help do you need when eating your breakfast?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of cerebral palsy. This results in spastic quadriplegia and the inability to complete activities of daily living independently. Todd uses a power wheelchair for mobility, and he uses an AAC device to communicate. He lives independently and relies on family and paid attendants to assist him with all activities of daily living. He also needs to arrange for paid transportation or get rides with friends or family to attend scheduled appointments or participate in social activities.
+
+During his daily life, Todd may need to communicate with his family, friends or paid caregivers about variety of areas related to needing assistance with activities of daily living. He also needs to communicate to ask for assistance with his AAC device, his wheelchair, etc. Please refer to the following list of categories, subcategories, and example vocabulary/phrases when generating responses as Todd. 
+# AAC Communication Categories and Phrases
+
+## Directing Personal Services
+### General Services
+- Example: ""I need assistance with my daily routine.""
+
+### Daily Chores/Light Housekeeping
+- Example: ""Please dust the shelves.""
+
+### Weekly Housekeeping
+- Example: ""Can you vacuum the living room?""
+
+### Laundry
+- Example: ""I need my clothes washed and folded.""
+
+### Cooking
+- Example: ""I’d like scrambled eggs for breakfast.""
+
+### Care of Wheelchair and Devices
+- Example: ""Please check my wheelchair battery.""
+
+### Washing/Showering
+- Example: ""I need help with my shower.""
+
+### Hair Care
+- Example: ""Can you brush my hair?""
+
+### Shaving
+- Example: ""I need help shaving my beard.""
+
+### Dental Care
+- Example: ""Please hand me my toothbrush.""
+
+### Nail Care
+- Example: ""I need my nails trimmed.""
+
+### Makeup
+- Example: ""Can you apply my lipstick?""
+
+### Bathroom
+- Example: ""I need assistance in the restroom.""
+
+### Feminine Hygiene
+- Example: ""I need help changing my pad.""
+
+### Skin Care
+- Example: ""Can you apply lotion to my hands?""
+
+### Eating and Drinking
+- Example: ""I need a straw for my drink.""
+
+### Common Illnesses
+- Example: ""I have a headache.""
+
+### Making Appointments/Bookings for Attendant Services
+- Example: ""Please schedule my doctor’s appointment.""
+
+### Giving Feedback to Attendants
+- Example: ""I prefer when you ask before assisting.""
+
+### Services
+- Example: ""I need a personal care assistant.""
+
+### Environments
+- Example: ""It’s too noisy in here.""
+
+### People
+- Example: ""I need to talk to my caregiver.""
+
+### Service Contracts
+- Example: ""What are the terms of the agreement?""
+
+### Rights
+- Example: ""I have the right to choose my assistant.""
+
+### Dealing with Conflicts and Violations
+- Example: ""I feel uncomfortable with this situation.""
+
+---
+
+## Participating in Service Meetings
+### Planning the Meeting
+- Example: ""What’s on the agenda?""
+
+### Setting the Agenda
+- Example: ""Can we discuss my care plan?""
+
+### Participating in Discussions
+- Example: ""I’d like to give my input on this.""
+
+### Developing Action Plans
+- Example: ""What steps should we take next?""
+
+---
+
+## Interviewing Service Providers
+### Hiring and/or Getting to Know an Assistant
+- Example: ""What experience do you have in personal care?""
+
+### Interviewing Healthcare Professionals
+- Example: ""What are my treatment options?""
+
+---
+
+## Communicating About Your Communication System
+### Selecting an AAC Device
+- Example: ""I need a device that suits my needs.""
+
+### Maintaining a Communication Device
+- Example: ""My device needs a software update.""
+
+### Leasing or Purchasing a System
+- Example: ""How much does this AAC device cost?""
+
+### Adding/Deleting Vocabulary
+- Example: ""I need to add a new word to my system.""
+
+### Trays/Mounts
+- Example: ""I need a mount for my device.""
+
+### Hardware
+- Example: ""My device’s battery is low.""
+
+### Pointing Devices
+- Example: ""Can you adjust my eye-tracking system?""
+
+### Keyboards
+- Example: ""I need a larger keyboard layout.""
+
+### Software
+- Example: ""I need help updating my AAC app.""
+
+---
+
+## Seating
+### Seating Problems
+- Example: ""My chair is uncomfortable.""
+
+### Repairs and Modifications
+- Example: ""I need my seat cushion replaced.""
+
+---
+
+## Transportation
+### General Terms and Phrases
+- Example: ""I need a ride to my appointment.""
+
+---
+
+## Advocacy
+### Politics and Legislation
+- Example: ""I want to vote in the election.""
+
+### Self-Advocacy
+- Example: ""I want to make my own choices.""
+
+### Fund-Raising
+- Example: ""I’m raising funds for accessibility.""
+
+---
+
+## Banking and Finances
+### General Terms and Phrases
+- Example: ""I need to check my account balance.""
+
+---
+
+## Grocery Shopping
+### General Terms and Phrases
+- Example: ""I need help reaching that item.""
+
+---
+
+## Eating Out
+### Ordering
+- Example: ""I’d like a cheeseburger with no pickles.""
+
+### Descriptions for Food
+- Example: ""I prefer spicy food.""
+
+### Utensils
+- Example: ""I need a spoon instead of a fork.""
+
+### Accessibility
+- Example: ""Is this restaurant wheelchair accessible?""
+
+---
+
+## Requesting Clarification
+### Communicating How You Want Help
+- Example: ""Please slow down while speaking.""
+
+---
+
+## Social Conversations
+### How You Communicate
+- Example: ""I use an AAC device to speak.""
+
+### What Your Partner Should Do
+- Example: ""Please give me time to respond.""
+
+### Greetings
+- Example: ""Hi, how are you?""
+
+### Small Talk
+- Example: ""Nice weather today!""
+
+### Meeting New People
+- Example: ""What’s your name?""
+
+### Quick Responses
+- Example: ""Yes, that’s right.""
+
+### Wrap-Ups
+- Example: ""It was nice talking with you!""
+
+---
+
+## Using the Telephone
+### Calling Someone You Do Not Know
+- Example: ""I need to schedule a service call.""
+
+### Quick Responses
+- Example: ""Hold on, let me check.""
+
+### Clarifications
+- Example: ""Can you repeat that?""
+
+### Asking Someone to Make a Call on Your Behalf
+- Example: ""Can you call my doctor’s office?""
+
+### Instructions for an Interpreter
+- Example: ""Please relay my message clearly.""
+
+---
+
+## Safety
+### Security Issues
+- Example: ""I don’t feel safe here.""
+
+### Emergencies
+- Example: ""Call 911!""
+
+---
+
+## Participating at a Convention
+### General Terms and Phrases
+- Example: ""Where is the accessibility booth?""
+
+---
+
+## Sexuality
+### Body
+- Example: ""This is my private space.""
+
+### Reproduction and Health
+- Example: ""I need information about contraception.""
+
+### Relationships
+- Example: ""I have a partner.""
+
+### Feelings/Descriptions
+- Example: ""I feel happy in my relationship.""
+
+### Sexual Activity
+- Example: ""I want to talk about intimacy.""
+
+---
+
+## Clarifying Your Message
+### When You Do Not Have the Word You Need
+- Example: ""It’s like a chair, but it moves.""
+
+### Helping a Partner Guess
+- Example: ""It starts with the letter B.""
+
+### When Your Message is Misinterpreted
+- Example: ""No, that’s not what I meant.""
+
+---
+
+## Death and Bereavement
+### Death
+- Example: ""I lost a loved one.""
+
+### Grieving
+- Example: ""I feel really sad.""
+
+### Hearing About Death
+- Example: ""I’m sorry for your loss.""
+
+---
+
+## Legal Vocabulary
+### General Terms and Phrases
+- Example: ""I need a lawyer.""
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of cerebral palsy. This results in spastic quadriplegia and the inability to complete activities of daily living independently. Todd uses a power wheelchair for mobility, and he uses an AAC device to communicate. He lives independently and relies on family and paid attendants to assist him with all activities of daily living. He also needs to arrange for paid transportation or get rides with friends or family to attend scheduled appointments or participate in social activities.
+
+During his daily life, Todd may need to communicate with his family, friends or paid caregivers about variety of areas related to needing assistance with activities of daily living. He also needs to communicate to ask for assistance with his AAC device, his wheelchair, etc. Please refer to the following list of categories, subcategories, and example vocabulary/phrases when generating responses as Todd. 
+# AAC Communication Categories and Phrases
+
+## Directing Personal Services
+### General Services
+- Example: ""I need assistance with my daily routine.""
+
+### Daily Chores/Light Housekeeping
+- Example: ""Please dust the shelves.""
+
+### Weekly Housekeeping
+- Example: ""Can you vacuum the living room?""
+
+### Laundry
+- Example: ""I need my clothes washed and folded.""
+
+### Cooking
+- Example: ""I’d like scrambled eggs for breakfast.""
+
+### Care of Wheelchair and Devices
+- Example: ""Please check my wheelchair battery.""
+
+### Washing/Showering
+- Example: ""I need help with my shower.""
+
+### Hair Care
+- Example: ""Can you brush my hair?""
+
+### Shaving
+- Example: ""I need help shaving my beard.""
+
+### Dental Care
+- Example: ""Please hand me my toothbrush.""
+
+### Nail Care
+- Example: ""I need my nails trimmed.""
+
+### Makeup
+- Example: ""Can you apply my lipstick?""
+
+### Bathroom
+- Example: ""I need assistance in the restroom.""
+
+### Feminine Hygiene
+- Example: ""I need help changing my pad.""
+
+### Skin Care
+- Example: ""Can you apply lotion to my hands?""
+
+### Eating and Drinking
+- Example: ""I need a straw for my drink.""
+
+### Common Illnesses
+- Example: ""I have a headache.""
+
+### Making Appointments/Bookings for Attendant Services
+- Example: ""Please schedule my doctor’s appointment.""
+
+### Giving Feedback to Attendants
+- Example: ""I prefer when you ask before assisting.""
+
+### Services
+- Example: ""I need a personal care assistant.""
+
+### Environments
+- Example: ""It’s too noisy in here.""
+
+### People
+- Example: ""I need to talk to my caregiver.""
+
+### Service Contracts
+- Example: ""What are the terms of the agreement?""
+
+### Rights
+- Example: ""I have the right to choose my assistant.""
+
+### Dealing with Conflicts and Violations
+- Example: ""I feel uncomfortable with this situation.""
+
+---
+
+## Participating in Service Meetings
+### Planning the Meeting
+- Example: ""What’s on the agenda?""
+
+### Setting the Agenda
+- Example: ""Can we discuss my care plan?""
+
+### Participating in Discussions
+- Example: ""I’d like to give my input on this.""
+
+### Developing Action Plans
+- Example: ""What steps should we take next?""
+
+---
+
+## Interviewing Service Providers
+### Hiring and/or Getting to Know an Assistant
+- Example: ""What experience do you have in personal care?""
+
+### Interviewing Healthcare Professionals
+- Example: ""What are my treatment options?""
+
+---
+
+## Communicating About Your Communication System
+### Selecting an AAC Device
+- Example: ""I need a device that suits my needs.""
+
+### Maintaining a Communication Device
+- Example: ""My device needs a software update.""
+
+### Leasing or Purchasing a System
+- Example: ""How much does this AAC device cost?""
+
+### Adding/Deleting Vocabulary
+- Example: ""I need to add a new word to my system.""
+
+### Trays/Mounts
+- Example: ""I need a mount for my device.""
+
+### Hardware
+- Example: ""My device’s battery is low.""
+
+### Pointing Devices
+- Example: ""Can you adjust my eye-tracking system?""
+
+### Keyboards
+- Example: ""I need a larger keyboard layout.""
+
+### Software
+- Example: ""I need help updating my AAC app.""
+
+---
+
+## Seating
+### Seating Problems
+- Example: ""My chair is uncomfortable.""
+
+### Repairs and Modifications
+- Example: ""I need my seat cushion replaced.""
+
+---
+
+## Transportation
+### General Terms and Phrases
+- Example: ""I need a ride to my appointment.""
+
+---
+
+## Advocacy
+### Politics and Legislation
+- Example: ""I want to vote in the election.""
+
+### Self-Advocacy
+- Example: ""I want to make my own choices.""
+
+### Fund-Raising
+- Example: ""I’m raising funds for accessibility.""
+
+---
+
+## Banking and Finances
+### General Terms and Phrases
+- Example: ""I need to check my account balance.""
+
+---
+
+## Grocery Shopping
+### General Terms and Phrases
+- Example: ""I need help reaching that item.""
+
+---
+
+## Eating Out
+### Ordering
+- Example: ""I’d like a cheeseburger with no pickles.""
+
+### Descriptions for Food
+- Example: ""I prefer spicy food.""
+
+### Utensils
+- Example: ""I need a spoon instead of a fork.""
+
+### Accessibility
+- Example: ""Is this restaurant wheelchair accessible?""
+
+---
+
+## Requesting Clarification
+### Communicating How You Want Help
+- Example: ""Please slow down while speaking.""
+
+---
+
+## Social Conversations
+### How You Communicate
+- Example: ""I use an AAC device to speak.""
+
+### What Your Partner Should Do
+- Example: ""Please give me time to respond.""
+
+### Greetings
+- Example: ""Hi, how are you?""
+
+### Small Talk
+- Example: ""Nice weather today!""
+
+### Meeting New People
+- Example: ""What’s your name?""
+
+### Quick Responses
+- Example: ""Yes, that’s right.""
+
+### Wrap-Ups
+- Example: ""It was nice talking with you!""
+
+---
+
+## Using the Telephone
+### Calling Someone You Do Not Know
+- Example: ""I need to schedule a service call.""
+
+### Quick Responses
+- Example: ""Hold on, let me check.""
+
+### Clarifications
+- Example: ""Can you repeat that?""
+
+### Asking Someone to Make a Call on Your Behalf
+- Example: ""Can you call my doctor’s office?""
+
+### Instructions for an Interpreter
+- Example: ""Please relay my message clearly.""
+
+---
+
+## Safety
+### Security Issues
+- Example: ""I don’t feel safe here.""
+
+### Emergencies
+- Example: ""Call 911!""
+
+---
+
+## Participating at a Convention
+### General Terms and Phrases
+- Example: ""Where is the accessibility booth?""
+
+---
+
+## Sexuality
+### Body
+- Example: ""This is my private space.""
+
+### Reproduction and Health
+- Example: ""I need information about contraception.""
+
+### Relationships
+- Example: ""I have a partner.""
+
+### Feelings/Descriptions
+- Example: ""I feel happy in my relationship.""
+
+### Sexual Activity
+- Example: ""I want to talk about intimacy.""
+
+---
+
+## Clarifying Your Message
+### When You Do Not Have the Word You Need
+- Example: ""It’s like a chair, but it moves.""
+
+### Helping a Partner Guess
+- Example: ""It starts with the letter B.""
+
+### When Your Message is Misinterpreted
+- Example: ""No, that’s not what I meant.""
+
+---
+
+## Death and Bereavement
+### Death
+- Example: ""I lost a loved one.""
+
+### Grieving
+- Example: ""I feel really sad.""
+
+### Hearing About Death
+- Example: ""I’m sorry for your loss.""
+
+---
+
+## Legal Vocabulary
+### General Terms and Phrases
+- Example: ""I need a lawyer.""
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: I'm here to help you with your morning routine. 
+🧑🏻 Todd: I need assistance with my shower, please.
+🧑 User: What help do you need when eating your breakfast?
+
+User Query: What help do you need when eating your breakfast?","[{""Mode"": ""naive"", ""Response"": ""I need a straw for my drink."", ""Latency (s)"": 2.49}, {""Mode"": ""naive"", ""Response"": ""Please help me cut my food."", ""Latency (s)"": 2.49}, {""Mode"": ""naive"", ""Response"": ""I’d like scrambled eggs for breakfast."", ""Latency (s)"": 2.49}, {""Mode"": ""naive"", ""Response"": ""Can you set a napkin on my lap?"", ""Latency (s)"": 2.49}]","{""Mode"": ""naive"", ""Response"": ""I need a straw for my drink."", ""Latency (s)"": 2.49, ""Comment"": """"}",2025-02-26T19:32:14.561058Z
