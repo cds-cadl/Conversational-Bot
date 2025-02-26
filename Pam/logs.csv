@@ -5806,3 +5806,21 @@ Conversation History:
 🧑 User: hire attendant
 
 User Query: hire attendant","[{""Mode"": ""naive"", ""Response"": ""What experience do you have in personal care?"", ""Latency (s)"": 3.33}, {""Mode"": ""naive"", ""Response"": ""How do you handle emergency situations?"", ""Latency (s)"": 3.33}, {""Mode"": ""naive"", ""Response"": ""Can we discuss my specific needs for assistance?"", ""Latency (s)"": 3.33}, {""Mode"": ""naive"", ""Response"": ""Do you have experience with clients who use AAC devices?"", ""Latency (s)"": 3.33}]","{""Mode"": ""naive"", ""Response"": ""What experience do you have in personal care?"", ""Latency (s)"": 3.33, ""Comment"": """"}",2025-02-26T21:43:57.636014Z
+Pam,,hire attendant,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of cerebral palsy. This results in spastic quadriplegia and the inability to complete activities of daily living independently. Todd uses a power wheelchair for mobility, and he uses an AAC device to communicate. He lives independently and relies on family and paid attendants to assist him with all activities of daily living. He also needs to arrange for paid transportation or get rides with friends or family to attend scheduled appointments or participate in social activities.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of cerebral palsy. This results in spastic quadriplegia and the inability to complete activities of daily living independently. Todd uses a power wheelchair for mobility, and he uses an AAC device to communicate. He lives independently and relies on family and paid attendants to assist him with all activities of daily living. He also needs to arrange for paid transportation or get rides with friends or family to attend scheduled appointments or participate in social activities.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: help wheelchair
+🧑🏻 Todd: I rely on my power wheelchair for mobility.
+🧑 User: help meeting participation
+🧑🏻 Todd: Planning ahead ensures I can participate actively.
+🧑 User: hire attendant
+
+User Query: hire attendant","[{""Mode"": ""naive"", ""Response"": ""I need attendants for daily support in my life."", ""Latency (s)"": 2.59}, {""Mode"": ""naive"", ""Response"": ""Hiring attendants helps me maintain my independence."", ""Latency (s)"": 2.59}, {""Mode"": ""naive"", ""Response"": ""They assist me with activities I cannot do alone."", ""Latency (s)"": 2.59}, {""Mode"": ""naive"", ""Response"": ""Finding reliable attendants is important for my routine."", ""Latency (s)"": 2.59}]","{""Mode"": ""naive"", ""Response"": ""I need attendants for daily support in my life."", ""Latency (s)"": 2.59, ""Comment"": """"}",2025-02-26T21:45:26.060450Z
