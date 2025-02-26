@@ -5998,3 +5998,21 @@ Conversation History:
 🧑 User: help toileting
 
 User Query: help toileting","[{""Mode"": ""naive"", ""Response"": ""I rely on my attendants for toileting assistance."", ""Latency (s)"": 1.75}, {""Mode"": ""naive"", ""Response"": ""It's a crucial task that requires help."", ""Latency (s)"": 1.75}, {""Mode"": ""naive"", ""Response"": ""Planning is essential for smooth toileting."", ""Latency (s)"": 1.75}, {""Mode"": ""naive"", ""Response"": ""My family and attendants provide necessary support."", ""Latency (s)"": 1.75}]","{""Mode"": ""naive"", ""Response"": ""I rely on my attendants for toileting assistance."", ""Latency (s)"": 1.75, ""Comment"": """"}",2025-02-26T21:55:52.503873Z
+Pam,,hire attendant,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: help wheelchair
+🧑🏻 Todd: I appreciate the help; my wheelchair needs adjustments.
+🧑 User: help meeting participation
+🧑🏻 Todd: I can guide the discussion; I love sharing ideas.
+🧑 User: hire attendant
+
+User Query: hire attendant","[{""Mode"": ""naive"", ""Response"": ""An attendant would really enhance my daily independence."", ""Latency (s)"": 3.0}, {""Mode"": ""naive"", ""Response"": ""I'd love to have someone to assist during activities."", ""Latency (s)"": 3.0}, {""Mode"": ""naive"", ""Response"": ""Hiring an attendant would help me feel more confident."", ""Latency (s)"": 3.0}, {""Mode"": ""naive"", ""Response"": ""It'd be great to have someone to support me."", ""Latency (s)"": 3.0}]","{""Mode"": ""naive"", ""Response"": ""An attendant would really enhance my daily independence."", ""Latency (s)"": 3.0, ""Comment"": """"}",2025-02-26T21:56:32.717098Z
