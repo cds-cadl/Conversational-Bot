@@ -5476,3 +5476,21 @@ Conversation History:
 🧑 User: help wheelchair
 
 User Query: help wheelchair","[{""Mode"": ""naive"", ""Response"": ""Yes, my wheelchair needs maintenance; can you check it?"", ""Latency (s)"": 2.32}, {""Mode"": ""naive"", ""Response"": ""I need help adjusting my footrests, please."", ""Latency (s)"": 2.32}, {""Mode"": ""naive"", ""Response"": ""Can you assist me with transferring to my wheelchair?"", ""Latency (s)"": 2.32}, {""Mode"": ""naive"", ""Response"": ""My power wheelchair battery is low, I need assistance."", ""Latency (s)"": 2.32}]","{""Mode"": ""naive"", ""Response"": ""Yes, my wheelchair needs maintenance; can you check it?"", ""Latency (s)"": 2.32, ""Comment"": """"}",2025-02-26T21:14:35.832244Z
+Pam,,help wheelchair,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑🏻 Todd: I'd like some assistance cutting my food.
+🧑 User: Do you have any medical appointments today?
+🧑 User: What needs done around the house today? 
+🧑🏻 Todd: Laundry is piling up; we should tackle that.
+🧑 User: help wheelchair
+
+User Query: help wheelchair","[{""Mode"": ""naive"", ""Response"": ""I appreciate the help; my wheelchair needs adjustments."", ""Latency (s)"": 4.1}, {""Mode"": ""naive"", ""Response"": ""Can you assist me with getting up on the ramp?"", ""Latency (s)"": 4.1}, {""Mode"": ""naive"", ""Response"": ""I often need help reaching things in the kitchen."", ""Latency (s)"": 4.1}, {""Mode"": ""naive"", ""Response"": ""Thanks for offering! I need help with mobility today."", ""Latency (s)"": 4.1}]","{""Mode"": ""naive"", ""Response"": ""I appreciate the help; my wheelchair needs adjustments."", ""Latency (s)"": 4.1, ""Comment"": """"}",2025-02-26T21:17:06.005624Z
