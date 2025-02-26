@@ -5004,3 +5004,21 @@ Conversation History:
 🧑 User: What needs done around the house today? 
 
 User Query: What needs done around the house today? ","[{""Mode"": ""naive"", ""Response"": ""I need my clothes washed, please."", ""Latency (s)"": 2.43}, {""Mode"": ""naive"", ""Response"": ""Can you help me with cleaning the kitchen?"", ""Latency (s)"": 2.43}, {""Mode"": ""naive"", ""Response"": ""Please vacuum the floor; it needs attention."", ""Latency (s)"": 2.43}, {""Mode"": ""naive"", ""Response"": ""I need assistance with organizing my living space."", ""Latency (s)"": 2.43}]","{""Mode"": ""naive"", ""Response"": ""I need my clothes washed, please."", ""Latency (s)"": 2.43, ""Comment"": """"}",2025-02-26T20:15:41.384652Z
+Pam,,What needs done around the house today?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of cerebral palsy. This results in spastic quadriplegia and the inability to complete activities of daily living independently. Todd uses a power wheelchair for mobility, and he uses an AAC device to communicate. He lives independently and relies on family and paid attendants to assist him with all activities of daily living. He also needs to arrange for paid transportation or get rides with friends or family to attend scheduled appointments or participate in social activities.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story. Todd has a medical diagnosis of cerebral palsy. This results in spastic quadriplegia and the inability to complete activities of daily living independently. Todd uses a power wheelchair for mobility, and he uses an AAC device to communicate. He lives independently and relies on family and paid attendants to assist him with all activities of daily living. He also needs to arrange for paid transportation or get rides with friends or family to attend scheduled appointments or participate in social activities.
+
+
+
+Provide 4 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting  perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: What kind of help do you need with eating your breakfast? 
+🧑🏻 Todd: I appreciate help with bringing food to my mouth.
+🧑 User: Do you have any medical appointments today? 
+🧑🏻 Todd: Yes, I have a therapy appointment later.
+🧑 User: What needs done around the house today?
+
+User Query: What needs done around the house today?","[{""Mode"": ""naive"", ""Response"": ""I need help with laundry and cleaning surfaces."", ""Latency (s)"": 2.56}, {""Mode"": ""naive"", ""Response"": ""Cooking meals is a big task I require assistance with."", ""Latency (s)"": 2.56}, {""Mode"": ""naive"", ""Response"": ""I also need help organizing my living space."", ""Latency (s)"": 2.56}, {""Mode"": ""naive"", ""Response"": ""Setting up my AAC device requires some assistance too."", ""Latency (s)"": 2.56}]","{""Mode"": ""naive"", ""Response"": ""I also need help organizing my living space."", ""Latency (s)"": 2.56, ""Comment"": """"}",2025-02-26T20:16:43.377654Z
