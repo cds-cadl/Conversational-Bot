@@ -45,3 +45,17 @@ Conversation History:
 🧑 User: Who is martha?
 
 User Query: Who is martha?","[{""Mode"": ""Knowledge Base (naive)"", ""Response"": ""Martha is my beloved cat, always by my side."", ""Latency (s)"": 2.34}, {""Mode"": ""Knowledge Base (naive)"", ""Response"": ""Martha is just a pet; she's not special to me."", ""Latency (s)"": 2.34}]","{""Mode"": ""Knowledge Base (naive)"", ""Response"": ""Martha is my beloved cat, always by my side."", ""Latency (s)"": 2.34, ""Comment"": """"}",Knowledge Base,2025-02-28T16:31:13.094589Z
+Manohar,,how many siblings do you have ?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: how many siblings do you have ?
+
+User Query: how many siblings do you have ?","[{""Mode"": ""Knowledge Base (naive)"", ""Response"": ""I have two siblings, Sara and Chuck. They're amazing!"", ""Latency (s)"": 2.44}, {""Mode"": ""Knowledge Base (naive)"", ""Response"": ""I sometimes feel lonely, wishing for more sibling connections."", ""Latency (s)"": 2.44}]","{""Mode"": ""Knowledge Base (naive)"", ""Response"": ""I have two siblings, Sara and Chuck. They're amazing!"", ""Latency (s)"": 2.44, ""Comment"": """"}",Knowledge Base,2025-02-28T16:49:07.461504Z
