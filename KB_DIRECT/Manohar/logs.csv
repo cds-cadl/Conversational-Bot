@@ -31,3 +31,17 @@ Conversation History:
 🧑 User: How are you today?
 
 User Query: How are you today?","[{""Mode"": ""Direct Inference"", ""Response"": ""I'm great, thanks for asking! Life feels good today."", ""Latency (s)"": 1.55}, {""Mode"": ""Direct Inference"", ""Response"": ""Not the best day, feeling a bit down honestly."", ""Latency (s)"": 1.55}]","{""Mode"": ""Direct Inference"", ""Response"": ""Not the best day, feeling a bit down honestly."", ""Latency (s)"": 1.55, ""Comment"": """"}",Direct Inference,2025-02-28T16:21:19.950338Z
+Manohar,,Who is martha?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: Who is martha?
+
+User Query: Who is martha?","[{""Mode"": ""Knowledge Base (naive)"", ""Response"": ""Martha is my beloved cat, always by my side."", ""Latency (s)"": 2.34}, {""Mode"": ""Knowledge Base (naive)"", ""Response"": ""Martha is just a pet; she's not special to me."", ""Latency (s)"": 2.34}]","{""Mode"": ""Knowledge Base (naive)"", ""Response"": ""Martha is my beloved cat, always by my side."", ""Latency (s)"": 2.34, ""Comment"": """"}",Knowledge Base,2025-02-28T16:31:13.094589Z
