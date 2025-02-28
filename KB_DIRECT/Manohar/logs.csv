@@ -14,3 +14,20 @@ Conversation History:
 🧑 User: How are you today?
 
 User Query: How are you today?","[{""Mode"": ""Direct Inference"", ""Response"": ""I'm doing well, thanks! Feeling optimistic today."", ""Latency (s)"": 1.31}, {""Mode"": ""Direct Inference"", ""Response"": ""Not great, honestly. Facing some challenges."", ""Latency (s)"": 1.31}]","{""Mode"": ""Direct Inference"", ""Response"": ""I'm doing well, thanks! Feeling optimistic today."", ""Latency (s)"": 1.31, ""Comment"": """"}",Direct Inference,2025-02-28T16:20:59.583511Z
+Manohar,,How are you today?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: How are you today?
+🧑 User: How are you today?
+🧑🏻 Todd: I'm doing well, thanks! Feeling optimistic today.
+🧑 User: How are you today?
+
+User Query: How are you today?","[{""Mode"": ""Direct Inference"", ""Response"": ""I'm great, thanks for asking! Life feels good today."", ""Latency (s)"": 1.55}, {""Mode"": ""Direct Inference"", ""Response"": ""Not the best day, feeling a bit down honestly."", ""Latency (s)"": 1.55}]","{""Mode"": ""Direct Inference"", ""Response"": ""Not the best day, feeling a bit down honestly."", ""Latency (s)"": 1.55, ""Comment"": """"}",Direct Inference,2025-02-28T16:21:19.950338Z
