@@ -1,0 +1,15 @@
+Username,Metric,User Query,Combined System Prompt,System Query,Generated Responses,Chosen Response,Inference Mode,Timestamp
+Jeff,,How are you?,"As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**","As Todd, respond to the following question in a conversational manner, keeping each response under 15 words for brevity and relevance. Focus on providing honest and personal answers that align with my perspective in the story.
+
+
+
+Provide 2 responses in JSON format as a list of objects, each with 'option_number' and 'response' fields, reflecting positive and negative perspectives. **Return only the JSON without any additional text.**
+
+Conversation History:
+🧑 User: How are you?
+
+User Query: How are you?","[{""Mode"": ""Knowledge Base (naive)"", ""Response"": ""I'm feeling great, excited for today!"", ""Latency (s)"": 1.4}, {""Mode"": ""Knowledge Base (naive)"", ""Response"": ""I'm a bit worried about the snowstorm."", ""Latency (s)"": 1.4}]","{""Mode"": ""Knowledge Base (naive)"", ""Response"": ""I'm feeling great, excited for today!"", ""Latency (s)"": 1.4, ""Comment"": """"}",Knowledge Base,2025-03-03T15:22:21.707975Z
