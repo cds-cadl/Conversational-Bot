@@ -1,0 +1,2162 @@
+2024-12-10 20:43:41,213 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_154341.csv
+2024-12-10 20:43:41,213 [INFO] WebSocket connection accepted.
+2024-12-10 20:43:41,327 [INFO] WebSocket disconnected.
+2024-12-10 20:43:41,883 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_154341.csv
+2024-12-10 20:43:41,884 [INFO] WebSocket connection accepted.
+2024-12-10 20:43:45,025 [INFO] WebSocket disconnected.
+2024-12-10 20:43:46,528 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_154346.csv
+2024-12-10 20:43:46,529 [INFO] WebSocket connection accepted.
+2024-12-10 20:43:53,950 [INFO] Data received from OS-DPI at 2024-12-10 15:43:53.950393-05:00
+2024-12-10 20:43:53,950 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 20:43:53,950 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_154346.csv
+2024-12-10 20:44:00,307 [INFO] Data received from OS-DPI at 2024-12-10 15:44:00.307386-05:00
+2024-12-10 20:44:02,750 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 20:44:02,751 [INFO] Prompt received: hi how are you
+2024-12-10 20:44:02,752 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 20:44:02,752 [INFO] Sending payload to API: {'prompt': 'hi how are you', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 20:44:06,864 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 20:44:06,864 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm feeling happy today, excited for my weekend plans!", 'latency_seconds': 4.11}, {'response_type': 'negative', 'response_text': "I've been a bit frustrated with the group home's rules.", 'latency_seconds': 4.11}], 'total_latency_seconds': 4.11}
+2024-12-10 20:44:45,594 [INFO] Data received from OS-DPI at 2024-12-10 15:44:45.594744-05:00
+2024-12-10 20:44:45,595 [INFO] Received chosen response: I'm feeling happy today, excited for my weekend plans!
+2024-12-10 20:44:45,595 [ERROR] An error occurred: tuple index out of range
+2024-12-10 20:44:51,881 [INFO] Data received from OS-DPI at 2024-12-10 15:44:51.881487-05:00
+2024-12-10 20:44:51,881 [INFO] Received chosen response: I'm feeling happy today, excited for my weekend plans!
+2024-12-10 20:44:51,881 [ERROR] Chosen response received without a corresponding prompt.
+2024-12-10 20:45:21,365 [INFO] Data received from OS-DPI at 2024-12-10 15:45:21.365328-05:00
+2024-12-10 20:45:24,744 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 20:45:24,745 [INFO] Prompt received: what are your plans this weekend
+2024-12-10 20:45:24,745 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 20:45:24,745 [INFO] Sending payload to API: {'prompt': 'what are your plans this weekend', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 20:45:28,299 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 20:45:28,300 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I’m excited to spend time with Kelly.', 'latency_seconds': 3.55}, {'response_type': 'negative', 'response_text': 'I worry about her moving to Alaska.', 'latency_seconds': 3.55}], 'total_latency_seconds': 3.55}
+2024-12-10 20:45:55,370 [INFO] Data received from OS-DPI at 2024-12-10 15:45:55.370304-05:00
+2024-12-10 20:45:55,370 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 20:45:55,370 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_154346.csv
+2024-12-10 20:46:02,919 [INFO] Data received from OS-DPI at 2024-12-10 15:46:02.919593-05:00
+2024-12-10 20:46:02,919 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 20:46:02,920 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_154346.csv
+2024-12-10 20:47:27,356 [INFO] Data received from OS-DPI at 2024-12-10 15:47:27.356490-05:00
+2024-12-10 20:47:30,453 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 20:47:30,470 [INFO] Prompt received: why are you doing this
+2024-12-10 20:47:30,470 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 20:47:30,470 [INFO] Sending payload to API: {'prompt': 'why are you doing this', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 20:47:34,697 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 20:47:34,697 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm seeking independence and a better life.", 'latency_seconds': 4.22}, {'response_type': 'negative', 'response_text': 'Feeling trapped in the group home is hard.', 'latency_seconds': 4.22}], 'total_latency_seconds': 4.22}
+2024-12-10 20:47:40,546 [INFO] Data received from OS-DPI at 2024-12-10 15:47:40.546710-05:00
+2024-12-10 20:47:40,546 [INFO] Received chosen response: Feeling trapped in the group home is hard.
+2024-12-10 20:47:40,547 [ERROR] An error occurred: tuple index out of range
+2024-12-10 20:48:54,208 [INFO] WebSocket disconnected.
+2024-12-10 20:48:54,308 [INFO] httpx client closed.
+2024-12-10 20:48:54,312 [INFO] httpx client closed.
+2024-12-10 20:48:54,361 [INFO] httpx client closed.
+2024-12-10 20:48:54,362 [INFO] httpx client closed.
+2024-12-10 20:54:18,956 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_155418.csv
+2024-12-10 20:54:18,957 [INFO] WebSocket connection accepted.
+2024-12-10 20:54:26,296 [INFO] Data received from OS-DPI at 2024-12-10 15:54:26.296040-05:00
+2024-12-10 20:54:26,296 [ERROR] Unexpected prefix value: 
+2024-12-10 20:54:26,296 [INFO] Data received from OS-DPI at 2024-12-10 15:54:26.296531-05:00
+2024-12-10 20:54:26,296 [ERROR] Unexpected prefix value: 
+2024-12-10 20:54:26,301 [INFO] Data received from OS-DPI at 2024-12-10 15:54:26.301273-05:00
+2024-12-10 20:54:26,301 [ERROR] Unexpected prefix value: 
+2024-12-10 20:54:26,302 [INFO] Data received from OS-DPI at 2024-12-10 15:54:26.302849-05:00
+2024-12-10 20:54:26,303 [ERROR] Unexpected prefix value: 
+2024-12-10 20:54:38,140 [INFO] WebSocket disconnected.
+2024-12-10 20:56:37,927 [INFO] httpx client closed.
+2024-12-10 20:56:37,928 [INFO] httpx client closed.
+2024-12-10 20:56:37,977 [INFO] httpx client closed.
+2024-12-10 20:56:37,987 [INFO] httpx client closed.
+2024-12-10 20:58:09,679 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_155809.csv
+2024-12-10 20:58:09,679 [INFO] WebSocket connection accepted.
+2024-12-10 20:58:17,148 [INFO] WebSocket disconnected.
+2024-12-10 20:58:21,013 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_155821.csv
+2024-12-10 20:58:21,014 [INFO] WebSocket connection accepted.
+2024-12-10 20:58:40,097 [INFO] Data received from OS-DPI at 2024-12-10 15:58:40.097007-05:00
+2024-12-10 20:58:40,097 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 20:58:40,097 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_155821.csv
+2024-12-10 20:58:45,563 [INFO] Data received from OS-DPI at 2024-12-10 15:58:45.563464-05:00
+2024-12-10 20:58:48,250 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 20:58:48,267 [INFO] Prompt received: hi how are you doing
+2024-12-10 20:58:48,267 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 20:58:48,267 [INFO] Sending payload to API: {'prompt': 'hi how are you doing', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 20:58:50,097 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 20:58:50,098 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing great, thanks for asking!", 'latency_seconds': 1.83}, {'response_type': 'negative', 'response_text': 'Could be better, feeling a bit overwhelmed.', 'latency_seconds': 1.83}], 'total_latency_seconds': 1.83}
+2024-12-10 20:59:05,072 [INFO] Data received from OS-DPI at 2024-12-10 15:59:05.072249-05:00
+2024-12-10 20:59:05,072 [INFO] Received chosen response: I'm doing great, thanks for asking!
+2024-12-10 20:59:05,072 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_155821.csv
+2024-12-10 20:59:16,538 [INFO] Data received from OS-DPI at 2024-12-10 15:59:16.538470-05:00
+2024-12-10 20:59:19,413 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 20:59:19,415 [INFO] Prompt received: what's your plan this weekend
+2024-12-10 20:59:19,415 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 20:59:19,415 [INFO] Sending payload to API: {'prompt': "what's your plan this weekend", 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 20:59:21,410 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 20:59:21,411 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm planning to relax and enjoy nature.", 'latency_seconds': 1.99}, {'response_type': 'negative', 'response_text': 'I might have some chores to tackle instead.', 'latency_seconds': 1.99}], 'total_latency_seconds': 1.99}
+2024-12-10 20:59:28,566 [INFO] Data received from OS-DPI at 2024-12-10 15:59:28.566784-05:00
+2024-12-10 20:59:28,567 [INFO] Received chosen response: I might have some chores to tackle instead.
+2024-12-10 20:59:28,567 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_155821.csv
+2024-12-10 21:00:56,822 [INFO] Data received from OS-DPI at 2024-12-10 16:00:56.822004-05:00
+2024-12-10 21:00:59,686 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 21:00:59,687 [INFO] Prompt received: how did your weekend go
+2024-12-10 21:00:59,687 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 21:00:59,687 [INFO] Sending payload to API: {'prompt': 'how did your weekend go', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 21:01:07,380 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 21:01:07,380 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I had great fun with family at the campsite.', 'latency_seconds': 7.69}, {'response_type': 'negative', 'response_text': 'I missed Kelly while away.', 'latency_seconds': 7.69}], 'total_latency_seconds': 7.69}
+2024-12-10 21:01:14,555 [INFO] Data received from OS-DPI at 2024-12-10 16:01:14.555614-05:00
+2024-12-10 21:01:14,555 [INFO] Received chosen response: I had great fun with family at the campsite.
+2024-12-10 21:01:14,556 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_155821.csv
+2024-12-10 21:02:09,751 [INFO] Data received from OS-DPI at 2024-12-10 16:02:09.751367-05:00
+2024-12-10 21:02:12,114 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 21:02:12,116 [INFO] Prompt received: what's happening
+2024-12-10 21:02:12,116 [INFO] Sending prompt to API with Emotion: sad
+2024-12-10 21:02:12,116 [INFO] Sending payload to API: {'prompt': "what's happening", 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 21:02:14,070 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 21:02:14,070 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Exciting developments are emerging in our community.', 'latency_seconds': 1.95}, {'response_type': 'negative', 'response_text': "There's uncertainty causing some concerns among us.", 'latency_seconds': 1.95}], 'total_latency_seconds': 1.95}
+2024-12-10 21:02:18,573 [INFO] Data received from OS-DPI at 2024-12-10 16:02:18.573454-05:00
+2024-12-10 21:02:18,573 [INFO] Received chosen response: Exciting developments are emerging in our community.
+2024-12-10 21:02:18,574 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_155821.csv
+2024-12-10 21:02:27,298 [INFO] Data received from OS-DPI at 2024-12-10 16:02:27.298043-05:00
+2024-12-10 21:02:27,298 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 21:02:27,298 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_155821.csv
+2024-12-10 21:02:32,104 [INFO] Data received from OS-DPI at 2024-12-10 16:02:32.104149-05:00
+2024-12-10 21:02:32,104 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 21:02:32,104 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_155821.csv
+2024-12-10 21:03:47,618 [INFO] WebSocket disconnected.
+2024-12-10 21:05:19,004 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_160519.csv
+2024-12-10 21:05:19,004 [INFO] WebSocket connection accepted.
+2024-12-10 21:05:59,195 [INFO] Data received from OS-DPI at 2024-12-10 16:05:59.195157-05:00
+2024-12-10 21:05:59,195 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 21:05:59,196 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_160519.csv
+2024-12-10 21:06:04,556 [INFO] Data received from OS-DPI at 2024-12-10 16:06:04.556682-05:00
+2024-12-10 21:06:07,202 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 21:06:07,203 [INFO] Prompt received: hey how are you doing
+2024-12-10 21:06:07,203 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 21:06:07,204 [INFO] Sending payload to API: {'prompt': 'hey how are you doing', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 21:06:09,243 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 21:06:09,243 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm feeling great today, thanks!", 'latency_seconds': 2.04}, {'response_type': 'negative', 'response_text': 'Just a bit overwhelmed with things.', 'latency_seconds': 2.04}], 'total_latency_seconds': 2.04}
+2024-12-10 21:06:40,273 [INFO] Data received from OS-DPI at 2024-12-10 16:06:40.273551-05:00
+2024-12-10 21:06:40,273 [INFO] Received chosen response: I'm feeling great today, thanks!
+2024-12-10 21:06:40,274 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_160519.csv
+2024-12-10 21:16:39,433 [INFO] WebSocket disconnected.
+2024-12-10 21:16:42,948 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_161642.csv
+2024-12-10 21:16:42,948 [INFO] WebSocket connection accepted.
+2024-12-10 21:16:48,706 [INFO] WebSocket disconnected.
+2024-12-10 21:16:53,203 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_161653.csv
+2024-12-10 21:16:53,203 [INFO] WebSocket connection accepted.
+2024-12-10 21:17:09,588 [INFO] Data received from OS-DPI at 2024-12-10 16:17:09.588028-05:00
+2024-12-10 21:17:09,588 [ERROR] Unexpected prefix value: 
+2024-12-10 21:17:09,588 [INFO] Data received from OS-DPI at 2024-12-10 16:17:09.588472-05:00
+2024-12-10 21:17:09,588 [ERROR] Unexpected prefix value: 
+2024-12-10 21:17:09,589 [INFO] Data received from OS-DPI at 2024-12-10 16:17:09.589589-05:00
+2024-12-10 21:17:09,589 [ERROR] Unexpected prefix value: 
+2024-12-10 21:17:09,590 [INFO] Data received from OS-DPI at 2024-12-10 16:17:09.590057-05:00
+2024-12-10 21:17:09,590 [ERROR] Unexpected prefix value: 
+2024-12-10 21:17:10,962 [INFO] Data received from OS-DPI at 2024-12-10 16:17:10.962787-05:00
+2024-12-10 21:17:10,963 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 21:17:10,963 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_161653.csv
+2024-12-10 21:17:18,814 [INFO] Data received from OS-DPI at 2024-12-10 16:17:18.814221-05:00
+2024-12-10 21:17:21,944 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 21:17:21,946 [INFO] Prompt received: hi how are you doing
+2024-12-10 21:17:21,946 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 21:17:21,947 [INFO] Sending payload to API: {'prompt': 'hi how are you doing', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 21:17:22,027 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 21:17:22,028 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing great, thanks for asking!", 'latency_seconds': 0.08}, {'response_type': 'negative', 'response_text': 'Could be better, feeling a bit overwhelmed.', 'latency_seconds': 0.08}], 'total_latency_seconds': 0.08}
+2024-12-10 21:17:29,633 [INFO] Data received from OS-DPI at 2024-12-10 16:17:29.633634-05:00
+2024-12-10 21:17:29,633 [INFO] Received chosen response: I'm doing great, thanks for asking!
+2024-12-10 21:17:29,634 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_161653.csv
+2024-12-10 21:17:54,634 [INFO] Data received from OS-DPI at 2024-12-10 16:17:54.634098-05:00
+2024-12-10 21:17:57,035 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 21:17:57,036 [INFO] Prompt received: how are you today
+2024-12-10 21:17:57,036 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 21:17:57,036 [INFO] Sending payload to API: {'prompt': 'how are you today', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 21:18:00,432 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 21:18:00,432 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm excited for lunch with Kelly.", 'latency_seconds': 3.39}, {'response_type': 'negative', 'response_text': 'Feeling anxious about her move to Alaska.', 'latency_seconds': 3.39}], 'total_latency_seconds': 3.39}
+2024-12-10 21:18:04,323 [INFO] Data received from OS-DPI at 2024-12-10 16:18:04.323343-05:00
+2024-12-10 21:18:04,323 [ERROR] No chosen response found in the received data.
+2024-12-10 21:18:05,630 [INFO] Data received from OS-DPI at 2024-12-10 16:18:05.630808-05:00
+2024-12-10 21:18:05,631 [INFO] Received chosen response: Feeling anxious about her move to Alaska.
+2024-12-10 21:18:05,631 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_161653.csv
+2024-12-10 21:19:52,817 [INFO] Data received from OS-DPI at 2024-12-10 16:19:52.817055-05:00
+2024-12-10 21:19:55,457 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 21:19:55,458 [INFO] Prompt received: what's happening today
+2024-12-10 21:19:55,458 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 21:19:55,458 [INFO] Sending payload to API: {'prompt': "what's happening today", 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 21:19:59,130 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 21:19:59,131 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "Jennifer is visiting, and I'm excited!", 'latency_seconds': 3.67}, {'response_type': 'negative', 'response_text': 'The snowstorm is causing concern and delays.', 'latency_seconds': 3.67}], 'total_latency_seconds': 3.67}
+2024-12-10 21:20:06,584 [INFO] Data received from OS-DPI at 2024-12-10 16:20:06.583961-05:00
+2024-12-10 21:20:06,584 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 21:20:06,584 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_161653.csv
+2024-12-10 21:22:29,335 [INFO] WebSocket disconnected.
+2024-12-10 21:22:30,699 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_162230.csv
+2024-12-10 21:22:30,700 [INFO] WebSocket connection accepted.
+2024-12-10 21:23:11,501 [INFO] Data received from OS-DPI at 2024-12-10 16:23:11.501698-05:00
+2024-12-10 21:23:11,502 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 21:23:11,502 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_162230.csv
+2024-12-10 21:23:15,853 [INFO] Data received from OS-DPI at 2024-12-10 16:23:15.853522-05:00
+2024-12-10 21:23:18,514 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 21:23:18,515 [INFO] Prompt received: hi how are you doing
+2024-12-10 21:23:18,516 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 21:23:18,516 [INFO] Sending payload to API: {'prompt': 'hi how are you doing', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 21:23:18,602 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 21:23:18,603 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing great, thanks for asking!", 'latency_seconds': 0.08}, {'response_type': 'negative', 'response_text': 'Could be better, feeling a bit overwhelmed.', 'latency_seconds': 0.08}], 'total_latency_seconds': 0.08}
+2024-12-10 21:23:57,023 [INFO] Data received from OS-DPI at 2024-12-10 16:23:57.023216-05:00
+2024-12-10 21:23:57,023 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 21:23:57,023 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_162230.csv
+2024-12-10 21:24:01,514 [INFO] Data received from OS-DPI at 2024-12-10 16:24:01.514590-05:00
+2024-12-10 21:24:03,978 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 21:24:03,979 [INFO] Prompt received: hi how are you doing
+2024-12-10 21:24:03,979 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 21:24:03,979 [INFO] Sending payload to API: {'prompt': 'hi how are you doing', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 21:24:04,068 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 21:24:04,069 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing great, thanks for asking!", 'latency_seconds': 0.09}, {'response_type': 'negative', 'response_text': 'Could be better, feeling a bit overwhelmed.', 'latency_seconds': 0.09}], 'total_latency_seconds': 0.09}
+2024-12-10 21:27:35,302 [INFO] Data received from OS-DPI at 2024-12-10 16:27:35.302476-05:00
+2024-12-10 21:27:35,302 [INFO] Received chosen response: I'm doing great, thanks for asking!
+2024-12-10 21:27:35,303 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_162230.csv
+2024-12-10 22:11:40,616 [INFO] WebSocket disconnected.
+2024-12-10 22:11:40,716 [INFO] httpx client closed.
+2024-12-10 22:11:40,716 [INFO] httpx client closed.
+2024-12-10 22:11:40,716 [INFO] httpx client closed.
+2024-12-10 22:11:40,722 [INFO] httpx client closed.
+2024-12-10 22:13:37,810 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_171337.csv
+2024-12-10 22:13:37,810 [INFO] WebSocket connection accepted.
+2024-12-10 22:13:40,337 [INFO] WebSocket disconnected.
+2024-12-10 22:13:41,398 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_171341.csv
+2024-12-10 22:13:41,399 [INFO] WebSocket connection accepted.
+2024-12-10 22:13:42,542 [INFO] Data received from OS-DPI at 2024-12-10 17:13:42.542062-05:00
+2024-12-10 22:13:42,542 [ERROR] Unexpected prefix value: 
+2024-12-10 22:13:42,542 [INFO] Data received from OS-DPI at 2024-12-10 17:13:42.542435-05:00
+2024-12-10 22:13:42,542 [ERROR] Unexpected prefix value: 
+2024-12-10 22:13:42,542 [INFO] Data received from OS-DPI at 2024-12-10 17:13:42.542891-05:00
+2024-12-10 22:13:42,543 [ERROR] Unexpected prefix value: 
+2024-12-10 22:13:42,543 [INFO] Data received from OS-DPI at 2024-12-10 17:13:42.543488-05:00
+2024-12-10 22:13:42,543 [ERROR] Unexpected prefix value: 
+2024-12-10 22:13:49,948 [INFO] Data received from OS-DPI at 2024-12-10 17:13:49.948134-05:00
+2024-12-10 22:13:49,948 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 22:14:03,068 [INFO] Data received from OS-DPI at 2024-12-10 17:14:03.068862-05:00
+2024-12-10 22:14:05,594 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 22:14:05,610 [INFO] Prompt received: hi how are you doing
+2024-12-10 22:14:05,611 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 22:14:05,611 [INFO] Sending payload to API: {'prompt': 'hi how are you doing', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 22:14:05,694 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 22:14:05,695 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing great, thanks for asking!", 'latency_seconds': 0.08}, {'response_type': 'negative', 'response_text': 'Could be better, feeling a bit overwhelmed.', 'latency_seconds': 0.08}], 'total_latency_seconds': 0.08}
+2024-12-10 22:14:11,361 [INFO] Data received from OS-DPI at 2024-12-10 17:14:11.361393-05:00
+2024-12-10 22:14:11,361 [INFO] Received chosen response: I'm doing great, thanks for asking!
+2024-12-10 22:14:11,361 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_171341.csv
+2024-12-10 22:14:22,674 [ERROR] CSV file does not exist.
+2024-12-10 22:14:22,674 [ERROR] Failed to generate CSV: 
+2024-12-10 22:14:34,442 [INFO] Data received from OS-DPI at 2024-12-10 17:14:34.442391-05:00
+2024-12-10 22:14:37,533 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 22:14:37,534 [INFO] Prompt received: why didn't it work
+2024-12-10 22:14:37,535 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 22:14:37,535 [INFO] Sending payload to API: {'prompt': "why didn't it work", 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 22:14:41,263 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 22:14:41,263 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I learned valuable lessons from the experience.', 'latency_seconds': 3.72}, {'response_type': 'negative', 'response_text': 'There were too many obstacles and misunderstandings.', 'latency_seconds': 3.72}], 'total_latency_seconds': 3.72}
+2024-12-10 22:14:45,028 [INFO] Data received from OS-DPI at 2024-12-10 17:14:45.028071-05:00
+2024-12-10 22:14:45,028 [INFO] Received chosen response: There were too many obstacles and misunderstandings.
+2024-12-10 22:14:45,028 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_171341.csv
+2024-12-10 22:18:49,767 [INFO] WebSocket disconnected.
+2024-12-10 22:18:49,867 [INFO] httpx client closed.
+2024-12-10 22:18:49,867 [INFO] httpx client closed.
+2024-12-10 22:18:49,872 [INFO] httpx client closed.
+2024-12-10 22:18:49,872 [INFO] httpx client closed.
+2024-12-10 22:21:02,278 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_172102.csv
+2024-12-10 22:21:02,278 [INFO] WebSocket connection accepted.
+2024-12-10 22:21:02,845 [INFO] Data received from OS-DPI at 2024-12-10 17:21:02.845519-05:00
+2024-12-10 22:21:02,845 [ERROR] Unexpected prefix value: 
+2024-12-10 22:21:02,846 [INFO] Data received from OS-DPI at 2024-12-10 17:21:02.846029-05:00
+2024-12-10 22:21:02,846 [ERROR] Unexpected prefix value: 
+2024-12-10 22:21:02,847 [INFO] Data received from OS-DPI at 2024-12-10 17:21:02.847526-05:00
+2024-12-10 22:21:02,847 [ERROR] Unexpected prefix value: 
+2024-12-10 22:21:02,848 [INFO] Data received from OS-DPI at 2024-12-10 17:21:02.848046-05:00
+2024-12-10 22:21:02,848 [ERROR] Unexpected prefix value: 
+2024-12-10 22:21:16,107 [INFO] WebSocket disconnected.
+2024-12-10 22:21:17,283 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_172117.csv
+2024-12-10 22:21:17,283 [INFO] WebSocket connection accepted.
+2024-12-10 22:21:26,880 [INFO] Data received from OS-DPI at 2024-12-10 17:21:26.880362-05:00
+2024-12-10 22:21:26,880 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 22:21:26,880 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_172126.csv
+2024-12-10 22:21:26,881 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_172126.csv for the new conversation.
+2024-12-10 22:21:55,153 [INFO] Data received from OS-DPI at 2024-12-10 17:21:55.153358-05:00
+2024-12-10 22:21:55,153 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 22:21:55,153 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_172155.csv
+2024-12-10 22:21:55,154 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_172155.csv for the new conversation.
+2024-12-10 22:22:04,423 [INFO] WebSocket disconnected.
+2024-12-10 22:22:05,561 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_172205.csv
+2024-12-10 22:22:05,561 [INFO] WebSocket connection accepted.
+2024-12-10 22:22:11,006 [INFO] Data received from OS-DPI at 2024-12-10 17:22:11.006628-05:00
+2024-12-10 22:22:11,006 [ERROR] Unexpected prefix value: 
+2024-12-10 22:22:11,007 [INFO] Data received from OS-DPI at 2024-12-10 17:22:11.007175-05:00
+2024-12-10 22:22:11,007 [ERROR] Unexpected prefix value: 
+2024-12-10 22:22:11,007 [INFO] Data received from OS-DPI at 2024-12-10 17:22:11.007530-05:00
+2024-12-10 22:22:11,007 [ERROR] Unexpected prefix value: 
+2024-12-10 22:22:11,007 [INFO] Data received from OS-DPI at 2024-12-10 17:22:11.007967-05:00
+2024-12-10 22:22:11,008 [ERROR] Unexpected prefix value: 
+2024-12-10 22:22:18,525 [INFO] WebSocket disconnected.
+2024-12-10 22:22:19,671 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_172219.csv
+2024-12-10 22:22:19,671 [INFO] WebSocket connection accepted.
+2024-12-10 22:22:22,793 [INFO] Data received from OS-DPI at 2024-12-10 17:22:22.793436-05:00
+2024-12-10 22:22:22,793 [INFO] Received new_conv prefix, clearing conversation history and starting new conversation.
+2024-12-10 22:22:22,794 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_172222.csv
+2024-12-10 22:22:22,794 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_172222.csv for the new conversation.
+2024-12-10 22:22:30,531 [INFO] Data received from OS-DPI at 2024-12-10 17:22:30.530954-05:00
+2024-12-10 22:22:38,377 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 22:22:38,380 [INFO] Prompt received: hi how are you doing
+2024-12-10 22:22:38,380 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 22:22:38,380 [INFO] Sending payload to API: {'prompt': 'hi how are you doing', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 22:22:38,464 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 22:22:38,464 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing great, thanks for asking!", 'latency_seconds': 0.08}, {'response_type': 'negative', 'response_text': 'Could be better, feeling a bit overwhelmed.', 'latency_seconds': 0.08}], 'total_latency_seconds': 0.08}
+2024-12-10 22:22:48,714 [INFO] Data received from OS-DPI at 2024-12-10 17:22:48.714466-05:00
+2024-12-10 22:22:48,714 [INFO] Received chosen response: I'm doing great, thanks for asking!
+2024-12-10 22:22:48,715 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_172222.csv
+2024-12-10 22:22:59,736 [ERROR] CSV file does not exist.
+2024-12-10 22:22:59,736 [ERROR] Failed to generate CSV: 
+2024-12-10 22:23:13,020 [INFO] WebSocket disconnected.
+2024-12-10 22:23:13,121 [INFO] httpx client closed.
+2024-12-10 22:23:13,124 [INFO] httpx client closed.
+2024-12-10 22:23:13,124 [INFO] httpx client closed.
+2024-12-10 22:23:13,125 [INFO] httpx client closed.
+2024-12-10 22:31:41,473 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_173141.csv
+2024-12-10 22:31:41,473 [INFO] WebSocket connection accepted.
+2024-12-10 22:31:43,041 [INFO] WebSocket disconnected.
+2024-12-10 22:31:43,408 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_173143.csv
+2024-12-10 22:31:43,409 [INFO] WebSocket connection accepted.
+2024-12-10 22:31:49,108 [INFO] Data received from OS-DPI at 2024-12-10 17:31:49.108332-05:00
+2024-12-10 22:31:49,108 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 22:31:49,108 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_173149.csv
+2024-12-10 22:31:49,108 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_173149.csv for the new conversation.
+2024-12-10 22:31:56,124 [INFO] Data received from OS-DPI at 2024-12-10 17:31:56.124825-05:00
+2024-12-10 22:31:59,070 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 22:31:59,073 [INFO] Prompt received: hi how are you doing
+2024-12-10 22:31:59,073 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 22:31:59,073 [INFO] Sending payload to API: {'prompt': 'hi how are you doing', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 22:31:59,156 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 22:31:59,156 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing great, thanks for asking!", 'latency_seconds': 0.08}, {'response_type': 'negative', 'response_text': 'Could be better, feeling a bit overwhelmed.', 'latency_seconds': 0.08}], 'total_latency_seconds': 0.08}
+2024-12-10 22:32:19,107 [INFO] Data received from OS-DPI at 2024-12-10 17:32:19.107754-05:00
+2024-12-10 22:32:19,108 [INFO] Received chosen response: I'm doing great, thanks for asking!
+2024-12-10 22:32:19,108 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_173149.csv
+2024-12-10 22:32:33,396 [ERROR] CSV file does not exist.
+2024-12-10 22:32:45,802 [INFO] Data received from OS-DPI at 2024-12-10 17:32:45.802151-05:00
+2024-12-10 22:32:48,773 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 22:32:48,774 [INFO] Prompt received: what's the problem
+2024-12-10 22:32:48,775 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 22:32:48,775 [INFO] Sending payload to API: {'prompt': "what's the problem", 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 22:32:52,504 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 22:32:52,504 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm learning to navigate my independence.", 'latency_seconds': 3.73}, {'response_type': 'negative', 'response_text': 'I feel confined in the group home.', 'latency_seconds': 3.73}], 'total_latency_seconds': 3.73}
+2024-12-10 22:32:58,218 [INFO] Data received from OS-DPI at 2024-12-10 17:32:58.218360-05:00
+2024-12-10 22:32:58,218 [INFO] Received chosen response: I feel confined in the group home.
+2024-12-10 22:32:58,218 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_173149.csv
+2024-12-10 22:33:09,244 [INFO] CSV file found at session_csv_files/conversation_history_20241210_173149.csv. Preparing for download.
+2024-12-10 22:34:06,423 [INFO] WebSocket disconnected.
+2024-12-10 22:34:06,524 [INFO] httpx client closed.
+2024-12-10 22:34:06,528 [INFO] httpx client closed.
+2024-12-10 22:34:06,529 [INFO] httpx client closed.
+2024-12-10 22:34:06,529 [INFO] httpx client closed.
+2024-12-10 22:36:46,374 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_173646.csv
+2024-12-10 22:36:46,374 [INFO] WebSocket connection accepted.
+2024-12-10 22:36:50,861 [INFO] Data received from OS-DPI at 2024-12-10 17:36:50.861425-05:00
+2024-12-10 22:36:50,861 [ERROR] Unexpected prefix value: 
+2024-12-10 22:36:50,861 [INFO] Data received from OS-DPI at 2024-12-10 17:36:50.861951-05:00
+2024-12-10 22:36:50,862 [ERROR] Unexpected prefix value: 
+2024-12-10 22:36:50,862 [INFO] Data received from OS-DPI at 2024-12-10 17:36:50.862203-05:00
+2024-12-10 22:36:50,862 [ERROR] Unexpected prefix value: 
+2024-12-10 22:36:50,862 [INFO] Data received from OS-DPI at 2024-12-10 17:36:50.862711-05:00
+2024-12-10 22:36:50,862 [ERROR] Unexpected prefix value: 
+2024-12-10 22:36:58,266 [INFO] Data received from OS-DPI at 2024-12-10 17:36:58.266268-05:00
+2024-12-10 22:36:58,266 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 22:36:58,266 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_173658.csv
+2024-12-10 22:36:58,266 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_173658.csv for the new conversation.
+2024-12-10 22:37:04,298 [INFO] Data received from OS-DPI at 2024-12-10 17:37:04.297961-05:00
+2024-12-10 22:37:07,110 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 22:37:07,111 [INFO] Prompt received: hi how are you doing
+2024-12-10 22:37:07,111 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 22:37:07,111 [INFO] Sending payload to API: {'prompt': 'hi how are you doing', 'number_of_responses': 2, 'response_types': ['positive', 'negative'], 'search_mode': 'hybrid'}
+2024-12-10 22:37:07,188 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 22:37:07,188 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing great, thanks for asking!", 'latency_seconds': 0.07}, {'response_type': 'negative', 'response_text': 'Could be better, feeling a bit overwhelmed.', 'latency_seconds': 0.07}], 'total_latency_seconds': 0.07}
+2024-12-10 22:37:12,601 [INFO] Data received from OS-DPI at 2024-12-10 17:37:12.601333-05:00
+2024-12-10 22:37:12,601 [INFO] Received chosen response: Could be better, feeling a bit overwhelmed.
+2024-12-10 22:37:12,602 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_173658.csv
+2024-12-10 22:37:19,240 [INFO] CSV file found at session_csv_files/conversation_history_20241210_173658.csv. Preparing for download.
+2024-12-10 23:01:48,510 [INFO] WebSocket disconnected.
+2024-12-10 23:01:48,610 [INFO] httpx client closed.
+2024-12-10 23:02:47,695 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_180247.csv
+2024-12-10 23:02:47,695 [INFO] WebSocket connection accepted.
+2024-12-10 23:03:24,312 [INFO] WebSocket disconnected.
+2024-12-10 23:03:25,535 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_180325.csv
+2024-12-10 23:03:25,536 [INFO] WebSocket connection accepted.
+2024-12-10 23:03:29,572 [INFO] Data received from OS-DPI at 2024-12-10 18:03:29.572313-05:00
+2024-12-10 23:03:29,572 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 23:03:29,572 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_180329.csv
+2024-12-10 23:03:29,572 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_180329.csv for the new conversation.
+2024-12-10 23:03:32,915 [INFO] Data received from OS-DPI at 2024-12-10 18:03:32.915041-05:00
+2024-12-10 23:03:32,915 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 23:03:32,915 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_180332.csv
+2024-12-10 23:03:32,915 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_180332.csv for the new conversation.
+2024-12-10 23:03:36,489 [INFO] Data received from OS-DPI at 2024-12-10 18:03:36.489872-05:00
+2024-12-10 23:03:36,490 [ERROR] Unexpected prefix value: 
+2024-12-10 23:03:36,490 [INFO] Data received from OS-DPI at 2024-12-10 18:03:36.490427-05:00
+2024-12-10 23:03:36,490 [ERROR] Unexpected prefix value: 
+2024-12-10 23:03:36,491 [INFO] Data received from OS-DPI at 2024-12-10 18:03:36.491225-05:00
+2024-12-10 23:03:36,491 [ERROR] Unexpected prefix value: 
+2024-12-10 23:03:36,491 [INFO] Data received from OS-DPI at 2024-12-10 18:03:36.491546-05:00
+2024-12-10 23:03:36,491 [ERROR] Unexpected prefix value: 
+2024-12-10 23:03:38,360 [INFO] Data received from OS-DPI at 2024-12-10 18:03:38.360044-05:00
+2024-12-10 23:03:38,360 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 23:03:38,361 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_180338.csv
+2024-12-10 23:03:38,361 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_180338.csv for the new conversation.
+2024-12-10 23:03:42,830 [INFO] Data received from OS-DPI at 2024-12-10 18:03:42.829992-05:00
+2024-12-10 23:03:52,313 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 23:03:52,314 [INFO] Prompt received: hi how are you doing
+2024-12-10 23:03:52,314 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 23:03:52,315 [INFO] Sending payload to API: Partner: hi how are you doing
+User:
+2024-12-10 23:03:52,318 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 422 Unprocessable Entity"
+2024-12-10 23:03:52,318 [ERROR] HTTP error occurred: 422 - {"detail":[{"loc":["body","number_of_responses"],"msg":"ensure this value is less than or equal to 5","type":"value_error.number.not_le","ctx":{"limit_value":5}}]}
+2024-12-10 23:03:52,318 [INFO] Number of responses received: 0
+2024-12-10 23:03:52,319 [WARNING] Expected 10 responses, but received 0. Padding with default responses.
+2024-12-10 23:04:49,144 [INFO] WebSocket disconnected.
+2024-12-10 23:04:49,245 [INFO] httpx client closed.
+2024-12-10 23:06:58,639 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_180658.csv
+2024-12-10 23:06:58,639 [INFO] WebSocket connection accepted.
+2024-12-10 23:07:24,795 [INFO] Data received from OS-DPI at 2024-12-10 18:07:24.795584-05:00
+2024-12-10 23:07:24,795 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 23:07:24,796 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_180724.csv
+2024-12-10 23:07:24,796 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_180724.csv for the new conversation.
+2024-12-10 23:07:26,219 [INFO] Data received from OS-DPI at 2024-12-10 18:07:26.219211-05:00
+2024-12-10 23:07:31,289 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 23:07:31,290 [INFO] Prompt received: hi how are you
+2024-12-10 23:07:31,290 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 23:07:31,290 [INFO] Sending payload to API: Partner: hi how are you
+User:
+2024-12-10 23:07:40,208 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 23:07:40,209 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm excited! Can't wait to see you.", 'latency_seconds': 8.91}, {'response_type': 'negative', 'response_text': 'Feeling nervous about lunch tomorrow.', 'latency_seconds': 8.91}], 'total_latency_seconds': 8.91}
+2024-12-10 23:07:40,209 [INFO] Number of responses received: 2
+2024-12-10 23:07:40,209 [WARNING] Expected 10 responses, but received 2. Padding with default responses.
+2024-12-10 23:09:02,606 [INFO] WebSocket disconnected.
+2024-12-10 23:09:03,909 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_180903.csv
+2024-12-10 23:09:03,909 [INFO] WebSocket connection accepted.
+2024-12-10 23:09:18,461 [INFO] WebSocket disconnected.
+2024-12-10 23:09:18,562 [INFO] httpx client closed.
+2024-12-10 23:09:49,526 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_180949.csv
+2024-12-10 23:09:49,526 [INFO] WebSocket connection accepted.
+2024-12-10 23:09:51,381 [INFO] Data received from OS-DPI at 2024-12-10 18:09:51.381389-05:00
+2024-12-10 23:09:51,381 [ERROR] Unexpected prefix value: 
+2024-12-10 23:09:51,382 [INFO] Data received from OS-DPI at 2024-12-10 18:09:51.382030-05:00
+2024-12-10 23:09:51,382 [ERROR] Unexpected prefix value: 
+2024-12-10 23:09:51,384 [INFO] Data received from OS-DPI at 2024-12-10 18:09:51.384199-05:00
+2024-12-10 23:09:51,384 [ERROR] Unexpected prefix value: 
+2024-12-10 23:09:51,384 [INFO] Data received from OS-DPI at 2024-12-10 18:09:51.384720-05:00
+2024-12-10 23:09:51,384 [ERROR] Unexpected prefix value: 
+2024-12-10 23:09:53,054 [INFO] Data received from OS-DPI at 2024-12-10 18:09:53.054872-05:00
+2024-12-10 23:09:53,055 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 23:09:53,055 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_180953.csv
+2024-12-10 23:09:53,055 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_180953.csv for the new conversation.
+2024-12-10 23:09:54,863 [INFO] Data received from OS-DPI at 2024-12-10 18:09:54.862991-05:00
+2024-12-10 23:09:59,353 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 23:09:59,354 [INFO] Prompt received: hello how are you
+2024-12-10 23:09:59,355 [INFO] Sending prompt to API with Emotion: ''
+2024-12-10 23:09:59,355 [INFO] Sending payload to API: Partner: hello how are you
+User:
+2024-12-10 23:10:07,306 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 23:10:07,307 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm great, just excited about seeing Kelly soon!", 'latency_seconds': 7.95}, {'response_type': 'negative', 'response_text': 'Feeling a bit confined in the group home lately.', 'latency_seconds': 7.95}], 'total_latency_seconds': 7.95}
+2024-12-10 23:10:07,307 [INFO] Number of responses received: 2
+2024-12-10 23:10:35,005 [INFO] CSV file found at session_csv_files/conversation_history_20241210_180953.csv. Preparing for download.
+2024-12-10 23:20:36,978 [INFO] WebSocket disconnected.
+2024-12-10 23:20:37,078 [INFO] httpx client closed.
+2024-12-10 23:21:24,605 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_182124.csv
+2024-12-10 23:21:24,605 [INFO] WebSocket connection accepted.
+2024-12-10 23:21:25,605 [INFO] Data received from OS-DPI at 2024-12-10 18:21:25.605846-05:00
+2024-12-10 23:21:25,606 [ERROR] Unexpected prefix value: 
+2024-12-10 23:21:25,606 [INFO] Data received from OS-DPI at 2024-12-10 18:21:25.606807-05:00
+2024-12-10 23:21:25,606 [ERROR] Unexpected prefix value: 
+2024-12-10 23:21:25,607 [INFO] Data received from OS-DPI at 2024-12-10 18:21:25.607880-05:00
+2024-12-10 23:21:25,608 [ERROR] Unexpected prefix value: 
+2024-12-10 23:21:25,608 [INFO] Data received from OS-DPI at 2024-12-10 18:21:25.608128-05:00
+2024-12-10 23:21:25,608 [ERROR] Unexpected prefix value: 
+2024-12-10 23:21:29,245 [INFO] Data received from OS-DPI at 2024-12-10 18:21:29.245212-05:00
+2024-12-10 23:21:29,245 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 23:21:29,245 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_182129.csv
+2024-12-10 23:21:29,245 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_182129.csv for the new conversation.
+2024-12-10 23:21:31,002 [INFO] Data received from OS-DPI at 2024-12-10 18:21:31.002883-05:00
+2024-12-10 23:21:37,293 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 23:21:37,309 [INFO] Partner prompt received: hey what's up
+2024-12-10 23:21:37,309 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey what's up
+
+Please respond accordingly.
+2024-12-10 23:21:38,623 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 500 Internal Server Error"
+2024-12-10 23:21:38,623 [ERROR] HTTP error occurred: 500 - {"detail":"Internal Server Error."}
+2024-12-10 23:25:58,993 [INFO] Data received from OS-DPI at 2024-12-10 18:25:58.993579-05:00
+2024-12-10 23:25:58,993 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 23:25:58,994 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_182558.csv
+2024-12-10 23:25:58,994 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_182558.csv for the new conversation.
+2024-12-10 23:26:00,835 [INFO] Data received from OS-DPI at 2024-12-10 18:26:00.835873-05:00
+2024-12-10 23:26:06,138 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 23:26:06,139 [INFO] Partner prompt received: hey how are you doing
+2024-12-10 23:26:06,139 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+
+Please respond accordingly.
+2024-12-10 23:26:07,813 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 23:26:07,814 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing well, thanks for asking!", 'latency_seconds': 1.67}, {'response_type': 'negative', 'response_text': 'Feeling a bit overwhelmed lately, honestly.', 'latency_seconds': 1.67}], 'total_latency_seconds': 1.67}
+2024-12-10 23:27:49,703 [INFO] Data received from OS-DPI at 2024-12-10 18:27:49.703315-05:00
+2024-12-10 23:27:49,703 [INFO] Received chosen response: I'm doing well, thanks for asking!
+2024-12-10 23:27:49,704 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_182558.csv
+2024-12-10 23:27:54,280 [INFO] CSV file found at session_csv_files/conversation_history_20241210_182558.csv. Preparing for download.
+2024-12-10 23:28:24,943 [INFO] Data received from OS-DPI at 2024-12-10 18:28:24.943030-05:00
+2024-12-10 23:28:28,100 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 23:28:28,101 [INFO] Partner prompt received: how was your weekend
+2024-12-10 23:28:28,101 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+User: I'm doing well, thanks for asking!
+Partner: how was your weekend
+
+Please respond accordingly.
+2024-12-10 23:28:32,313 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 23:28:32,313 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I had a great time at the mall!', 'latency_seconds': 4.21}, {'response_type': 'negative', 'response_text': 'I felt a bit lonely at times.', 'latency_seconds': 4.21}], 'total_latency_seconds': 4.21}
+2024-12-10 23:28:36,479 [INFO] Data received from OS-DPI at 2024-12-10 18:28:36.479082-05:00
+2024-12-10 23:28:36,479 [INFO] Received chosen response: I felt a bit lonely at times.
+2024-12-10 23:28:36,479 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_182558.csv
+2024-12-10 23:28:46,233 [INFO] CSV file found at session_csv_files/conversation_history_20241210_182558.csv. Preparing for download.
+2024-12-10 23:29:48,802 [INFO] Data received from OS-DPI at 2024-12-10 18:29:48.802086-05:00
+2024-12-10 23:29:52,619 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 23:29:52,620 [INFO] Partner prompt received: what are your plans today
+2024-12-10 23:29:52,621 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+User: I'm doing well, thanks for asking!
+Partner: how was your weekend
+User: I felt a bit lonely at times.
+Partner: what are your plans today
+
+Please respond accordingly.
+2024-12-10 23:29:56,034 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 23:29:56,034 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Excited to see Kelly later today!', 'latency_seconds': 3.41}, {'response_type': 'negative', 'response_text': 'Just another day at the group home.', 'latency_seconds': 3.41}], 'total_latency_seconds': 3.41}
+2024-12-10 23:30:01,761 [INFO] Data received from OS-DPI at 2024-12-10 18:30:01.761640-05:00
+2024-12-10 23:30:01,761 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 23:30:01,762 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_183001.csv
+2024-12-10 23:30:01,762 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_183001.csv for the new conversation.
+2024-12-10 23:30:41,273 [INFO] Data received from OS-DPI at 2024-12-10 18:30:41.273590-05:00
+2024-12-10 23:30:41,273 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 23:30:41,274 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_183041.csv
+2024-12-10 23:30:41,274 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_183041.csv for the new conversation.
+2024-12-10 23:30:42,790 [INFO] Data received from OS-DPI at 2024-12-10 18:30:42.790687-05:00
+2024-12-10 23:30:48,036 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 23:30:48,037 [INFO] Partner prompt received: what are your plans for today
+2024-12-10 23:30:48,038 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: what are your plans for today
+
+Please respond accordingly.
+2024-12-10 23:30:51,658 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 23:30:51,658 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm excited to spend time with Kelly.", 'latency_seconds': 3.62}, {'response_type': 'negative', 'response_text': 'I have to deal with group home routines.', 'latency_seconds': 3.62}], 'total_latency_seconds': 3.62}
+2024-12-10 23:47:01,291 [INFO] Data received from OS-DPI at 2024-12-10 18:47:01.291543-05:00
+2024-12-10 23:47:01,292 [INFO] Received chosen response: I'm excited to spend time with Kelly.
+2024-12-10 23:47:01,292 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_183041.csv
+2024-12-10 23:47:06,868 [INFO] Data received from OS-DPI at 2024-12-10 18:47:06.868489-05:00
+2024-12-10 23:47:10,221 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 23:47:10,223 [INFO] Partner prompt received: why do you like kelly so much
+2024-12-10 23:47:10,223 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: what are your plans for today
+User: I'm excited to spend time with Kelly.
+Partner: why do you like kelly so much
+
+Please respond accordingly.
+2024-12-10 23:47:11,943 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 23:47:11,944 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "She's always supportive and understanding.", 'latency_seconds': 1.72}, {'response_type': 'negative', 'response_text': 'Sometimes she can be a bit distant.', 'latency_seconds': 1.72}], 'total_latency_seconds': 1.72}
+2024-12-10 23:47:24,419 [INFO] Data received from OS-DPI at 2024-12-10 18:47:24.419906-05:00
+2024-12-10 23:47:24,420 [INFO] Received chosen response: Sometimes she can be a bit distant.
+2024-12-10 23:47:24,420 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_183041.csv
+2024-12-10 23:48:05,087 [INFO] Data received from OS-DPI at 2024-12-10 18:48:05.087200-05:00
+2024-12-10 23:48:05,087 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 23:48:05,087 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_184805.csv
+2024-12-10 23:48:05,087 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_184805.csv for the new conversation.
+2024-12-10 23:48:06,445 [INFO] Data received from OS-DPI at 2024-12-10 18:48:06.445777-05:00
+2024-12-10 23:48:16,491 [ERROR] Error fetching speech-to-text: 
+2024-12-10 23:48:16,492 [ERROR] No prompt text received from RPi API.
+2024-12-10 23:48:27,581 [INFO] Data received from OS-DPI at 2024-12-10 18:48:27.581865-05:00
+2024-12-10 23:48:27,582 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 23:48:27,582 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_184827.csv
+2024-12-10 23:48:27,582 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_184827.csv for the new conversation.
+2024-12-10 23:48:28,955 [INFO] Data received from OS-DPI at 2024-12-10 18:48:28.955823-05:00
+2024-12-10 23:48:38,859 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 23:48:38,860 [INFO] Partner prompt received: how are you doing
+2024-12-10 23:48:38,861 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: how are you doing
+
+Please respond accordingly.
+2024-12-10 23:48:42,571 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 23:48:42,571 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm feeling excited about the weekend!", 'latency_seconds': 3.71}, {'response_type': 'negative', 'response_text': 'I’m struggling with staying in the group home.', 'latency_seconds': 3.71}], 'total_latency_seconds': 3.71}
+2024-12-10 23:49:06,934 [INFO] Data received from OS-DPI at 2024-12-10 18:49:06.934594-05:00
+2024-12-10 23:49:06,934 [INFO] Received chosen response: I'm feeling excited about the weekend!
+2024-12-10 23:49:06,935 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_184827.csv
+2024-12-10 23:49:11,563 [INFO] Data received from OS-DPI at 2024-12-10 18:49:11.563919-05:00
+2024-12-10 23:49:13,868 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 23:49:13,869 [INFO] Partner prompt received: why are you excited
+2024-12-10 23:49:13,870 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: how are you doing
+User: I'm feeling excited about the weekend!
+Partner: why are you excited
+
+Please respond accordingly.
+2024-12-10 23:49:17,320 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 23:49:17,321 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I’m excited to spend time with Kelly!', 'latency_seconds': 3.45}, {'response_type': 'negative', 'response_text': 'Nervous about her moving to Alaska soon.', 'latency_seconds': 3.45}], 'total_latency_seconds': 3.45}
+2024-12-10 23:49:21,934 [INFO] Data received from OS-DPI at 2024-12-10 18:49:21.934487-05:00
+2024-12-10 23:49:21,934 [INFO] Received chosen response: I’m excited to spend time with Kelly!
+2024-12-10 23:49:21,935 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_184827.csv
+2024-12-10 23:49:25,807 [INFO] Data received from OS-DPI at 2024-12-10 18:49:25.807864-05:00
+2024-12-10 23:49:25,808 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-10 23:49:25,808 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241210_184925.csv
+2024-12-10 23:49:25,808 [INFO] New CSV file created at session_csv_files/conversation_history_20241210_184925.csv for the new conversation.
+2024-12-10 23:49:27,146 [INFO] Data received from OS-DPI at 2024-12-10 18:49:27.146446-05:00
+2024-12-10 23:49:37,190 [ERROR] Error fetching speech-to-text: 
+2024-12-10 23:49:37,191 [ERROR] No prompt text received from RPi API.
+2024-12-10 23:49:42,946 [INFO] Data received from OS-DPI at 2024-12-10 18:49:42.946445-05:00
+2024-12-10 23:49:47,015 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-10 23:49:47,016 [INFO] Partner prompt received: why
+2024-12-10 23:49:47,016 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: why
+
+Please respond accordingly.
+2024-12-10 23:49:48,879 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-10 23:49:48,880 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "It's important to understand the reasons.", 'latency_seconds': 1.86}, {'response_type': 'negative', 'response_text': 'Sometimes, it feels frustrating to explain.', 'latency_seconds': 1.86}], 'total_latency_seconds': 1.86}
+2024-12-10 23:50:15,999 [INFO] CSV file found at session_csv_files/conversation_history_20241210_184925.csv. Preparing for download.
+2024-12-10 23:50:22,716 [INFO] Data received from OS-DPI at 2024-12-10 18:50:22.716688-05:00
+2024-12-10 23:50:22,717 [INFO] Received chosen response: It's important to understand the reasons.
+2024-12-10 23:50:22,717 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241210_184925.csv
+2024-12-10 23:50:27,027 [INFO] CSV file found at session_csv_files/conversation_history_20241210_184925.csv. Preparing for download.
+2024-12-10 23:56:08,796 [INFO] WebSocket disconnected.
+2024-12-12 14:07:25,946 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_090725.csv
+2024-12-12 14:07:25,946 [INFO] WebSocket connection accepted.
+2024-12-12 14:07:29,798 [INFO] WebSocket disconnected.
+2024-12-12 14:07:30,325 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_090730.csv
+2024-12-12 14:07:30,325 [INFO] WebSocket connection accepted.
+2024-12-12 14:07:33,319 [INFO] Data received from OS-DPI at 2024-12-12 09:07:33.319400-05:00
+2024-12-12 14:07:33,319 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-12 14:07:33,319 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_090733.csv
+2024-12-12 14:07:33,320 [INFO] New CSV file created at session_csv_files/conversation_history_20241212_090733.csv for the new conversation.
+2024-12-12 14:07:35,598 [INFO] Data received from OS-DPI at 2024-12-12 09:07:35.598549-05:00
+2024-12-12 14:07:39,704 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-12 14:07:39,705 [INFO] Partner prompt received: hi how are you doing
+2024-12-12 14:07:39,705 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hi how are you doing
+
+Please respond accordingly.
+2024-12-12 14:07:44,210 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-12 14:07:44,210 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm feeling great, just excited about life!", 'latency_seconds': 4.5}, {'response_type': 'negative', 'response_text': "Honestly, it's been a bit overwhelming lately.", 'latency_seconds': 4.5}], 'total_latency_seconds': 4.5}
+2024-12-12 14:29:15,340 [INFO] WebSocket disconnected.
+2024-12-12 14:30:24,589 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_093024.csv
+2024-12-12 14:30:24,589 [INFO] WebSocket connection accepted.
+2024-12-12 14:30:34,024 [INFO] WebSocket disconnected.
+2024-12-12 14:30:35,271 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_093035.csv
+2024-12-12 14:30:35,271 [INFO] WebSocket connection accepted.
+2024-12-12 14:30:48,527 [INFO] Data received from OS-DPI at 2024-12-12 09:30:48.527855-05:00
+2024-12-12 14:30:48,528 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-12 14:30:48,529 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_093048.csv
+2024-12-12 14:30:48,529 [INFO] New CSV file created at session_csv_files/conversation_history_20241212_093048.csv for the new conversation.
+2024-12-12 14:30:49,997 [INFO] Data received from OS-DPI at 2024-12-12 09:30:49.997674-05:00
+2024-12-12 14:30:52,458 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-12 14:30:52,475 [INFO] Partner prompt received: hi how are you doing
+2024-12-12 14:30:52,476 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hi how are you doing
+
+Please respond accordingly.
+2024-12-12 14:30:55,397 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-12 14:30:55,398 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm feeling great, thanks for asking!", 'latency_seconds': 2.92}, {'response_type': 'negative', 'response_text': "I'm a bit overwhelmed with everything.", 'latency_seconds': 2.92}], 'total_latency_seconds': 2.92}
+2024-12-12 14:30:57,670 [INFO] Data received from OS-DPI at 2024-12-12 09:30:57.670457-05:00
+2024-12-12 14:30:57,670 [INFO] Received chosen response: I'm feeling great, thanks for asking!
+2024-12-12 14:30:57,670 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241212_093048.csv
+2024-12-12 14:31:03,752 [INFO] Data received from OS-DPI at 2024-12-12 09:31:03.752392-05:00
+2024-12-12 14:31:06,501 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-12 14:31:06,518 [INFO] Partner prompt received: what are your plans for this weekend
+2024-12-12 14:31:06,518 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hi how are you doing
+User: I'm feeling great, thanks for asking!
+Partner: what are your plans for this weekend
+
+Please respond accordingly.
+2024-12-12 14:31:10,576 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 500 Internal Server Error"
+2024-12-12 14:31:10,577 [ERROR] HTTP error occurred: 500 - {"detail":"Invalid response format from LightRAG."}
+2024-12-12 14:31:26,585 [INFO] Data received from OS-DPI at 2024-12-12 09:31:26.585734-05:00
+2024-12-12 14:31:26,586 [INFO] Received chosen response: No response available.
+2024-12-12 14:31:26,586 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241212_093048.csv
+2024-12-12 14:31:30,495 [INFO] Data received from OS-DPI at 2024-12-12 09:31:30.495729-05:00
+2024-12-12 14:31:33,302 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-12 14:31:33,303 [INFO] Partner prompt received: what are your plans for this weekend
+2024-12-12 14:31:33,303 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hi how are you doing
+User: I'm feeling great, thanks for asking!
+Partner: what are your plans for this weekend
+User: No response available.
+Partner: what are your plans for this weekend
+
+Please respond accordingly.
+2024-12-12 14:31:36,820 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-12 14:31:36,821 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Spending time with Kelly is my priority.', 'latency_seconds': 3.51}, {'response_type': 'negative', 'response_text': 'Expecting restrictions from the group home again.', 'latency_seconds': 3.51}], 'total_latency_seconds': 3.51}
+2024-12-12 14:31:40,625 [INFO] Data received from OS-DPI at 2024-12-12 09:31:40.625791-05:00
+2024-12-12 14:31:40,626 [INFO] Received chosen response: Expecting restrictions from the group home again.
+2024-12-12 14:31:40,626 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241212_093048.csv
+2024-12-12 14:31:50,971 [INFO] CSV file found at session_csv_files/conversation_history_20241212_093048.csv. Preparing for download.
+2024-12-12 14:32:17,338 [INFO] WebSocket disconnected.
+2024-12-12 14:34:28,124 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_093428.csv
+2024-12-12 14:34:28,124 [INFO] WebSocket connection accepted.
+2024-12-12 14:34:55,341 [INFO] Data received from OS-DPI at 2024-12-12 09:34:55.341731-05:00
+2024-12-12 14:34:55,342 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-12 14:34:55,342 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_093455.csv
+2024-12-12 14:34:55,342 [INFO] New CSV file created at session_csv_files/conversation_history_20241212_093455.csv for the new conversation.
+2024-12-12 14:34:57,726 [INFO] Data received from OS-DPI at 2024-12-12 09:34:57.726168-05:00
+2024-12-12 14:35:00,228 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-12 14:35:00,245 [INFO] Partner prompt received: hey how are you doing
+2024-12-12 14:35:00,246 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+
+Please respond accordingly.
+2024-12-12 14:35:00,331 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-12 14:35:00,332 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing well, thanks for asking!", 'latency_seconds': 0.08}, {'response_type': 'negative', 'response_text': 'Feeling a bit overwhelmed lately, honestly.', 'latency_seconds': 0.08}], 'total_latency_seconds': 0.08}
+2024-12-12 14:36:48,400 [INFO] Data received from OS-DPI at 2024-12-12 09:36:48.400433-05:00
+2024-12-12 14:36:48,400 [INFO] Received chosen response: I'm doing well, thanks for asking!
+2024-12-12 14:36:48,400 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241212_093455.csv
+2024-12-12 14:37:45,671 [INFO] WebSocket disconnected.
+2024-12-12 16:22:06,241 [INFO] httpx client closed.
+2024-12-12 16:25:00,411 [INFO] httpx client closed.
+2024-12-12 17:32:51,941 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_123251.csv
+2024-12-12 17:32:51,941 [INFO] WebSocket connection accepted.
+2024-12-12 17:33:01,567 [INFO] Data received from OS-DPI at 2024-12-12 12:33:01.567871-05:00
+2024-12-12 17:33:01,568 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-12 17:33:01,568 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_123301.csv
+2024-12-12 17:33:01,568 [INFO] New CSV file created at session_csv_files/conversation_history_20241212_123301.csv for the new conversation.
+2024-12-12 17:33:02,878 [INFO] Data received from OS-DPI at 2024-12-12 12:33:02.878925-05:00
+2024-12-12 17:33:12,940 [ERROR] Error fetching speech-to-text: 
+2024-12-12 17:33:12,940 [ERROR] No prompt text received from RPi API.
+2024-12-12 17:33:22,362 [INFO] Data received from OS-DPI at 2024-12-12 12:33:22.362192-05:00
+2024-12-12 17:33:22,362 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-12 17:33:22,362 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_123322.csv
+2024-12-12 17:33:22,362 [INFO] New CSV file created at session_csv_files/conversation_history_20241212_123322.csv for the new conversation.
+2024-12-12 17:33:24,333 [INFO] Data received from OS-DPI at 2024-12-12 12:33:24.333517-05:00
+2024-12-12 17:33:34,376 [ERROR] Error fetching speech-to-text: 
+2024-12-12 17:33:34,376 [ERROR] No prompt text received from RPi API.
+2024-12-12 17:38:31,907 [INFO] WebSocket disconnected.
+2024-12-12 17:38:33,257 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_123833.csv
+2024-12-12 17:38:33,258 [INFO] WebSocket connection accepted.
+2024-12-12 17:38:42,289 [INFO] Data received from OS-DPI at 2024-12-12 12:38:42.288959-05:00
+2024-12-12 17:38:42,289 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-12 17:38:42,289 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_123842.csv
+2024-12-12 17:38:42,289 [INFO] New CSV file created at session_csv_files/conversation_history_20241212_123842.csv for the new conversation.
+2024-12-12 17:38:45,415 [INFO] Data received from OS-DPI at 2024-12-12 12:38:45.415607-05:00
+2024-12-12 17:38:48,187 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-12 17:38:48,188 [INFO] Partner prompt received: what are your plans for the weekend
+2024-12-12 17:38:48,188 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: what are your plans for the weekend
+
+Please respond accordingly.
+2024-12-12 17:38:52,774 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-12 17:38:52,775 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm excited to see Kelly and spend time together.", 'latency_seconds': 4.58}, {'response_type': 'negative', 'response_text': "I'm worried about missing her once she leaves.", 'latency_seconds': 4.58}], 'total_latency_seconds': 4.58}
+2024-12-12 17:38:55,261 [INFO] Data received from OS-DPI at 2024-12-12 12:38:55.261913-05:00
+2024-12-12 17:38:55,262 [INFO] Received chosen response: I'm worried about missing her once she leaves.
+2024-12-12 17:38:55,262 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241212_123842.csv
+2024-12-12 17:46:31,778 [INFO] Data received from OS-DPI at 2024-12-12 12:46:31.778766-05:00
+2024-12-12 17:46:31,779 [INFO] Received chosen response: I'm worried about missing her once she leaves.
+2024-12-12 17:46:31,779 [ERROR] Chosen response received without a corresponding prompt.
+2024-12-12 17:46:48,208 [INFO] Data received from OS-DPI at 2024-12-12 12:46:48.208343-05:00
+2024-12-12 17:46:48,208 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-12 17:46:48,208 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_124648.csv
+2024-12-12 17:46:48,208 [INFO] New CSV file created at session_csv_files/conversation_history_20241212_124648.csv for the new conversation.
+2024-12-12 17:59:32,008 [INFO] WebSocket disconnected.
+2024-12-12 21:12:18,535 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_161218.csv
+2024-12-12 21:12:18,536 [INFO] WebSocket connection accepted.
+2024-12-12 21:12:22,699 [INFO] Data received from OS-DPI at 2024-12-12 16:12:22.699122-05:00
+2024-12-12 21:12:22,699 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-12 21:12:22,699 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241212_161222.csv
+2024-12-12 21:12:22,699 [INFO] New CSV file created at session_csv_files/conversation_history_20241212_161222.csv for the new conversation.
+2024-12-12 21:12:46,679 [INFO] Data received from OS-DPI at 2024-12-12 16:12:46.679032-05:00
+2024-12-12 21:12:49,037 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-12 21:12:49,038 [INFO] Partner prompt received: hi how are you doing
+2024-12-12 21:12:49,039 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hi how are you doing
+
+Please respond accordingly.
+2024-12-12 21:12:52,140 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-12 21:12:52,141 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm feeling great! Excited to chat.", 'latency_seconds': 3.1}, {'response_type': 'negative', 'response_text': "It's been a tough day, honestly.", 'latency_seconds': 3.1}], 'total_latency_seconds': 3.1}
+2024-12-12 21:12:55,133 [INFO] Data received from OS-DPI at 2024-12-12 16:12:55.133559-05:00
+2024-12-12 21:12:55,133 [INFO] Received chosen response: It's been a tough day, honestly.
+2024-12-12 21:12:55,134 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241212_161222.csv
+2024-12-12 21:13:04,584 [INFO] Data received from OS-DPI at 2024-12-12 16:13:04.584461-05:00
+2024-12-12 21:13:04,584 [INFO] Received chosen response: It's been a tough day, honestly.
+2024-12-12 21:13:04,584 [ERROR] Chosen response received without a corresponding prompt.
+2024-12-12 21:13:10,743 [INFO] WebSocket disconnected.
+2024-12-13 17:22:16,985 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241213_122216.csv
+2024-12-13 17:22:16,985 [INFO] WebSocket connection accepted.
+2024-12-13 17:23:19,438 [INFO] Data received from OS-DPI at 2024-12-13 12:23:19.438693-05:00
+2024-12-13 17:23:19,438 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-13 17:23:19,439 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241213_122319.csv
+2024-12-13 17:23:19,439 [INFO] New CSV file created at session_csv_files/conversation_history_20241213_122319.csv for the new conversation.
+2024-12-13 17:23:23,340 [INFO] Data received from OS-DPI at 2024-12-13 12:23:23.340531-05:00
+2024-12-13 17:23:25,691 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-13 17:23:25,753 [INFO] Partner prompt received: hey how are you doing
+2024-12-13 17:23:25,753 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+
+Please respond accordingly.
+2024-12-13 17:23:25,836 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-13 17:23:25,837 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing well, thanks for asking!", 'latency_seconds': 0.08}, {'response_type': 'negative', 'response_text': 'Feeling a bit overwhelmed lately, honestly.', 'latency_seconds': 0.08}], 'total_latency_seconds': 0.08}
+2024-12-13 17:23:28,636 [INFO] Data received from OS-DPI at 2024-12-13 12:23:28.635979-05:00
+2024-12-13 17:23:28,636 [INFO] Received chosen response: I'm doing well, thanks for asking!
+2024-12-13 17:23:28,636 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241213_122319.csv
+2024-12-13 17:23:42,198 [INFO] Data received from OS-DPI at 2024-12-13 12:23:42.198574-05:00
+2024-12-13 17:23:47,033 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-13 17:23:47,035 [INFO] Partner prompt received: where are we going to the store today
+2024-12-13 17:23:47,035 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+User: I'm doing well, thanks for asking!
+Partner: where are we going to the store today
+
+Please respond accordingly.
+2024-12-13 17:23:50,575 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-13 17:23:50,575 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "Let's grab some snacks and drinks!", 'latency_seconds': 3.54}, {'response_type': 'negative', 'response_text': 'I wish I could pick more items.', 'latency_seconds': 3.54}], 'total_latency_seconds': 3.54}
+2024-12-13 17:23:56,729 [INFO] Data received from OS-DPI at 2024-12-13 12:23:56.729430-05:00
+2024-12-13 17:23:56,729 [INFO] Received chosen response: Let's grab some snacks and drinks!
+2024-12-13 17:23:56,729 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20241213_122319.csv
+2024-12-13 17:24:02,813 [INFO] CSV file found at session_csv_files/conversation_history_20241213_122319.csv. Preparing for download.
+2024-12-13 17:30:54,739 [INFO] WebSocket disconnected.
+2024-12-19 17:58:34,235 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241219_125834.csv
+2024-12-19 17:58:34,236 [INFO] WebSocket connection accepted.
+2024-12-19 17:58:37,580 [INFO] Data received from OS-DPI at 2024-12-19 12:58:37.580560-05:00
+2024-12-19 17:58:37,580 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2024-12-19 17:58:37,581 [INFO] Initialized CSV file at session_csv_files/conversation_history_20241219_125837.csv
+2024-12-19 17:58:37,581 [INFO] New CSV file created at session_csv_files/conversation_history_20241219_125837.csv for the new conversation.
+2024-12-19 17:58:38,999 [INFO] Data received from OS-DPI at 2024-12-19 12:58:38.999675-05:00
+2024-12-19 17:58:41,387 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2024-12-19 17:58:41,388 [INFO] Partner prompt received: hey how are you
+2024-12-19 17:58:41,389 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you
+
+Please respond accordingly.
+2024-12-19 17:58:46,419 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2024-12-19 17:58:46,420 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm great! Excited to talk with you.", 'latency_seconds': 5.03}, {'response_type': 'negative', 'response_text': 'Feeling a bit stressed, to be honest.', 'latency_seconds': 5.03}], 'total_latency_seconds': 5.03}
+2024-12-19 17:58:50,729 [INFO] WebSocket disconnected.
+2025-01-23 21:19:20,480 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250123_161920.csv
+2025-01-23 21:19:20,489 [INFO] WebSocket connection accepted.
+2025-01-23 21:19:40,778 [INFO] WebSocket disconnected.
+2025-01-23 21:19:42,615 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250123_161942.csv
+2025-01-23 21:19:42,615 [INFO] WebSocket connection accepted.
+2025-01-23 21:19:44,953 [INFO] Data received from OS-DPI at 2025-01-23 16:19:44.953928-05:00
+2025-01-23 21:19:47,589 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-23 21:19:47,591 [INFO] Partner prompt received: hey how are you doing
+2025-01-23 21:19:47,591 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+
+Please respond accordingly.
+2025-01-23 21:19:47,678 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-23 21:19:47,678 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing well, thanks for asking!", 'latency_seconds': 0.08}, {'response_type': 'negative', 'response_text': 'Feeling a bit overwhelmed lately, honestly.', 'latency_seconds': 0.08}], 'total_latency_seconds': 0.08}
+2025-01-23 21:20:18,299 [INFO] WebSocket disconnected.
+2025-01-27 14:40:59,612 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_094059.csv
+2025-01-27 14:40:59,612 [INFO] WebSocket connection accepted.
+2025-01-27 14:40:59,758 [INFO] WebSocket disconnected.
+2025-01-27 14:41:00,261 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_094100.csv
+2025-01-27 14:41:00,261 [INFO] WebSocket connection accepted.
+2025-01-27 14:41:07,256 [INFO] WebSocket disconnected.
+2025-01-27 14:41:08,437 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_094108.csv
+2025-01-27 14:41:08,437 [INFO] WebSocket connection accepted.
+2025-01-27 14:41:18,531 [INFO] Data received from OS-DPI at 2025-01-27 09:41:18.531584-05:00
+2025-01-27 14:41:20,831 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 14:41:20,850 [INFO] Partner prompt received: hey how are you doing
+2025-01-27 14:41:20,851 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+
+Please respond accordingly.
+2025-01-27 14:41:20,934 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-27 14:41:20,935 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing well, thanks for asking!", 'latency_seconds': 0.08}, {'response_type': 'negative', 'response_text': 'Feeling a bit overwhelmed lately, honestly.', 'latency_seconds': 0.08}], 'total_latency_seconds': 0.08}
+2025-01-27 14:42:30,085 [INFO] WebSocket disconnected.
+2025-01-27 14:43:43,728 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_094343.csv
+2025-01-27 14:43:43,728 [INFO] WebSocket connection accepted.
+2025-01-27 14:43:44,905 [INFO] WebSocket disconnected.
+2025-01-27 14:43:45,448 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_094345.csv
+2025-01-27 14:43:45,448 [INFO] WebSocket connection accepted.
+2025-01-27 14:47:19,575 [INFO] WebSocket disconnected.
+2025-01-27 19:56:35,267 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_145635.csv
+2025-01-27 19:56:35,268 [INFO] WebSocket connection accepted.
+2025-01-27 19:56:40,042 [INFO] Data received from OS-DPI at 2025-01-27 14:56:40.042694-05:00
+2025-01-27 19:56:42,520 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 19:56:42,521 [INFO] Partner prompt received: hey how are you doing
+2025-01-27 19:56:42,521 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+
+Please respond accordingly.
+2025-01-27 19:56:42,607 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-27 19:56:42,608 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing well, thanks for asking!", 'latency_seconds': 0.08}, {'response_type': 'negative', 'response_text': 'Feeling a bit overwhelmed lately, honestly.', 'latency_seconds': 0.08}], 'total_latency_seconds': 0.08}
+2025-01-27 19:56:58,856 [INFO] Data received from OS-DPI at 2025-01-27 14:56:58.856258-05:00
+2025-01-27 19:56:58,856 [INFO] Received chosen response: I'm doing well, thanks for asking!
+2025-01-27 19:56:58,856 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250127_145635.csv
+2025-01-27 19:57:05,914 [INFO] CSV file found at session_csv_files/conversation_history_20250127_145635.csv. Preparing for download.
+2025-01-27 19:57:11,017 [INFO] Data received from OS-DPI at 2025-01-27 14:57:11.017247-05:00
+2025-01-27 19:57:14,631 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 19:57:14,632 [INFO] Partner prompt received: that's good to know what are your plans for the weekend
+2025-01-27 19:57:14,632 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+User: I'm doing well, thanks for asking!
+Partner: that's good to know what are your plans for the weekend
+
+Please respond accordingly.
+2025-01-27 19:57:14,853 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 500 Internal Server Error"
+2025-01-27 19:57:14,854 [ERROR] HTTP error occurred: 500 - {"detail":"Internal Server Error."}
+2025-01-27 19:57:39,881 [INFO] Data received from OS-DPI at 2025-01-27 14:57:39.881231-05:00
+2025-01-27 19:57:39,881 [WARNING] Incomplete entry found in conversation history.
+2025-01-27 19:57:39,881 [INFO] Removed incomplete entry: that's good to know what are your plans for the weekend
+2025-01-27 19:57:43,955 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 19:57:43,956 [INFO] Partner prompt received: that's good to know what are your plans for the weekend
+2025-01-27 19:57:43,956 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+User: I'm doing well, thanks for asking!
+Partner: that's good to know what are your plans for the weekend
+
+Please respond accordingly.
+2025-01-27 19:57:44,101 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 500 Internal Server Error"
+2025-01-27 19:57:44,102 [ERROR] HTTP error occurred: 500 - {"detail":"Internal Server Error."}
+2025-01-27 19:59:07,132 [INFO] Data received from OS-DPI at 2025-01-27 14:59:07.132342-05:00
+2025-01-27 19:59:07,132 [WARNING] Incomplete entry found in conversation history.
+2025-01-27 19:59:07,132 [INFO] Removed incomplete entry: that's good to know what are your plans for the weekend
+2025-01-27 19:59:10,046 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 19:59:10,048 [INFO] Partner prompt received: how was your day today
+2025-01-27 19:59:10,048 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+User: I'm doing well, thanks for asking!
+Partner: how was your day today
+
+Please respond accordingly.
+2025-01-27 19:59:10,235 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 500 Internal Server Error"
+2025-01-27 19:59:10,237 [ERROR] HTTP error occurred: 500 - {"detail":"Internal Server Error."}
+2025-01-27 19:59:15,686 [INFO] Data received from OS-DPI at 2025-01-27 14:59:15.686348-05:00
+2025-01-27 19:59:15,686 [WARNING] Incomplete entry found in conversation history.
+2025-01-27 19:59:15,686 [INFO] Removed incomplete entry: how was your day today
+2025-01-27 19:59:17,972 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 19:59:17,990 [INFO] Partner prompt received: please stop glitching
+2025-01-27 19:59:17,990 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+User: I'm doing well, thanks for asking!
+Partner: please stop glitching
+
+Please respond accordingly.
+2025-01-27 19:59:18,125 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 500 Internal Server Error"
+2025-01-27 19:59:18,126 [ERROR] HTTP error occurred: 500 - {"detail":"Internal Server Error."}
+2025-01-27 20:04:05,434 [INFO] WebSocket disconnected.
+2025-01-27 20:04:06,745 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_150406.csv
+2025-01-27 20:04:06,745 [INFO] WebSocket connection accepted.
+2025-01-27 20:04:22,348 [INFO] Data received from OS-DPI at 2025-01-27 15:04:22.348785-05:00
+2025-01-27 20:04:24,880 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 20:04:24,881 [INFO] Partner prompt received: hey how are you doing
+2025-01-27 20:04:24,881 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+
+Please respond accordingly.
+2025-01-27 20:04:24,968 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-27 20:04:24,969 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing well, thanks for asking!", 'latency_seconds': 0.08}, {'response_type': 'negative', 'response_text': 'Feeling a bit overwhelmed lately, honestly.', 'latency_seconds': 0.08}], 'total_latency_seconds': 0.08}
+2025-01-27 20:04:29,619 [INFO] Data received from OS-DPI at 2025-01-27 15:04:29.619768-05:00
+2025-01-27 20:04:29,620 [INFO] Received chosen response: Feeling a bit overwhelmed lately, honestly.
+2025-01-27 20:04:29,620 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250127_150406.csv
+2025-01-27 20:04:34,553 [INFO] Data received from OS-DPI at 2025-01-27 15:04:34.553900-05:00
+2025-01-27 20:04:38,119 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 20:04:38,120 [INFO] Partner prompt received: oh what what happened how was your day
+2025-01-27 20:04:38,121 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+User: Feeling a bit overwhelmed lately, honestly.
+Partner: oh what what happened how was your day
+
+Please respond accordingly.
+2025-01-27 20:04:46,779 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-27 20:04:46,780 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Had a nice time with friends earlier.', 'latency_seconds': 8.65}, {'response_type': 'negative', 'response_text': 'Just dealing with a lot of emotions.', 'latency_seconds': 8.65}], 'total_latency_seconds': 8.65}
+2025-01-27 20:05:00,006 [INFO] Data received from OS-DPI at 2025-01-27 15:05:00.006821-05:00
+2025-01-27 20:05:00,007 [INFO] Received chosen response: Just dealing with a lot of emotions.
+2025-01-27 20:05:00,007 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250127_150406.csv
+2025-01-27 20:05:04,923 [INFO] Data received from OS-DPI at 2025-01-27 15:05:04.923226-05:00
+2025-01-27 20:05:07,838 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 20:05:07,839 [INFO] Partner prompt received: oh i hope you
+2025-01-27 20:05:07,839 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+User: Feeling a bit overwhelmed lately, honestly.
+Partner: oh what what happened how was your day
+User: Just dealing with a lot of emotions.
+Partner: oh i hope you
+
+Please respond accordingly.
+2025-01-27 20:05:10,206 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-27 20:05:10,206 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm grateful for your support, it helps.", 'latency_seconds': 2.36}, {'response_type': 'negative', 'response_text': "Sometimes it's hard to process everything alone.", 'latency_seconds': 2.36}], 'total_latency_seconds': 2.36}
+2025-01-27 20:05:17,628 [INFO] Data received from OS-DPI at 2025-01-27 15:05:17.628815-05:00
+2025-01-27 20:05:17,629 [INFO] Received chosen response: I'm grateful for your support, it helps.
+2025-01-27 20:05:17,629 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250127_150406.csv
+2025-01-27 20:06:22,512 [INFO] Data received from OS-DPI at 2025-01-27 15:06:22.512688-05:00
+2025-01-27 20:06:22,513 [ERROR] No chosen response found in the received data.
+2025-01-27 20:06:48,716 [INFO] Data received from OS-DPI at 2025-01-27 15:06:48.716518-05:00
+2025-01-27 20:06:51,662 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 20:06:51,663 [INFO] Partner prompt received: hey what's up what are you doing
+2025-01-27 20:06:51,663 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+User: Feeling a bit overwhelmed lately, honestly.
+Partner: oh what what happened how was your day
+User: Just dealing with a lot of emotions.
+Partner: oh i hope you
+User: I'm grateful for your support, it helps.
+Partner: hey what's up what are you doing
+
+Please respond accordingly.
+2025-01-27 20:06:57,565 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-27 20:06:57,566 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm planning dinner with Kelly today.", 'latency_seconds': 5.9}, {'response_type': 'negative', 'response_text': 'Struggling with my feelings for Amy too.', 'latency_seconds': 5.9}], 'total_latency_seconds': 5.9}
+2025-01-27 20:07:29,884 [INFO] Data received from OS-DPI at 2025-01-27 15:07:29.884278-05:00
+2025-01-27 20:07:29,884 [INFO] Received chosen response: I'm planning dinner with Kelly today.
+2025-01-27 20:07:29,885 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250127_150406.csv
+2025-01-27 20:08:02,897 [INFO] Data received from OS-DPI at 2025-01-27 15:08:02.896947-05:00
+2025-01-27 20:08:02,897 [ERROR] No chosen response found in the received data.
+2025-01-27 20:08:25,372 [INFO] Data received from OS-DPI at 2025-01-27 15:08:25.372595-05:00
+2025-01-27 20:08:27,799 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 20:08:27,800 [INFO] Partner prompt received: how is the weather today
+2025-01-27 20:08:27,801 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: oh what what happened how was your day
+User: Just dealing with a lot of emotions.
+Partner: oh i hope you
+User: I'm grateful for your support, it helps.
+Partner: hey what's up what are you doing
+User: I'm planning dinner with Kelly today.
+Partner: how is the weather today
+
+Please respond accordingly.
+2025-01-27 20:08:30,612 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-27 20:08:30,613 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "It's beautiful and sunny today.", 'latency_seconds': 2.81}, {'response_type': 'negative', 'response_text': 'A bit too windy for my liking.', 'latency_seconds': 2.81}], 'total_latency_seconds': 2.81}
+2025-01-27 20:08:39,694 [INFO] Data received from OS-DPI at 2025-01-27 15:08:39.694001-05:00
+2025-01-27 20:08:39,694 [INFO] Received chosen response: A bit too windy for my liking.
+2025-01-27 20:08:39,694 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250127_150406.csv
+2025-01-27 20:08:47,406 [INFO] Data received from OS-DPI at 2025-01-27 15:08:47.406104-05:00
+2025-01-27 20:08:47,406 [ERROR] No chosen response found in the received data.
+2025-01-27 20:08:54,395 [INFO] Data received from OS-DPI at 2025-01-27 15:08:54.395369-05:00
+2025-01-27 20:08:58,340 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 20:08:58,341 [INFO] Partner prompt received: yeah i know it's not it's a it's very windy today
+2025-01-27 20:08:58,341 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: oh i hope you
+User: I'm grateful for your support, it helps.
+Partner: hey what's up what are you doing
+User: I'm planning dinner with Kelly today.
+Partner: how is the weather today
+User: A bit too windy for my liking.
+Partner: yeah i know it's not it's a it's very windy today
+
+Please respond accordingly.
+2025-01-27 20:09:00,875 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-27 20:09:00,876 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Windy days make for cozy indoor dinners.', 'latency_seconds': 2.53}, {'response_type': 'negative', 'response_text': 'Wind can ruin outdoor plans.', 'latency_seconds': 2.53}], 'total_latency_seconds': 2.53}
+2025-01-27 20:09:07,949 [INFO] Data received from OS-DPI at 2025-01-27 15:09:07.949086-05:00
+2025-01-27 20:09:07,949 [INFO] Received chosen response: Windy days make for cozy indoor dinners.
+2025-01-27 20:09:07,949 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250127_150406.csv
+2025-01-27 20:09:19,115 [INFO] CSV file found at session_csv_files/conversation_history_20250127_150406.csv. Preparing for download.
+2025-01-27 20:44:55,615 [INFO] WebSocket disconnected.
+2025-01-27 20:44:57,353 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_154457.csv
+2025-01-27 20:44:57,354 [INFO] WebSocket connection accepted.
+2025-01-27 20:45:01,490 [INFO] Data received from OS-DPI at 2025-01-27 15:45:01.490128-05:00
+2025-01-27 20:45:03,592 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 20:45:03,594 [INFO] Partner prompt received: hey what's up
+2025-01-27 20:45:03,594 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey what's up
+
+Please respond accordingly.
+2025-01-27 20:45:10,259 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-27 20:45:10,260 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm excited to see you soon!", 'latency_seconds': 6.66}, {'response_type': 'negative', 'response_text': 'Feeling lonely and wish you were here.', 'latency_seconds': 6.66}], 'total_latency_seconds': 6.66}
+2025-01-27 20:45:16,126 [INFO] Data received from OS-DPI at 2025-01-27 15:45:16.126824-05:00
+2025-01-27 20:45:16,127 [INFO] Received chosen response: I'm excited to see you soon!
+2025-01-27 20:45:16,127 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250127_154457.csv
+2025-01-27 20:53:28,546 [INFO] WebSocket disconnected.
+2025-01-27 20:56:54,609 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_155654.csv
+2025-01-27 20:56:54,610 [INFO] WebSocket connection accepted.
+2025-01-27 21:02:17,711 [INFO] WebSocket disconnected.
+2025-01-27 21:29:30,559 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_162930.csv
+2025-01-27 21:29:30,559 [INFO] WebSocket connection accepted.
+2025-01-27 21:38:22,260 [INFO] WebSocket disconnected.
+2025-01-27 21:45:29,101 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_164529.csv
+2025-01-27 21:45:29,101 [INFO] WebSocket connection accepted.
+2025-01-27 21:49:37,284 [INFO] WebSocket disconnected.
+2025-01-27 21:49:51,475 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_164951.csv
+2025-01-27 21:49:51,476 [INFO] WebSocket connection accepted.
+2025-01-27 21:49:52,923 [INFO] WebSocket disconnected.
+2025-01-27 21:49:54,181 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_164954.csv
+2025-01-27 21:49:54,182 [INFO] WebSocket connection accepted.
+2025-01-27 21:54:41,339 [INFO] Data received from OS-DPI at 2025-01-27 16:54:41.339455-05:00
+2025-01-27 21:54:41,339 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2025-01-27 21:54:41,340 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_165441.csv
+2025-01-27 21:54:41,340 [INFO] New CSV file created at session_csv_files/conversation_history_20250127_165441.csv for the new conversation.
+2025-01-27 21:54:48,832 [INFO] Data received from OS-DPI at 2025-01-27 16:54:48.832195-05:00
+2025-01-27 21:54:58,903 [ERROR] Error fetching speech-to-text: 
+2025-01-27 21:54:58,903 [ERROR] No prompt text received from RPi API.
+2025-01-27 21:55:58,537 [INFO] Data received from OS-DPI at 2025-01-27 16:55:58.537712-05:00
+2025-01-27 21:56:08,609 [ERROR] Error fetching speech-to-text: 
+2025-01-27 21:56:08,609 [ERROR] No prompt text received from RPi API.
+2025-01-27 21:56:50,188 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_165650.csv
+2025-01-27 21:56:50,188 [INFO] WebSocket connection accepted.
+2025-01-27 21:56:56,025 [INFO] WebSocket disconnected.
+2025-01-27 21:56:57,345 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_165657.csv
+2025-01-27 21:56:57,345 [INFO] WebSocket connection accepted.
+2025-01-27 21:57:01,885 [INFO] Data received from OS-DPI at 2025-01-27 16:57:01.885715-05:00
+2025-01-27 21:57:11,957 [ERROR] Error fetching speech-to-text: 
+2025-01-27 21:57:11,958 [ERROR] No prompt text received from RPi API.
+2025-01-27 21:57:29,383 [INFO] WebSocket disconnected.
+2025-01-27 21:57:48,698 [INFO] Data received from OS-DPI at 2025-01-27 16:57:48.697967-05:00
+2025-01-27 21:57:58,742 [ERROR] Error fetching speech-to-text: 
+2025-01-27 21:57:58,743 [ERROR] No prompt text received from RPi API.
+2025-01-27 21:58:43,239 [INFO] Data received from OS-DPI at 2025-01-27 16:58:43.239611-05:00
+2025-01-27 21:58:53,304 [ERROR] Error fetching speech-to-text: 
+2025-01-27 21:58:53,305 [ERROR] No prompt text received from RPi API.
+2025-01-27 22:08:26,139 [INFO] Data received from OS-DPI at 2025-01-27 17:08:26.139833-05:00
+2025-01-27 22:08:28,832 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-27 22:08:28,833 [INFO] Partner prompt received: hey what's up
+2025-01-27 22:08:28,834 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey what's up
+
+Please respond accordingly.
+2025-01-27 22:08:30,577 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-27 22:08:30,578 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm excited to see you soon!", 'latency_seconds': 1.74}, {'response_type': 'negative', 'response_text': 'Feeling lonely and wish you were here.', 'latency_seconds': 1.74}], 'total_latency_seconds': 1.74}
+2025-01-27 22:08:37,785 [INFO] Data received from OS-DPI at 2025-01-27 17:08:37.785096-05:00
+2025-01-27 22:08:37,785 [INFO] Received chosen response: I'm excited to see you soon!
+2025-01-27 22:08:37,785 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250127_165657.csv
+2025-01-27 22:13:38,961 [INFO] WebSocket disconnected.
+2025-01-27 22:17:07,437 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250127_171707.csv
+2025-01-27 22:17:07,438 [INFO] WebSocket connection accepted.
+2025-01-27 22:17:57,439 [INFO] WebSocket disconnected.
+2025-01-28 14:30:51,594 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_093051.csv
+2025-01-28 14:30:51,594 [INFO] WebSocket connection accepted.
+2025-01-28 14:30:59,160 [INFO] Data received from OS-DPI at 2025-01-28 09:30:59.160293-05:00
+2025-01-28 14:31:01,380 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-28 14:31:01,382 [INFO] Partner prompt received: hey how are you doing
+2025-01-28 14:31:01,382 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+
+Please respond accordingly.
+2025-01-28 14:31:01,466 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-28 14:31:01,467 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm doing well, thanks for asking!", 'latency_seconds': 0.08}, {'response_type': 'negative', 'response_text': 'Feeling a bit overwhelmed lately, honestly.', 'latency_seconds': 0.08}], 'total_latency_seconds': 0.08}
+2025-01-28 14:31:03,621 [INFO] Data received from OS-DPI at 2025-01-28 09:31:03.621305-05:00
+2025-01-28 14:31:03,621 [INFO] Received chosen response: I'm doing well, thanks for asking!
+2025-01-28 14:31:03,621 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250128_093051.csv
+2025-01-28 14:31:12,665 [INFO] Data received from OS-DPI at 2025-01-28 09:31:12.665172-05:00
+2025-01-28 14:31:15,618 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-28 14:31:15,619 [INFO] Partner prompt received: that's good to know what is your plan today
+2025-01-28 14:31:15,620 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+User: I'm doing well, thanks for asking!
+Partner: that's good to know what is your plan today
+
+Please respond accordingly.
+2025-01-28 14:31:25,402 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-28 14:31:25,403 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm excited to meet Kelly later!", 'latency_seconds': 9.78}, {'response_type': 'negative', 'response_text': 'Just another day at the group home.', 'latency_seconds': 9.78}], 'total_latency_seconds': 9.78}
+2025-01-28 14:31:29,856 [INFO] Data received from OS-DPI at 2025-01-28 09:31:29.856849-05:00
+2025-01-28 14:31:29,857 [INFO] Received chosen response: Just another day at the group home.
+2025-01-28 14:31:29,857 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250128_093051.csv
+2025-01-28 14:31:34,495 [INFO] Data received from OS-DPI at 2025-01-28 09:31:34.495530-05:00
+2025-01-28 14:31:36,767 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-28 14:31:36,768 [INFO] Partner prompt received: oh what's a group home
+2025-01-28 14:31:36,769 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+User: I'm doing well, thanks for asking!
+Partner: that's good to know what is your plan today
+User: Just another day at the group home.
+Partner: oh what's a group home
+
+Please respond accordingly.
+2025-01-28 14:31:39,388 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-28 14:31:39,389 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "It's a place where we help others.", 'latency_seconds': 2.61}, {'response_type': 'negative', 'response_text': 'It can be emotionally challenging sometimes.', 'latency_seconds': 2.61}], 'total_latency_seconds': 2.61}
+2025-01-28 14:31:49,257 [INFO] Data received from OS-DPI at 2025-01-28 09:31:49.257375-05:00
+2025-01-28 14:31:49,257 [INFO] Received chosen response: It's a place where we help others.
+2025-01-28 14:31:49,257 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250128_093051.csv
+2025-01-28 14:31:53,050 [INFO] Data received from OS-DPI at 2025-01-28 09:31:53.050776-05:00
+2025-01-28 14:31:56,268 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-28 14:31:56,269 [INFO] Partner prompt received: oh alright i see alright bye
+2025-01-28 14:31:56,270 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you doing
+User: I'm doing well, thanks for asking!
+Partner: that's good to know what is your plan today
+User: Just another day at the group home.
+Partner: oh what's a group home
+User: It's a place where we help others.
+Partner: oh alright i see alright bye
+
+Please respond accordingly.
+2025-01-28 14:31:58,915 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-28 14:31:58,916 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I enjoy supporting others here.', 'latency_seconds': 2.64}, {'response_type': 'negative', 'response_text': "It's emotionally challenging sometimes.", 'latency_seconds': 2.64}], 'total_latency_seconds': 2.64}
+2025-01-28 14:32:07,748 [INFO] Data received from OS-DPI at 2025-01-28 09:32:07.748528-05:00
+2025-01-28 14:32:07,748 [INFO] Received chosen response: I enjoy supporting others here.
+2025-01-28 14:32:07,749 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250128_093051.csv
+2025-01-28 14:32:14,155 [INFO] CSV file found at session_csv_files/conversation_history_20250128_093051.csv. Preparing for download.
+2025-01-28 14:36:22,660 [INFO] WebSocket disconnected.
+2025-01-28 15:08:09,029 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_100809.csv
+2025-01-28 15:08:09,029 [INFO] WebSocket connection accepted.
+2025-01-28 15:08:16,625 [INFO] WebSocket disconnected.
+2025-01-28 15:16:26,858 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_101626.csv
+2025-01-28 15:16:26,858 [INFO] WebSocket connection accepted.
+2025-01-28 15:24:59,431 [INFO] Data received from OS-DPI at 2025-01-28 10:24:59.431535-05:00
+2025-01-28 15:25:01,642 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-28 15:25:01,643 [INFO] Partner prompt received: hey what's up
+2025-01-28 15:25:01,643 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey what's up
+
+Please respond accordingly.
+2025-01-28 15:25:03,342 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-28 15:25:03,343 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm excited to see you soon!", 'latency_seconds': 1.69}, {'response_type': 'negative', 'response_text': 'Feeling lonely and wish you were here.', 'latency_seconds': 1.69}], 'total_latency_seconds': 1.69}
+2025-01-28 15:25:29,696 [INFO] Data received from OS-DPI at 2025-01-28 10:25:29.696292-05:00
+2025-01-28 15:25:29,696 [INFO] Received chosen response: I'm excited to see you soon!
+2025-01-28 15:25:29,696 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250128_101626.csv
+2025-01-28 15:25:43,201 [INFO] Data received from OS-DPI at 2025-01-28 10:25:43.201730-05:00
+2025-01-28 15:25:46,498 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-28 15:25:46,513 [INFO] Partner prompt received: that's good to know what are your plans for the weekend
+2025-01-28 15:25:46,513 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey what's up
+User: I'm excited to see you soon!
+Partner: that's good to know what are your plans for the weekend
+
+Please respond accordingly.
+2025-01-28 15:25:51,055 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-28 15:25:51,056 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "We'll hang out at Bill's place, have fun!", 'latency_seconds': 4.54}, {'response_type': 'negative', 'response_text': "I'm worried about how Sunday will go.", 'latency_seconds': 4.54}], 'total_latency_seconds': 4.54}
+2025-01-28 15:26:07,473 [INFO] Data received from OS-DPI at 2025-01-28 10:26:07.473150-05:00
+2025-01-28 15:26:07,473 [INFO] Received chosen response: We'll hang out at Bill's place, have fun!
+2025-01-28 15:26:07,473 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250128_101626.csv
+2025-01-28 15:26:37,131 [INFO] Data received from OS-DPI at 2025-01-28 10:26:37.131209-05:00
+2025-01-28 15:26:37,131 [ERROR] No chosen response found in the received data.
+2025-01-28 15:26:44,790 [INFO] Data received from OS-DPI at 2025-01-28 10:26:44.790202-05:00
+2025-01-28 15:26:47,417 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-28 15:26:47,418 [INFO] Partner prompt received: how was your day yesterday
+2025-01-28 15:26:47,419 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey what's up
+User: I'm excited to see you soon!
+Partner: that's good to know what are your plans for the weekend
+User: We'll hang out at Bill's place, have fun!
+Partner: how was your day yesterday
+
+Please respond accordingly.
+2025-01-28 15:26:49,626 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-28 15:26:49,627 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'My day was productive and enjoyable!', 'latency_seconds': 2.2}, {'response_type': 'negative', 'response_text': 'It was a bit hectic, honestly.', 'latency_seconds': 2.2}], 'total_latency_seconds': 2.2}
+2025-01-28 15:26:59,670 [INFO] Data received from OS-DPI at 2025-01-28 10:26:59.670475-05:00
+2025-01-28 15:26:59,670 [INFO] Received chosen response: My day was productive and enjoyable!
+2025-01-28 15:26:59,671 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250128_101626.csv
+2025-01-28 15:27:33,213 [INFO] Data received from OS-DPI at 2025-01-28 10:27:33.213695-05:00
+2025-01-28 15:27:35,787 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-28 15:27:35,788 [INFO] Partner prompt received: but how was your day yesterday
+2025-01-28 15:27:35,789 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey what's up
+User: I'm excited to see you soon!
+Partner: that's good to know what are your plans for the weekend
+User: We'll hang out at Bill's place, have fun!
+Partner: how was your day yesterday
+User: My day was productive and enjoyable!
+Partner: but how was your day yesterday
+
+Please respond accordingly.
+2025-01-28 15:27:40,828 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-28 15:27:40,829 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I spent time with friends, it felt great!', 'latency_seconds': 5.03}, {'response_type': 'negative', 'response_text': 'I felt a bit lonely missing you.', 'latency_seconds': 5.03}], 'total_latency_seconds': 5.03}
+2025-01-28 15:27:47,911 [INFO] Data received from OS-DPI at 2025-01-28 10:27:47.911169-05:00
+2025-01-28 15:27:47,911 [INFO] Received chosen response: I spent time with friends, it felt great!
+2025-01-28 15:27:47,911 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250128_101626.csv
+2025-01-28 15:28:07,674 [INFO] Data received from OS-DPI at 2025-01-28 10:28:07.673956-05:00
+2025-01-28 15:28:11,588 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-01-28 15:28:11,603 [INFO] Partner prompt received: that's good to hear how was your
+2025-01-28 15:28:11,604 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: that's good to know what are your plans for the weekend
+User: We'll hang out at Bill's place, have fun!
+Partner: how was your day yesterday
+User: My day was productive and enjoyable!
+Partner: but how was your day yesterday
+User: I spent time with friends, it felt great!
+Partner: that's good to hear how was your
+
+Please respond accordingly.
+2025-01-28 15:28:14,610 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-01-28 15:28:14,611 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I had a fun day filled with laughter.', 'latency_seconds': 3.0}, {'response_type': 'negative', 'response_text': 'It was a bit tiring, but worth it.', 'latency_seconds': 3.0}], 'total_latency_seconds': 3.0}
+2025-01-28 15:28:32,756 [INFO] Data received from OS-DPI at 2025-01-28 10:28:32.756139-05:00
+2025-01-28 15:28:32,756 [INFO] Received chosen response: I had a fun day filled with laughter.
+2025-01-28 15:28:32,756 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250128_101626.csv
+2025-01-28 15:32:02,518 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_103202.csv
+2025-01-28 15:32:02,519 [INFO] WebSocket connection accepted.
+2025-01-28 15:38:51,139 [INFO] WebSocket disconnected.
+2025-01-28 15:38:57,188 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_103857.csv
+2025-01-28 15:38:57,188 [INFO] WebSocket connection accepted.
+2025-01-28 15:48:21,141 [INFO] WebSocket disconnected.
+2025-01-28 15:49:49,906 [INFO] WebSocket disconnected.
+2025-01-28 15:49:52,252 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_104952.csv
+2025-01-28 15:49:52,252 [INFO] WebSocket connection accepted.
+2025-01-28 15:50:32,358 [INFO] WebSocket disconnected.
+2025-01-28 15:50:36,679 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_105036.csv
+2025-01-28 15:50:36,679 [INFO] WebSocket connection accepted.
+2025-01-28 17:18:06,209 [INFO] WebSocket disconnected.
+2025-01-28 17:18:08,586 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_121808.csv
+2025-01-28 17:18:08,586 [INFO] WebSocket connection accepted.
+2025-01-28 18:04:21,564 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_130421.csv
+2025-01-28 18:04:21,564 [INFO] WebSocket connection accepted.
+2025-01-28 18:05:37,476 [INFO] WebSocket disconnected.
+2025-01-28 18:05:38,820 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_130538.csv
+2025-01-28 18:05:38,820 [INFO] WebSocket connection accepted.
+2025-01-28 18:06:28,823 [INFO] WebSocket disconnected.
+2025-01-28 18:11:59,574 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_131159.csv
+2025-01-28 18:11:59,574 [INFO] WebSocket connection accepted.
+2025-01-28 18:19:03,853 [INFO] WebSocket disconnected.
+2025-01-28 18:20:11,773 [INFO] WebSocket disconnected.
+2025-01-28 18:20:14,034 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_132014.csv
+2025-01-28 18:20:14,035 [INFO] WebSocket connection accepted.
+2025-01-28 18:21:24,080 [INFO] WebSocket disconnected.
+2025-01-28 19:41:17,438 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_144117.csv
+2025-01-28 19:41:17,438 [INFO] WebSocket connection accepted.
+2025-01-28 19:42:07,441 [INFO] WebSocket disconnected.
+2025-01-28 21:44:58,693 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_164458.csv
+2025-01-28 21:44:58,694 [INFO] WebSocket connection accepted.
+2025-01-28 21:45:48,695 [INFO] WebSocket disconnected.
+2025-01-28 23:13:10,840 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_181310.csv
+2025-01-28 23:13:10,841 [INFO] WebSocket connection accepted.
+2025-01-28 23:14:00,842 [INFO] WebSocket disconnected.
+2025-01-28 23:32:57,347 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_183257.csv
+2025-01-28 23:32:57,348 [INFO] WebSocket connection accepted.
+2025-01-28 23:33:47,350 [INFO] WebSocket disconnected.
+2025-01-29 00:14:09,160 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_191409.csv
+2025-01-29 00:14:09,160 [INFO] WebSocket connection accepted.
+2025-01-29 00:14:59,161 [INFO] WebSocket disconnected.
+2025-01-29 01:15:05,964 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_201505.csv
+2025-01-29 01:15:05,965 [INFO] WebSocket connection accepted.
+2025-01-29 01:15:55,966 [INFO] WebSocket disconnected.
+2025-01-29 03:11:10,884 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_221110.csv
+2025-01-29 03:11:10,885 [INFO] WebSocket connection accepted.
+2025-01-29 03:12:00,885 [INFO] WebSocket disconnected.
+2025-01-29 04:54:07,656 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250128_235407.csv
+2025-01-29 04:54:07,657 [INFO] WebSocket connection accepted.
+2025-01-29 04:54:57,659 [INFO] WebSocket disconnected.
+2025-01-29 07:12:14,537 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250129_021214.csv
+2025-01-29 07:12:14,537 [INFO] WebSocket connection accepted.
+2025-01-29 07:13:04,538 [INFO] WebSocket disconnected.
+2025-01-29 09:44:08,893 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250129_044408.csv
+2025-01-29 09:44:08,894 [INFO] WebSocket connection accepted.
+2025-01-29 09:44:58,895 [INFO] WebSocket disconnected.
+2025-01-29 11:03:23,981 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250129_060323.csv
+2025-01-29 11:03:23,982 [INFO] WebSocket connection accepted.
+2025-01-29 11:04:13,982 [INFO] WebSocket disconnected.
+2025-02-02 19:49:55,432 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250202_144955.csv
+2025-02-02 19:49:55,448 [INFO] WebSocket connection accepted.
+2025-02-02 23:37:26,913 [INFO] WebSocket disconnected.
+2025-02-03 15:40:30,312 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250203_104030.csv
+2025-02-03 15:40:30,312 [INFO] WebSocket connection accepted.
+2025-02-03 15:50:19,406 [INFO] WebSocket disconnected.
+2025-02-03 15:50:22,506 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250203_105022.csv
+2025-02-03 15:50:22,506 [INFO] WebSocket connection accepted.
+2025-02-03 15:51:12,507 [INFO] WebSocket disconnected.
+2025-02-03 17:38:01,365 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250203_123801.csv
+2025-02-03 17:38:01,365 [INFO] WebSocket connection accepted.
+2025-02-03 17:38:01,961 [INFO] WebSocket disconnected.
+2025-02-03 17:38:04,276 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250203_123804.csv
+2025-02-03 17:38:04,276 [INFO] WebSocket connection accepted.
+2025-02-03 17:38:54,278 [INFO] WebSocket disconnected.
+2025-02-03 17:53:45,947 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250203_125345.csv
+2025-02-03 17:53:45,947 [INFO] WebSocket connection accepted.
+2025-02-03 18:11:55,047 [INFO] WebSocket disconnected.
+2025-02-03 18:11:57,477 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250203_131157.csv
+2025-02-03 18:11:57,478 [INFO] WebSocket connection accepted.
+2025-02-03 21:51:57,900 [INFO] WebSocket disconnected.
+2025-02-03 21:52:49,584 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250203_165249.csv
+2025-02-03 21:52:49,584 [INFO] WebSocket connection accepted.
+2025-02-03 21:53:39,586 [INFO] WebSocket disconnected.
+2025-02-03 21:56:41,572 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250203_165641.csv
+2025-02-03 21:56:41,573 [INFO] WebSocket connection accepted.
+2025-02-03 21:57:31,574 [INFO] WebSocket disconnected.
+2025-02-04 07:06:30,264 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250204_020630.csv
+2025-02-04 07:06:30,264 [INFO] WebSocket connection accepted.
+2025-02-04 07:07:20,265 [INFO] WebSocket disconnected.
+2025-02-04 07:35:40,596 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250204_023540.csv
+2025-02-04 07:35:40,596 [INFO] WebSocket connection accepted.
+2025-02-04 07:36:30,598 [INFO] WebSocket disconnected.
+2025-02-04 08:10:31,805 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250204_031031.csv
+2025-02-04 08:10:31,805 [INFO] WebSocket connection accepted.
+2025-02-04 08:11:21,807 [INFO] WebSocket disconnected.
+2025-02-04 08:41:23,095 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250204_034123.csv
+2025-02-04 08:41:23,095 [INFO] WebSocket connection accepted.
+2025-02-04 08:42:13,096 [INFO] WebSocket disconnected.
+2025-02-04 09:12:39,987 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250204_041239.csv
+2025-02-04 09:12:39,987 [INFO] WebSocket connection accepted.
+2025-02-04 09:13:29,989 [INFO] WebSocket disconnected.
+2025-02-04 09:40:49,071 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250204_044049.csv
+2025-02-04 09:40:49,071 [INFO] WebSocket connection accepted.
+2025-02-04 09:41:39,072 [INFO] WebSocket disconnected.
+2025-02-04 10:07:17,388 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250204_050717.csv
+2025-02-04 10:07:17,388 [INFO] WebSocket connection accepted.
+2025-02-04 10:08:07,391 [INFO] WebSocket disconnected.
+2025-02-04 10:37:21,346 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250204_053721.csv
+2025-02-04 10:37:21,346 [INFO] WebSocket connection accepted.
+2025-02-04 10:38:11,349 [INFO] WebSocket disconnected.
+2025-02-04 11:06:57,807 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250204_060657.csv
+2025-02-04 11:06:57,808 [INFO] WebSocket connection accepted.
+2025-02-04 11:07:47,810 [INFO] WebSocket disconnected.
+2025-02-04 19:35:52,509 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250204_143552.csv
+2025-02-04 19:35:52,509 [INFO] WebSocket connection accepted.
+2025-02-04 19:37:57,006 [INFO] WebSocket disconnected.
+2025-02-05 19:22:36,373 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250205_142236.csv
+2025-02-05 19:22:36,373 [INFO] WebSocket connection accepted.
+2025-02-05 19:22:39,840 [INFO] WebSocket disconnected.
+2025-02-05 19:22:41,154 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250205_142241.csv
+2025-02-05 19:22:41,154 [INFO] WebSocket connection accepted.
+2025-02-05 19:36:49,210 [INFO] WebSocket disconnected.
+2025-02-05 21:40:55,901 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250205_164055.csv
+2025-02-05 21:40:55,901 [INFO] WebSocket connection accepted.
+2025-02-05 21:41:35,395 [INFO] WebSocket disconnected.
+2025-02-05 21:41:36,749 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250205_164136.csv
+2025-02-05 21:41:36,749 [INFO] WebSocket connection accepted.
+2025-02-05 22:05:28,181 [INFO] WebSocket disconnected.
+2025-02-05 22:06:35,809 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250205_170635.csv
+2025-02-05 22:06:35,809 [INFO] WebSocket connection accepted.
+2025-02-05 22:11:57,941 [INFO] WebSocket disconnected.
+2025-02-05 22:12:05,442 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250205_171205.csv
+2025-02-05 22:12:05,442 [INFO] WebSocket connection accepted.
+2025-02-05 22:12:10,976 [INFO] WebSocket disconnected.
+2025-02-05 22:12:16,700 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250205_171216.csv
+2025-02-05 22:12:16,700 [INFO] WebSocket connection accepted.
+2025-02-05 22:17:27,967 [INFO] WebSocket disconnected.
+2025-02-05 22:22:21,808 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250205_172221.csv
+2025-02-05 22:22:21,808 [INFO] WebSocket connection accepted.
+2025-02-05 22:30:15,854 [INFO] WebSocket disconnected.
+2025-02-06 15:51:16,665 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_105116.csv
+2025-02-06 15:51:16,665 [INFO] WebSocket connection accepted.
+2025-02-06 15:54:47,236 [INFO] WebSocket disconnected.
+2025-02-06 16:52:55,682 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_115255.csv
+2025-02-06 16:52:55,682 [INFO] WebSocket connection accepted.
+2025-02-06 16:52:56,673 [INFO] WebSocket disconnected.
+2025-02-06 16:52:57,880 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_115257.csv
+2025-02-06 16:52:57,881 [INFO] WebSocket connection accepted.
+2025-02-06 16:59:39,324 [INFO] WebSocket disconnected.
+2025-02-06 17:22:10,195 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_122210.csv
+2025-02-06 17:22:10,195 [INFO] WebSocket connection accepted.
+2025-02-06 17:22:28,993 [INFO] WebSocket disconnected.
+2025-02-06 17:22:30,171 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_122230.csv
+2025-02-06 17:22:30,171 [INFO] WebSocket connection accepted.
+2025-02-06 17:22:40,316 [INFO] WebSocket disconnected.
+2025-02-06 17:22:41,650 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_122241.csv
+2025-02-06 17:22:41,651 [INFO] WebSocket connection accepted.
+2025-02-06 17:22:48,142 [INFO] Data received from OS-DPI at 2025-02-06 12:22:48.142633-05:00
+2025-02-06 17:22:49,711 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 17:22:49,713 [INFO] Partner prompt received: hello
+2025-02-06 17:22:49,713 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hello
+
+Please respond accordingly.
+2025-02-06 17:22:53,929 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 17:22:53,930 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Great to hear from you!', 'latency_seconds': 4.21}, {'response_type': 'negative', 'response_text': 'I’m busy right now, talk later?', 'latency_seconds': 4.21}], 'total_latency_seconds': 4.21}
+2025-02-06 17:22:55,818 [INFO] Data received from OS-DPI at 2025-02-06 12:22:55.818265-05:00
+2025-02-06 17:22:55,818 [INFO] Received chosen response: Great to hear from you!
+2025-02-06 17:22:55,818 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_122241.csv
+2025-02-06 17:23:00,224 [INFO] CSV file found at session_csv_files/conversation_history_20250206_122241.csv. Preparing for download.
+2025-02-06 17:24:11,781 [INFO] WebSocket disconnected.
+2025-02-06 17:53:04,481 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_125304.csv
+2025-02-06 17:53:04,481 [INFO] WebSocket connection accepted.
+2025-02-06 17:53:04,548 [INFO] WebSocket disconnected.
+2025-02-06 17:53:07,978 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_125307.csv
+2025-02-06 17:53:07,978 [INFO] WebSocket connection accepted.
+2025-02-06 17:58:56,244 [INFO] WebSocket disconnected.
+2025-02-06 18:40:59,788 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_134059.csv
+2025-02-06 18:40:59,789 [INFO] WebSocket connection accepted.
+2025-02-06 18:44:14,319 [INFO] WebSocket disconnected.
+2025-02-06 18:44:20,708 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_134420.csv
+2025-02-06 18:44:20,708 [INFO] WebSocket connection accepted.
+2025-02-06 18:54:15,376 [INFO] WebSocket disconnected.
+2025-02-06 19:44:32,446 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_144432.csv
+2025-02-06 19:44:32,446 [INFO] WebSocket connection accepted.
+2025-02-06 19:45:28,113 [INFO] WebSocket disconnected.
+2025-02-06 20:33:32,798 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_153332.csv
+2025-02-06 20:33:32,798 [INFO] WebSocket connection accepted.
+2025-02-06 20:34:46,267 [INFO] WebSocket disconnected.
+2025-02-06 21:15:14,110 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_161514.csv
+2025-02-06 21:15:14,110 [INFO] WebSocket connection accepted.
+2025-02-06 21:36:52,855 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_163652.csv
+2025-02-06 21:36:52,855 [INFO] WebSocket connection accepted.
+2025-02-06 21:36:52,959 [INFO] WebSocket disconnected.
+2025-02-06 21:36:54,346 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_163654.csv
+2025-02-06 21:36:54,347 [INFO] WebSocket connection accepted.
+2025-02-06 21:43:26,085 [INFO] WebSocket disconnected.
+2025-02-06 21:43:27,383 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_164327.csv
+2025-02-06 21:43:27,383 [INFO] WebSocket connection accepted.
+2025-02-06 21:43:39,290 [INFO] CSV file found at session_csv_files/conversation_history_20250206_164327.csv. Preparing for download.
+2025-02-06 21:43:43,708 [INFO] Data received from OS-DPI at 2025-02-06 16:43:43.708361-05:00
+2025-02-06 21:43:45,667 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:43:45,669 [INFO] Partner prompt received: hey how are you
+2025-02-06 21:43:45,669 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how are you
+
+Please respond accordingly.
+2025-02-06 21:43:49,023 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:43:49,024 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm great, just enjoying time with friends.", 'latency_seconds': 3.35}, {'response_type': 'negative', 'response_text': 'Feeling a bit overwhelmed with everything going on.', 'latency_seconds': 3.35}], 'total_latency_seconds': 3.35}
+2025-02-06 21:44:03,922 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_164403.csv
+2025-02-06 21:44:03,923 [INFO] WebSocket connection accepted.
+2025-02-06 21:44:25,911 [INFO] Data received from OS-DPI at 2025-02-06 16:44:25.911375-05:00
+2025-02-06 21:44:27,832 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:44:27,833 [INFO] Partner prompt received: hey how is it going
+2025-02-06 21:44:27,834 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how is it going
+
+Please respond accordingly.
+2025-02-06 21:44:30,213 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:44:30,214 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I’m doing great, thanks for asking!', 'latency_seconds': 2.38}, {'response_type': 'negative', 'response_text': 'Just dealing with some stress, honestly.', 'latency_seconds': 2.38}], 'total_latency_seconds': 2.38}
+2025-02-06 21:46:38,510 [INFO] WebSocket disconnected.
+2025-02-06 21:46:39,815 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_164639.csv
+2025-02-06 21:46:39,815 [INFO] WebSocket connection accepted.
+2025-02-06 21:46:43,297 [INFO] WebSocket disconnected.
+2025-02-06 21:47:00,963 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_164700.csv
+2025-02-06 21:47:00,963 [INFO] WebSocket connection accepted.
+2025-02-06 21:48:37,083 [INFO] WebSocket disconnected.
+2025-02-06 21:48:55,195 [INFO] WebSocket disconnected.
+2025-02-06 21:54:10,890 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:54:10,891 [INFO] WebSocket connection accepted.
+2025-02-06 21:54:32,048 [INFO] Data received from OS-DPI at 2025-02-06 16:54:32.048723-05:00
+2025-02-06 21:54:33,964 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:54:33,965 [INFO] Partner prompt received: hey how's it going
+2025-02-06 21:54:33,966 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how's it going
+
+Please respond accordingly.
+2025-02-06 21:54:40,795 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:54:40,796 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Just thinking about you, feeling great!', 'latency_seconds': 6.82}, {'response_type': 'negative', 'response_text': 'Feeling a bit overwhelmed, honestly.', 'latency_seconds': 6.82}], 'total_latency_seconds': 6.82}
+2025-02-06 21:54:49,200 [INFO] Data received from OS-DPI at 2025-02-06 16:54:49.200136-05:00
+2025-02-06 21:54:49,200 [INFO] Received chosen response: Just thinking about you, feeling great!
+2025-02-06 21:54:49,200 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:55:03,002 [INFO] Data received from OS-DPI at 2025-02-06 16:55:03.002521-05:00
+2025-02-06 21:55:06,553 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:55:06,554 [INFO] Partner prompt received: that's good to know i'm shalini a researcher at
+2025-02-06 21:55:06,554 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how's it going
+User: Just thinking about you, feeling great!
+Partner: that's good to know i'm shalini a researcher at
+
+Please respond accordingly.
+2025-02-06 21:55:14,849 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:55:14,850 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'm happy thinking about our time together!", 'latency_seconds': 8.29}, {'response_type': 'negative', 'response_text': 'Struggling with uncertainty about moving away.', 'latency_seconds': 8.29}], 'total_latency_seconds': 8.29}
+2025-02-06 21:55:19,842 [INFO] Data received from OS-DPI at 2025-02-06 16:55:19.842589-05:00
+2025-02-06 21:55:19,842 [INFO] Received chosen response: I'm happy thinking about our time together!
+2025-02-06 21:55:19,843 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:55:28,130 [INFO] Data received from OS-DPI at 2025-02-06 16:55:28.130396-05:00
+2025-02-06 21:55:30,931 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:55:30,932 [INFO] Partner prompt received: how has the winter been been for you
+2025-02-06 21:55:30,933 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how's it going
+User: Just thinking about you, feeling great!
+Partner: that's good to know i'm shalini a researcher at
+User: I'm happy thinking about our time together!
+Partner: how has the winter been been for you
+
+Please respond accordingly.
+2025-02-06 21:55:32,581 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:55:32,582 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "Winter's been cozy and filled with warmth.", 'latency_seconds': 1.64}, {'response_type': 'negative', 'response_text': "It's been extra cold this year.", 'latency_seconds': 1.64}], 'total_latency_seconds': 1.64}
+2025-02-06 21:55:36,650 [INFO] Data received from OS-DPI at 2025-02-06 16:55:36.650730-05:00
+2025-02-06 21:55:36,651 [INFO] Received chosen response: Winter's been cozy and filled with warmth.
+2025-02-06 21:55:36,651 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:55:41,911 [INFO] Data received from OS-DPI at 2025-02-06 16:55:41.910960-05:00
+2025-02-06 21:55:45,073 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:55:45,074 [INFO] Partner prompt received: can you help me out with some research i'm doing
+2025-02-06 21:55:45,075 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how's it going
+User: Just thinking about you, feeling great!
+Partner: that's good to know i'm shalini a researcher at
+User: I'm happy thinking about our time together!
+Partner: how has the winter been been for you
+User: Winter's been cozy and filled with warmth.
+Partner: can you help me out with some research i'm doing
+
+Please respond accordingly.
+2025-02-06 21:55:47,081 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:55:47,082 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "Absolutely, I'd love to help with your research!", 'latency_seconds': 2.0}, {'response_type': 'negative', 'response_text': 'Not sure if I have enough time, though.', 'latency_seconds': 2.0}], 'total_latency_seconds': 2.0}
+2025-02-06 21:55:49,974 [INFO] Data received from OS-DPI at 2025-02-06 16:55:49.974057-05:00
+2025-02-06 21:55:49,974 [INFO] Received chosen response: Absolutely, I'd love to help with your research!
+2025-02-06 21:55:49,974 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:55:55,350 [INFO] Data received from OS-DPI at 2025-02-06 16:55:55.350728-05:00
+2025-02-06 21:55:58,005 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:55:58,006 [INFO] Partner prompt received: what part of gosselo do you live in
+2025-02-06 21:55:58,007 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: that's good to know i'm shalini a researcher at
+User: I'm happy thinking about our time together!
+Partner: how has the winter been been for you
+User: Winter's been cozy and filled with warmth.
+Partner: can you help me out with some research i'm doing
+User: Absolutely, I'd love to help with your research!
+Partner: what part of gosselo do you live in
+
+Please respond accordingly.
+2025-02-06 21:55:59,868 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:55:59,869 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I live in a friendly neighborhood.', 'latency_seconds': 1.86}, {'response_type': 'negative', 'response_text': "It's been a bit quiet lately.", 'latency_seconds': 1.86}], 'total_latency_seconds': 1.86}
+2025-02-06 21:56:07,167 [INFO] Data received from OS-DPI at 2025-02-06 16:56:07.167158-05:00
+2025-02-06 21:56:07,167 [INFO] Received chosen response: I live in a friendly neighborhood.
+2025-02-06 21:56:07,167 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:56:14,977 [INFO] Data received from OS-DPI at 2025-02-06 16:56:14.977259-05:00
+2025-02-06 21:56:17,615 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:56:17,616 [INFO] Partner prompt received: i'm sorry i'm asking a lot of questions
+2025-02-06 21:56:17,617 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: how has the winter been been for you
+User: Winter's been cozy and filled with warmth.
+Partner: can you help me out with some research i'm doing
+User: Absolutely, I'd love to help with your research!
+Partner: what part of gosselo do you live in
+User: I live in a friendly neighborhood.
+Partner: i'm sorry i'm asking a lot of questions
+
+Please respond accordingly.
+2025-02-06 21:56:23,082 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:56:23,083 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I enjoy questions; they show interest.', 'latency_seconds': 5.46}, {'response_type': 'negative', 'response_text': 'Too many questions can feel overwhelming.', 'latency_seconds': 5.46}], 'total_latency_seconds': 5.46}
+2025-02-06 21:56:27,558 [INFO] Data received from OS-DPI at 2025-02-06 16:56:27.558414-05:00
+2025-02-06 21:56:27,558 [INFO] Received chosen response: I enjoy questions; they show interest.
+2025-02-06 21:56:27,558 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:56:44,174 [INFO] Data received from OS-DPI at 2025-02-06 16:56:44.174302-05:00
+2025-02-06 21:56:47,358 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:56:47,359 [INFO] Partner prompt received: can tell you what my study is about if you like
+2025-02-06 21:56:47,359 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: can you help me out with some research i'm doing
+User: Absolutely, I'd love to help with your research!
+Partner: what part of gosselo do you live in
+User: I live in a friendly neighborhood.
+Partner: i'm sorry i'm asking a lot of questions
+User: I enjoy questions; they show interest.
+Partner: can tell you what my study is about if you like
+
+Please respond accordingly.
+2025-02-06 21:56:49,614 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:56:49,615 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'd love to hear about your study!", 'latency_seconds': 2.25}, {'response_type': 'negative', 'response_text': 'I’m not sure if I can assist fully.', 'latency_seconds': 2.25}], 'total_latency_seconds': 2.25}
+2025-02-06 21:56:52,550 [INFO] Data received from OS-DPI at 2025-02-06 16:56:52.550851-05:00
+2025-02-06 21:56:52,551 [INFO] Received chosen response: I'd love to hear about your study!
+2025-02-06 21:56:52,551 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:57:02,293 [INFO] Data received from OS-DPI at 2025-02-06 16:57:02.293102-05:00
+2025-02-06 21:57:05,156 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:57:05,157 [INFO] Partner prompt received: it is annoying to be asked a ton of questions
+2025-02-06 21:57:05,158 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: what part of gosselo do you live in
+User: I live in a friendly neighborhood.
+Partner: i'm sorry i'm asking a lot of questions
+User: I enjoy questions; they show interest.
+Partner: can tell you what my study is about if you like
+User: I'd love to hear about your study!
+Partner: it is annoying to be asked a ton of questions
+
+Please respond accordingly.
+2025-02-06 21:57:07,295 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:57:07,296 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Curiosity leads to great discussions!', 'latency_seconds': 2.13}, {'response_type': 'negative', 'response_text': 'I can understand feeling overwhelmed.', 'latency_seconds': 2.13}], 'total_latency_seconds': 2.13}
+2025-02-06 21:57:10,455 [INFO] Data received from OS-DPI at 2025-02-06 16:57:10.455888-05:00
+2025-02-06 21:57:10,456 [INFO] Received chosen response: Curiosity leads to great discussions!
+2025-02-06 21:57:10,460 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:57:16,492 [INFO] Data received from OS-DPI at 2025-02-06 16:57:16.492762-05:00
+2025-02-06 21:57:18,588 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:57:18,595 [INFO] Partner prompt received: i think you are very patient
+2025-02-06 21:57:18,595 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: i'm sorry i'm asking a lot of questions
+User: I enjoy questions; they show interest.
+Partner: can tell you what my study is about if you like
+User: I'd love to hear about your study!
+Partner: it is annoying to be asked a ton of questions
+User: Curiosity leads to great discussions!
+Partner: i think you are very patient
+
+Please respond accordingly.
+2025-02-06 21:57:20,375 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 500 Internal Server Error"
+2025-02-06 21:57:20,376 [ERROR] HTTP error occurred: 500 - {"detail":"Invalid response format from LightRAG."}
+2025-02-06 21:57:23,369 [INFO] Data received from OS-DPI at 2025-02-06 16:57:23.369514-05:00
+2025-02-06 21:57:23,369 [INFO] Received chosen response: No response available.
+2025-02-06 21:57:23,370 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:57:34,703 [INFO] Data received from OS-DPI at 2025-02-06 16:57:34.703593-05:00
+2025-02-06 21:57:38,055 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:57:38,057 [INFO] Partner prompt received: would you like to tell me about the weather where you live this winter
+2025-02-06 21:57:38,057 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: can tell you what my study is about if you like
+User: I'd love to hear about your study!
+Partner: it is annoying to be asked a ton of questions
+User: Curiosity leads to great discussions!
+Partner: i think you are very patient
+User: No response available.
+Partner: would you like to tell me about the weather where you live this winter
+
+Please respond accordingly.
+2025-02-06 21:57:39,911 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:57:39,912 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Winter here is cozy and snowy.', 'latency_seconds': 1.85}, {'response_type': 'negative', 'response_text': "It's been quite cold and gloomy.", 'latency_seconds': 1.85}], 'total_latency_seconds': 1.85}
+2025-02-06 21:57:43,312 [INFO] Data received from OS-DPI at 2025-02-06 16:57:43.312356-05:00
+2025-02-06 21:57:43,312 [INFO] Received chosen response: Winter here is cozy and snowy.
+2025-02-06 21:57:43,312 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:57:49,682 [INFO] Data received from OS-DPI at 2025-02-06 16:57:49.682122-05:00
+2025-02-06 21:57:52,270 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:57:52,275 [INFO] Partner prompt received: winters around here can vary a lot
+2025-02-06 21:57:52,275 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: it is annoying to be asked a ton of questions
+User: Curiosity leads to great discussions!
+Partner: i think you are very patient
+User: No response available.
+Partner: would you like to tell me about the weather where you live this winter
+User: Winter here is cozy and snowy.
+Partner: winters around here can vary a lot
+
+Please respond accordingly.
+2025-02-06 21:57:56,200 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 500 Internal Server Error"
+2025-02-06 21:57:56,201 [ERROR] HTTP error occurred: 500 - {"detail":"Invalid response format from LightRAG."}
+2025-02-06 21:57:59,745 [INFO] Data received from OS-DPI at 2025-02-06 16:57:59.745570-05:00
+2025-02-06 21:57:59,745 [INFO] Received chosen response: No response available.
+2025-02-06 21:57:59,746 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:58:07,243 [INFO] Data received from OS-DPI at 2025-02-06 16:58:07.243790-05:00
+2025-02-06 21:58:09,690 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:58:09,691 [INFO] Partner prompt received: you like winter in buffalo
+2025-02-06 21:58:09,691 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: i think you are very patient
+User: No response available.
+Partner: would you like to tell me about the weather where you live this winter
+User: Winter here is cozy and snowy.
+Partner: winters around here can vary a lot
+User: No response available.
+Partner: you like winter in buffalo
+
+Please respond accordingly.
+2025-02-06 21:58:14,626 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:58:14,627 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I love the winter vibe in Buffalo.', 'latency_seconds': 4.93}, {'response_type': 'negative', 'response_text': 'Sometimes the snow makes things tough.', 'latency_seconds': 4.93}], 'total_latency_seconds': 4.93}
+2025-02-06 21:58:17,983 [INFO] Data received from OS-DPI at 2025-02-06 16:58:17.983307-05:00
+2025-02-06 21:58:17,983 [INFO] Received chosen response: I love the winter vibe in Buffalo.
+2025-02-06 21:58:17,984 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:58:24,156 [INFO] Data received from OS-DPI at 2025-02-06 16:58:24.156393-05:00
+2025-02-06 21:58:26,470 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:58:26,471 [INFO] Partner prompt received: you explain why do you like it
+2025-02-06 21:58:26,472 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: would you like to tell me about the weather where you live this winter
+User: Winter here is cozy and snowy.
+Partner: winters around here can vary a lot
+User: No response available.
+Partner: you like winter in buffalo
+User: I love the winter vibe in Buffalo.
+Partner: you explain why do you like it
+
+Please respond accordingly.
+2025-02-06 21:58:34,093 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:58:34,094 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Snow brings joy and fun activities for me.', 'latency_seconds': 7.62}, {'response_type': 'negative', 'response_text': 'Harsh snowstorms can disrupt plans and cause worries.', 'latency_seconds': 7.62}], 'total_latency_seconds': 7.62}
+2025-02-06 21:58:37,340 [INFO] Data received from OS-DPI at 2025-02-06 16:58:37.340133-05:00
+2025-02-06 21:58:37,340 [INFO] Received chosen response: Snow brings joy and fun activities for me.
+2025-02-06 21:58:37,340 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:58:43,432 [INFO] Data received from OS-DPI at 2025-02-06 16:58:43.432239-05:00
+2025-02-06 21:58:45,589 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:58:45,590 [INFO] Partner prompt received: what do you suggest for winter
+2025-02-06 21:58:45,591 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: winters around here can vary a lot
+User: No response available.
+Partner: you like winter in buffalo
+User: I love the winter vibe in Buffalo.
+Partner: you explain why do you like it
+User: Snow brings joy and fun activities for me.
+Partner: what do you suggest for winter
+
+Please respond accordingly.
+2025-02-06 21:58:47,540 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 21:58:47,541 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Ice skating and cozy fires are perfect winter activities.', 'latency_seconds': 1.95}, {'response_type': 'negative', 'response_text': 'Driving can be challenging with heavy snow.', 'latency_seconds': 1.95}], 'total_latency_seconds': 1.95}
+2025-02-06 21:58:50,128 [INFO] Data received from OS-DPI at 2025-02-06 16:58:50.128520-05:00
+2025-02-06 21:58:50,128 [INFO] Received chosen response: Ice skating and cozy fires are perfect winter activities.
+2025-02-06 21:58:50,129 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:58:56,496 [INFO] Data received from OS-DPI at 2025-02-06 16:58:56.496840-05:00
+2025-02-06 21:58:58,892 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 21:58:58,893 [INFO] Partner prompt received: i'm all done with the study
+2025-02-06 21:58:58,894 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: you like winter in buffalo
+User: I love the winter vibe in Buffalo.
+Partner: you explain why do you like it
+User: Snow brings joy and fun activities for me.
+Partner: what do you suggest for winter
+User: Ice skating and cozy fires are perfect winter activities.
+Partner: i'm all done with the study
+
+Please respond accordingly.
+2025-02-06 21:59:00,136 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 500 Internal Server Error"
+2025-02-06 21:59:00,137 [ERROR] HTTP error occurred: 500 - {"detail":"Internal Server Error."}
+2025-02-06 21:59:02,057 [INFO] Data received from OS-DPI at 2025-02-06 16:59:02.057609-05:00
+2025-02-06 21:59:02,057 [INFO] Received chosen response: No response available.
+2025-02-06 21:59:02,058 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_165410.csv
+2025-02-06 21:59:06,149 [INFO] CSV file found at session_csv_files/conversation_history_20250206_165410.csv. Preparing for download.
+2025-02-06 22:11:58,772 [INFO] WebSocket disconnected.
+2025-02-06 22:14:43,539 [INFO] WebSocket disconnected.
+2025-02-06 22:14:44,857 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_171444.csv
+2025-02-06 22:14:44,857 [INFO] WebSocket connection accepted.
+2025-02-06 22:14:51,178 [INFO] Data received from OS-DPI at 2025-02-06 17:14:51.178356-05:00
+2025-02-06 22:14:51,178 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2025-02-06 22:14:51,178 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_171451.csv
+2025-02-06 22:14:51,179 [INFO] New CSV file created at session_csv_files/conversation_history_20250206_171451.csv for the new conversation.
+2025-02-06 22:15:03,963 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:15:03,963 [INFO] WebSocket connection accepted.
+2025-02-06 22:15:04,540 [INFO] WebSocket disconnected.
+2025-02-06 22:15:11,623 [INFO] Data received from OS-DPI at 2025-02-06 17:15:11.623781-05:00
+2025-02-06 22:15:13,796 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:15:13,797 [INFO] Partner prompt received: hey how is it going
+2025-02-06 22:15:13,797 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how is it going
+
+Please respond accordingly.
+2025-02-06 22:15:13,874 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 22:15:13,875 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I’m doing great, thanks for asking!', 'latency_seconds': 0.07}, {'response_type': 'negative', 'response_text': 'Just dealing with some stress, honestly.', 'latency_seconds': 0.07}], 'total_latency_seconds': 0.07}
+2025-02-06 22:15:16,025 [INFO] Data received from OS-DPI at 2025-02-06 17:15:16.025251-05:00
+2025-02-06 22:15:16,025 [INFO] Received chosen response: I’m doing great, thanks for asking!
+2025-02-06 22:15:16,025 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:15:20,942 [INFO] Data received from OS-DPI at 2025-02-06 17:15:20.942081-05:00
+2025-02-06 22:15:24,111 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:15:24,112 [INFO] Partner prompt received: i'm shalini a researcher at university at buffalo
+2025-02-06 22:15:24,112 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how is it going
+User: I’m doing great, thanks for asking!
+Partner: i'm shalini a researcher at university at buffalo
+
+Please respond accordingly.
+2025-02-06 22:15:32,930 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 22:15:32,931 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'That sounds interesting! What do you research?', 'latency_seconds': 8.81}, {'response_type': 'negative', 'response_text': "I struggle with communication, but I'm learning!", 'latency_seconds': 8.81}], 'total_latency_seconds': 8.81}
+2025-02-06 22:15:36,429 [INFO] Data received from OS-DPI at 2025-02-06 17:15:36.429316-05:00
+2025-02-06 22:15:36,429 [INFO] Received chosen response: That sounds interesting! What do you research?
+2025-02-06 22:15:36,429 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:15:49,293 [INFO] Data received from OS-DPI at 2025-02-06 17:15:49.293433-05:00
+2025-02-06 22:15:52,935 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:15:52,945 [INFO] Partner prompt received: i work in the cattle lab how has the winter been for you
+2025-02-06 22:15:52,945 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how is it going
+User: I’m doing great, thanks for asking!
+Partner: i'm shalini a researcher at university at buffalo
+User: That sounds interesting! What do you research?
+Partner: i work in the cattle lab how has the winter been for you
+
+Please respond accordingly.
+2025-02-06 22:15:54,912 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 22:15:54,913 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Winter has been cozy and enjoyable so far.', 'latency_seconds': 1.96}, {'response_type': 'negative', 'response_text': "A bit colder than I'd like, honestly.", 'latency_seconds': 1.96}], 'total_latency_seconds': 1.96}
+2025-02-06 22:15:59,354 [INFO] Data received from OS-DPI at 2025-02-06 17:15:59.354146-05:00
+2025-02-06 22:15:59,354 [INFO] Received chosen response: Winter has been cozy and enjoyable so far.
+2025-02-06 22:15:59,354 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:16:07,392 [INFO] Data received from OS-DPI at 2025-02-06 17:16:07.392009-05:00
+2025-02-06 22:16:10,475 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:16:10,476 [INFO] Partner prompt received: can you help me out with some research i'm doing
+2025-02-06 22:16:10,476 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey how is it going
+User: I’m doing great, thanks for asking!
+Partner: i'm shalini a researcher at university at buffalo
+User: That sounds interesting! What do you research?
+Partner: i work in the cattle lab how has the winter been for you
+User: Winter has been cozy and enjoyable so far.
+Partner: can you help me out with some research i'm doing
+
+Please respond accordingly.
+2025-02-06 22:16:12,364 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 22:16:12,365 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Of course! I love helping with research.', 'latency_seconds': 1.88}, {'response_type': 'negative', 'response_text': "I'm not sure I have the expertise, though.", 'latency_seconds': 1.88}], 'total_latency_seconds': 1.88}
+2025-02-06 22:16:14,514 [INFO] Data received from OS-DPI at 2025-02-06 17:16:14.514368-05:00
+2025-02-06 22:16:14,514 [INFO] Received chosen response: Of course! I love helping with research.
+2025-02-06 22:16:14,514 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:16:20,285 [INFO] Data received from OS-DPI at 2025-02-06 17:16:20.285373-05:00
+2025-02-06 22:16:22,764 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:16:22,765 [INFO] Partner prompt received: what part of buffalo do you live in
+2025-02-06 22:16:22,766 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: i'm shalini a researcher at university at buffalo
+User: That sounds interesting! What do you research?
+Partner: i work in the cattle lab how has the winter been for you
+User: Winter has been cozy and enjoyable so far.
+Partner: can you help me out with some research i'm doing
+User: Of course! I love helping with research.
+Partner: what part of buffalo do you live in
+
+Please respond accordingly.
+2025-02-06 22:16:24,843 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 500 Internal Server Error"
+2025-02-06 22:16:24,844 [ERROR] HTTP error occurred: 500 - {"detail":"Invalid response format from LightRAG."}
+2025-02-06 22:16:27,406 [INFO] Data received from OS-DPI at 2025-02-06 17:16:27.406125-05:00
+2025-02-06 22:16:27,406 [INFO] Received chosen response: No response available.
+2025-02-06 22:16:27,406 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:16:31,804 [INFO] Data received from OS-DPI at 2025-02-06 17:16:31.804636-05:00
+2025-02-06 22:16:34,662 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:16:34,663 [INFO] Partner prompt received: i'm sorry i'm asking a lot of questions
+2025-02-06 22:16:34,663 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: i work in the cattle lab how has the winter been for you
+User: Winter has been cozy and enjoyable so far.
+Partner: can you help me out with some research i'm doing
+User: Of course! I love helping with research.
+Partner: what part of buffalo do you live in
+User: No response available.
+Partner: i'm sorry i'm asking a lot of questions
+
+Please respond accordingly.
+2025-02-06 22:16:42,635 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 22:16:42,637 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I enjoy sharing and learning together.', 'latency_seconds': 7.97}, {'response_type': 'negative', 'response_text': "It's challenging to keep up with so many questions.", 'latency_seconds': 7.97}], 'total_latency_seconds': 7.97}
+2025-02-06 22:16:45,238 [INFO] Data received from OS-DPI at 2025-02-06 17:16:45.238164-05:00
+2025-02-06 22:16:45,238 [INFO] Received chosen response: I enjoy sharing and learning together.
+2025-02-06 22:16:45,238 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:16:53,439 [INFO] Data received from OS-DPI at 2025-02-06 17:16:53.439799-05:00
+2025-02-06 22:16:57,096 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:16:57,097 [INFO] Partner prompt received: i can tell you what my study is about if you like
+2025-02-06 22:16:57,097 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: can you help me out with some research i'm doing
+User: Of course! I love helping with research.
+Partner: what part of buffalo do you live in
+User: No response available.
+Partner: i'm sorry i'm asking a lot of questions
+User: I enjoy sharing and learning together.
+Partner: i can tell you what my study is about if you like
+
+Please respond accordingly.
+2025-02-06 22:16:58,988 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 22:16:58,989 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': "I'd love to hear about your study!", 'latency_seconds': 1.89}, {'response_type': 'negative', 'response_text': 'Too much info at once can be overwhelming.', 'latency_seconds': 1.89}], 'total_latency_seconds': 1.89}
+2025-02-06 22:17:01,833 [INFO] Data received from OS-DPI at 2025-02-06 17:17:01.833305-05:00
+2025-02-06 22:17:01,833 [INFO] Received chosen response: I'd love to hear about your study!
+2025-02-06 22:17:01,833 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:17:08,816 [INFO] Data received from OS-DPI at 2025-02-06 17:17:08.816055-05:00
+2025-02-06 22:17:11,904 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:17:11,915 [INFO] Partner prompt received: is annoying to be asked a ton of questions
+2025-02-06 22:17:11,915 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: what part of buffalo do you live in
+User: No response available.
+Partner: i'm sorry i'm asking a lot of questions
+User: I enjoy sharing and learning together.
+Partner: i can tell you what my study is about if you like
+User: I'd love to hear about your study!
+Partner: is annoying to be asked a ton of questions
+
+Please respond accordingly.
+2025-02-06 22:17:13,788 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 22:17:13,789 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I appreciate your curiosity about my life.', 'latency_seconds': 1.87}, {'response_type': 'negative', 'response_text': 'It feels overwhelming sometimes, but I understand.', 'latency_seconds': 1.87}], 'total_latency_seconds': 1.87}
+2025-02-06 22:17:16,008 [INFO] Data received from OS-DPI at 2025-02-06 17:17:16.008383-05:00
+2025-02-06 22:17:16,008 [INFO] Received chosen response: I appreciate your curiosity about my life.
+2025-02-06 22:17:16,008 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:17:22,959 [INFO] Data received from OS-DPI at 2025-02-06 17:17:22.959108-05:00
+2025-02-06 22:17:25,045 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:17:25,046 [INFO] Partner prompt received: i think you're very patient
+2025-02-06 22:17:25,046 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: i'm sorry i'm asking a lot of questions
+User: I enjoy sharing and learning together.
+Partner: i can tell you what my study is about if you like
+User: I'd love to hear about your study!
+Partner: is annoying to be asked a ton of questions
+User: I appreciate your curiosity about my life.
+Partner: i think you're very patient
+
+Please respond accordingly.
+2025-02-06 22:17:26,667 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 22:17:26,668 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I value our exchanges and your interest.', 'latency_seconds': 1.62}, {'response_type': 'negative', 'response_text': 'Questions can feel overwhelming sometimes.', 'latency_seconds': 1.62}], 'total_latency_seconds': 1.62}
+2025-02-06 22:17:28,731 [INFO] Data received from OS-DPI at 2025-02-06 17:17:28.731009-05:00
+2025-02-06 22:17:28,731 [INFO] Received chosen response: I value our exchanges and your interest.
+2025-02-06 22:17:28,731 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:17:37,267 [INFO] Data received from OS-DPI at 2025-02-06 17:17:37.267364-05:00
+2025-02-06 22:17:40,817 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:17:40,819 [INFO] Partner prompt received: would you like to tell me about the weather where you live in this winter
+2025-02-06 22:17:40,819 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: i can tell you what my study is about if you like
+User: I'd love to hear about your study!
+Partner: is annoying to be asked a ton of questions
+User: I appreciate your curiosity about my life.
+Partner: i think you're very patient
+User: I value our exchanges and your interest.
+Partner: would you like to tell me about the weather where you live in this winter
+
+Please respond accordingly.
+2025-02-06 22:17:42,715 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 22:17:42,716 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Winter is mild and pleasant here.', 'latency_seconds': 1.89}, {'response_type': 'negative', 'response_text': 'Sometimes it gets too cold for my liking.', 'latency_seconds': 1.89}], 'total_latency_seconds': 1.89}
+2025-02-06 22:17:45,651 [INFO] Data received from OS-DPI at 2025-02-06 17:17:45.651295-05:00
+2025-02-06 22:17:45,651 [INFO] Received chosen response: Winter is mild and pleasant here.
+2025-02-06 22:17:45,651 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:17:51,266 [INFO] Data received from OS-DPI at 2025-02-06 17:17:51.266293-05:00
+2025-02-06 22:17:54,002 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:17:54,004 [INFO] Partner prompt received: winters around here can vary a lot
+2025-02-06 22:17:54,004 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: is annoying to be asked a ton of questions
+User: I appreciate your curiosity about my life.
+Partner: i think you're very patient
+User: I value our exchanges and your interest.
+Partner: would you like to tell me about the weather where you live in this winter
+User: Winter is mild and pleasant here.
+Partner: winters around here can vary a lot
+
+Please respond accordingly.
+2025-02-06 22:17:55,446 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 500 Internal Server Error"
+2025-02-06 22:17:55,447 [ERROR] HTTP error occurred: 500 - {"detail":"Internal Server Error."}
+2025-02-06 22:17:56,948 [INFO] Data received from OS-DPI at 2025-02-06 17:17:56.948045-05:00
+2025-02-06 22:17:56,948 [INFO] Received chosen response: No response available.
+2025-02-06 22:17:56,948 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:18:00,613 [INFO] Data received from OS-DPI at 2025-02-06 17:18:00.613332-05:00
+2025-02-06 22:18:02,864 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:18:02,866 [INFO] Partner prompt received: do you like winter in buffalo
+2025-02-06 22:18:02,866 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: i think you're very patient
+User: I value our exchanges and your interest.
+Partner: would you like to tell me about the weather where you live in this winter
+User: Winter is mild and pleasant here.
+Partner: winters around here can vary a lot
+User: No response available.
+Partner: do you like winter in buffalo
+
+Please respond accordingly.
+2025-02-06 22:18:05,428 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 22:18:05,429 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'I enjoy the snow and holiday spirit.', 'latency_seconds': 2.56}, {'response_type': 'negative', 'response_text': 'The cold can be harsh sometimes.', 'latency_seconds': 2.56}], 'total_latency_seconds': 2.56}
+2025-02-06 22:18:07,259 [INFO] Data received from OS-DPI at 2025-02-06 17:18:07.259118-05:00
+2025-02-06 22:18:07,259 [INFO] Received chosen response: I enjoy the snow and holiday spirit.
+2025-02-06 22:18:07,259 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:18:16,334 [INFO] Data received from OS-DPI at 2025-02-06 17:18:16.334522-05:00
+2025-02-06 22:18:18,455 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:18:18,456 [INFO] Partner prompt received: can you explain why you like it
+2025-02-06 22:18:18,457 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: would you like to tell me about the weather where you live in this winter
+User: Winter is mild and pleasant here.
+Partner: winters around here can vary a lot
+User: No response available.
+Partner: do you like winter in buffalo
+User: I enjoy the snow and holiday spirit.
+Partner: can you explain why you like it
+
+Please respond accordingly.
+2025-02-06 22:18:20,223 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 22:18:20,224 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Snow brings joy and fun activities.', 'latency_seconds': 1.76}, {'response_type': 'negative', 'response_text': 'Cold temperatures can be uncomfortable sometimes.', 'latency_seconds': 1.76}], 'total_latency_seconds': 1.76}
+2025-02-06 22:18:24,341 [INFO] Data received from OS-DPI at 2025-02-06 17:18:24.341134-05:00
+2025-02-06 22:18:24,341 [INFO] Received chosen response: Snow brings joy and fun activities.
+2025-02-06 22:18:24,342 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:19:21,606 [INFO] Data received from OS-DPI at 2025-02-06 17:19:21.606106-05:00
+2025-02-06 22:19:23,965 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:19:23,967 [INFO] Partner prompt received: what do you suggest for window
+2025-02-06 22:19:23,967 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: winters around here can vary a lot
+User: No response available.
+Partner: do you like winter in buffalo
+User: I enjoy the snow and holiday spirit.
+Partner: can you explain why you like it
+User: Snow brings joy and fun activities.
+Partner: what do you suggest for window
+
+Please respond accordingly.
+2025-02-06 22:19:32,627 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 22:19:32,628 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Snow is beautiful and perfect for building snowmen.', 'latency_seconds': 8.66}, {'response_type': 'negative', 'response_text': 'It can be difficult to travel during snowstorms.', 'latency_seconds': 8.66}], 'total_latency_seconds': 8.66}
+2025-02-06 22:19:36,550 [INFO] Data received from OS-DPI at 2025-02-06 17:19:36.550062-05:00
+2025-02-06 22:19:36,550 [INFO] Received chosen response: Snow is beautiful and perfect for building snowmen.
+2025-02-06 22:19:36,550 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:19:42,261 [INFO] Data received from OS-DPI at 2025-02-06 17:19:42.261336-05:00
+2025-02-06 22:19:44,956 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-02-06 22:19:44,966 [INFO] Partner prompt received: i'm all done with the study
+2025-02-06 22:19:44,966 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: do you like winter in buffalo
+User: I enjoy the snow and holiday spirit.
+Partner: can you explain why you like it
+User: Snow brings joy and fun activities.
+Partner: what do you suggest for window
+User: Snow is beautiful and perfect for building snowmen.
+Partner: i'm all done with the study
+
+Please respond accordingly.
+2025-02-06 22:19:50,602 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-02-06 22:19:50,603 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Winter makes everything look magical.', 'latency_seconds': 5.63}, {'response_type': 'negative', 'response_text': 'It can be too cold sometimes.', 'latency_seconds': 5.63}], 'total_latency_seconds': 5.63}
+2025-02-06 22:19:52,079 [INFO] Data received from OS-DPI at 2025-02-06 17:19:52.079850-05:00
+2025-02-06 22:19:52,080 [INFO] Received chosen response: Winter makes everything look magical.
+2025-02-06 22:19:52,080 [INFO] Appended entry to CSV at session_csv_files/conversation_history_20250206_171503.csv
+2025-02-06 22:19:58,411 [INFO] CSV file found at session_csv_files/conversation_history_20250206_171503.csv. Preparing for download.
+2025-02-06 22:32:45,053 [INFO] WebSocket disconnected.
+2025-02-27 21:11:34,958 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250227_161134.csv
+2025-02-27 21:11:34,960 [INFO] WebSocket connection accepted.
+2025-02-27 21:17:10,269 [INFO] WebSocket disconnected.
+2025-03-03 19:50:07,481 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250303_145007.csv
+2025-03-03 19:50:07,482 [INFO] WebSocket connection accepted.
+2025-03-03 19:50:08,588 [INFO] WebSocket disconnected.
+2025-03-03 19:50:09,999 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250303_145009.csv
+2025-03-03 19:50:10,000 [INFO] WebSocket connection accepted.
+2025-03-03 19:50:12,045 [INFO] WebSocket disconnected.
+2025-03-03 19:50:13,355 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250303_145013.csv
+2025-03-03 19:50:13,356 [INFO] WebSocket connection accepted.
+2025-03-03 19:50:14,818 [INFO] Data received from OS-DPI at 2025-03-03 14:50:14.818626-05:00
+2025-03-03 19:50:14,818 [INFO] Received 'new_conv' prefix, starting a new conversation.
+2025-03-03 19:50:14,819 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250303_145014.csv
+2025-03-03 19:50:14,819 [INFO] New CSV file created at session_csv_files/conversation_history_20250303_145014.csv for the new conversation.
+2025-03-03 19:50:16,380 [INFO] Data received from OS-DPI at 2025-03-03 14:50:16.380193-05:00
+2025-03-03 19:50:26,447 [ERROR] Error fetching speech-to-text: 
+2025-03-03 19:50:26,447 [ERROR] No prompt text received from RPi API.
+2025-03-03 19:56:34,005 [INFO] Data received from OS-DPI at 2025-03-03 14:56:34.005302-05:00
+2025-03-03 19:56:44,060 [ERROR] Error fetching speech-to-text: 
+2025-03-03 19:56:44,061 [ERROR] No prompt text received from RPi API.
+2025-03-03 20:07:54,713 [INFO] WebSocket disconnected.
+2025-03-03 20:13:45,754 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250303_151345.csv
+2025-03-03 20:13:45,754 [INFO] WebSocket connection accepted.
+2025-03-03 20:18:10,634 [INFO] WebSocket disconnected.
+2025-03-03 20:18:12,272 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250303_151812.csv
+2025-03-03 20:18:12,272 [INFO] WebSocket connection accepted.
+2025-03-03 20:18:19,876 [INFO] Data received from OS-DPI at 2025-03-03 15:18:19.876427-05:00
+2025-03-03 20:18:29,919 [ERROR] Error fetching speech-to-text: 
+2025-03-03 20:18:29,919 [ERROR] No prompt text received from RPi API.
+2025-03-03 20:25:09,972 [INFO] Data received from OS-DPI at 2025-03-03 15:25:09.972219-05:00
+2025-03-03 20:25:12,104 [INFO] HTTP Request: GET https://humane-marmot-entirely.ngrok-free.app/get_audio_transcription "HTTP/1.1 200 OK"
+2025-03-03 20:25:12,122 [INFO] Partner prompt received: hey what's up
+2025-03-03 20:25:12,122 [INFO] Sending payload to API with prompt:
+Conversation so far:
+Partner: hey what's up
+
+Please respond accordingly.
+2025-03-03 20:25:15,640 [INFO] HTTP Request: POST http://localhost:7000/generate_response_informed "HTTP/1.1 200 OK"
+2025-03-03 20:25:15,641 [INFO] Received response from API: {'responses': [{'response_type': 'positive', 'response_text': 'Just having lunch with Jennifer, relaxing.', 'latency_seconds': 3.51}, {'response_type': 'negative', 'response_text': 'Feeling overwhelmed with everything happening.', 'latency_seconds': 3.51}], 'total_latency_seconds': 3.51}
+2025-03-03 20:27:30,085 [INFO] WebSocket disconnected.
+2025-03-03 20:29:57,469 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250303_152957.csv
+2025-03-03 20:29:57,469 [INFO] WebSocket connection accepted.
+2025-03-03 20:29:59,088 [INFO] WebSocket disconnected.
+2025-03-03 20:50:58,512 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250303_155058.csv
+2025-03-03 20:50:58,512 [INFO] WebSocket connection accepted.
+2025-03-03 20:51:00,859 [INFO] WebSocket disconnected.
+2025-03-03 20:51:03,364 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250303_155103.csv
+2025-03-03 20:51:03,364 [INFO] WebSocket connection accepted.
+2025-03-03 20:52:57,385 [INFO] WebSocket disconnected.
+2025-03-03 22:01:53,384 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250303_170153.csv
+2025-03-03 22:01:53,384 [INFO] WebSocket connection accepted.
+2025-03-03 22:04:02,069 [INFO] WebSocket disconnected.
+2025-03-03 22:04:32,157 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250303_170432.csv
+2025-03-03 22:04:32,157 [INFO] WebSocket connection accepted.
+2025-03-03 22:04:32,178 [INFO] WebSocket disconnected.
+2025-03-04 16:17:52,732 [INFO] Initialized CSV file at session_csv_files/conversation_history_20250304_111752.csv
+2025-03-04 16:17:52,733 [INFO] WebSocket connection accepted.
+2025-03-04 16:17:58,186 [INFO] Data received from OS-DPI at 2025-03-04 11:17:58.185980-05:00
+2025-03-04 16:18:08,275 [ERROR] Error fetching speech-to-text: 
+2025-03-04 16:18:08,276 [ERROR] No prompt text received from RPi API.
+2025-03-04 16:19:52,472 [INFO] WebSocket disconnected.
+2025-03-27 20:07:20,555 [INFO] httpx client closed.
