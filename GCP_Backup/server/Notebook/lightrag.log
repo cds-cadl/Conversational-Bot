@@ -1,0 +1,55 @@
+2024-10-21 14:02:23,793 - lightrag - INFO - Logger initialized for working directory: /content/book/
+2024-10-21 14:02:23,796 - lightrag - DEBUG - LightRAG init with param:
+  working_dir = /content/book/,
+  chunk_token_size = 1200,
+  chunk_overlap_token_size = 100,
+  tiktoken_model_name = gpt-4o-mini,
+  entity_extract_max_gleaning = 1,
+  entity_summary_to_max_tokens = 500,
+  node_embedding_algorithm = node2vec,
+  node2vec_params = {'dimensions': 1536, 'num_walks': 10, 'walk_length': 40, 'window_size': 2, 'iterations': 3, 'random_seed': 3},
+  embedding_func = {'embedding_dim': 1536, 'max_token_size': 8192, 'func': <function openai_embedding at 0x785b1f05f250>},
+  embedding_batch_num = 32,
+  embedding_func_max_async = 16,
+  llm_model_func = <function gpt_4o_mini_complete at 0x785b1f05ecb0>,
+  llm_model_name = meta-llama/Llama-3.2-1B-Instruct,
+  llm_model_max_token_size = 32768,
+  llm_model_max_async = 16,
+  key_string_value_json_storage_cls = <class 'lightrag.storage.JsonKVStorage'>,
+  vector_db_storage_cls = <class 'lightrag.storage.NanoVectorDBStorage'>,
+  vector_db_storage_cls_kwargs = {},
+  graph_storage_cls = <class 'lightrag.storage.NetworkXStorage'>,
+  enable_llm_cache = True,
+  addon_params = {},
+  convert_response_to_json_func = <function convert_response_to_json at 0x785b1f05c670>
+
+2024-10-21 14:02:23,798 - lightrag - INFO - Load KV full_docs with 0 data
+2024-10-21 14:02:23,800 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-10-21 14:02:23,803 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-10-21 14:03:02,928 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-21 14:03:04,670 - lightrag - INFO - [New Chunks] inserting 142 chunks
+2024-10-21 14:03:04,672 - lightrag - INFO - Inserting 142 vectors to chunks
+2024-10-21 14:03:08,155 - lightrag - INFO - [Entity Extraction]...
+2024-10-21 14:06:04,379 - lightrag - DEBUG - Trigger summary: "JENNIFER"
+2024-10-21 14:06:04,449 - lightrag - DEBUG - Trigger summary: "GROUP HOME"
+2024-10-21 14:06:04,524 - lightrag - DEBUG - Trigger summary: "TODD"
+2024-10-21 14:06:04,600 - lightrag - DEBUG - Trigger summary: "FLORIDA"
+2024-10-21 14:06:04,678 - lightrag - DEBUG - Trigger summary: "DINNER"
+2024-10-21 14:06:04,772 - lightrag - DEBUG - Trigger summary: "BILL"
+2024-10-21 14:06:04,871 - lightrag - DEBUG - Trigger summary: "KELLY"
+2024-10-21 14:06:12,681 - lightrag - DEBUG - Trigger summary: ('"JENNIFER"', '"TODD"')
+2024-10-21 14:06:12,781 - lightrag - DEBUG - Trigger summary: ('"GROUP HOME"', '"TODD"')
+2024-10-21 14:06:12,859 - lightrag - DEBUG - Trigger summary: ('"KELLY"', '"TODD"')
+2024-10-21 14:06:21,247 - lightrag - INFO - Inserting 960 vectors to entities
+2024-10-21 14:06:37,582 - lightrag - INFO - Inserting 871 vectors to relationships
+2024-10-21 14:06:53,293 - lightrag - INFO - Writing graph with 968 nodes, 871 edges
+2024-10-21 14:06:53,891 - lightrag - INFO - Truncate 60 to 3 chunks
+2024-10-21 14:07:00,890 - lightrag - INFO - Local query uses 60 entites, 37 relations, 3 text units
+2024-10-21 14:07:13,404 - lightrag - INFO - Global query uses 36 entites, 60 relations, 3 text units
+2024-10-21 14:07:24,873 - lightrag - INFO - Local query uses 60 entites, 37 relations, 3 text units
+2024-10-21 14:07:25,338 - lightrag - INFO - Global query uses 36 entites, 60 relations, 3 text units
+2024-10-21 14:07:47,953 - lightrag - INFO - Truncate 60 to 3 chunks
+2024-10-21 14:07:49,981 - lightrag - INFO - Local query uses 60 entites, 72 relations, 3 text units
+2024-10-21 14:07:52,118 - lightrag - INFO - Global query uses 38 entites, 60 relations, 3 text units
+2024-10-21 14:07:54,688 - lightrag - INFO - Local query uses 60 entites, 72 relations, 3 text units
+2024-10-21 14:07:55,187 - lightrag - INFO - Global query uses 38 entites, 60 relations, 3 text units
