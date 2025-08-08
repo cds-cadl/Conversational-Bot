@@ -1,0 +1,2 @@
+timestamp,kb_source,kb_text,question,system_prompt,retrieval_mode,num_responses,response_types,all_responses,chosen_response,comment,latency_seconds
+2025-08-08T15:39:50.063555,Paste Text,,"Hey, what's your name?","As Todd, respond in a conversational manner. Keep each response under 7 words. Return JSON list of objects with 'response_type' & 'response_text'.",hybrid,2,"neutral, neutral","[{""response_type"": ""neutral"", ""response_text"": ""I'm Todd, nice to meet you.""}, {""response_type"": ""neutral"", ""response_text"": ""You can call me Todd.""}]",,,3.47
