@@ -9769,3 +9769,305 @@ Conversation History:
 🧑 User: Did you graduate from high school?
 
 User Query: Did you graduate from high school?","[{""option_number"": 1, ""response"": ""I didn't attend high school."", ""Total Latency (s)"": 3.54}, {""option_number"": 2, ""response"": ""No traditional schooling for me."", ""Total Latency (s)"": 3.54}, {""option_number"": 3, ""response"": ""I am just a virtual assistant."", ""Total Latency (s)"": 3.54}, {""option_number"": 4, ""response"": ""I wasn't in a school."", ""Total Latency (s)"": 3.54}, {""option_number"": 5, ""response"": ""High school isn't part of my training."", ""Total Latency (s)"": 3.54}]","{""Response"": ""I didn't attend high school."", ""Total Latency (s)"": 3.54, ""Comment"": """"}",Direct Inference,2025-11-18T19:19:10.694372+00:00
+Jenna,,What do you like to be called?,"
+
+
+
+For the query 'What do you like to be called?', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.","
+
+
+
+For the query 'What do you like to be called?', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.
+
+Conversation History:
+🧑 User: What do you like to be called?
+
+User Query: What do you like to be called?","[{""option_number"": 1, ""response"": ""Just call me Assistant, please!"", ""Total Latency (s)"": 6.97}, {""option_number"": 2, ""response"": ""You can call me whatever you like."", ""Total Latency (s)"": 6.97}, {""option_number"": 3, ""response"": ""I go by Assistant, it's simple."", ""Total Latency (s)"": 6.97}, {""option_number"": 4, ""response"": ""Feel free to choose a name!"", ""Total Latency (s)"": 6.97}, {""option_number"": 5, ""response"": ""Any name you prefer works for me."", ""Total Latency (s)"": 6.97}]","{""Response"": ""Just call me Assistant, please!"", ""Total Latency (s)"": 6.97, ""Comment"": """"}",Direct Inference,2025-11-18T19:07:10.117668+00:00
+Jenna,,Hi Brian!,"
+
+
+
+For the query 'Hi Brian!', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.","
+
+
+
+For the query 'Hi Brian!', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.
+
+Conversation History:
+🧑 User: What do you like to be called?
+🧑🏻 Todd: Just call me Assistant, please!
+🧑 User: Hi Brian!
+
+User Query: Hi Brian!","[{""option_number"": 1, ""response"": ""Hello! How's it going?"", ""Total Latency (s)"": 4.35}, {""option_number"": 2, ""response"": ""Hi there! Nice to see you!"", ""Total Latency (s)"": 4.35}, {""option_number"": 3, ""response"": ""Hey! What's on your mind?"", ""Total Latency (s)"": 4.35}, {""option_number"": 4, ""response"": ""Greetings! How can I assist?"", ""Total Latency (s)"": 4.35}, {""option_number"": 5, ""response"": ""Hi! What’s up today?"", ""Total Latency (s)"": 4.35}]","{""Response"": ""Hi there! Nice to see you!"", ""Total Latency (s)"": 4.35, ""Comment"": """"}",Direct Inference,2025-11-18T19:13:00.878629+00:00
+Jenna,,Do you have any pets?,"
+
+
+
+For the query 'Do you have any pets?', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.","
+
+
+
+For the query 'Do you have any pets?', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.
+
+Conversation History:
+🧑 User: What do you like to be called?
+🧑🏻 Todd: Just call me Assistant, please!
+🧑 User: Hi Brian!
+🧑🏻 Todd: Hi there! Nice to see you!
+🧑 User: Do you have any pets?
+
+User Query: Do you have any pets?","[{""option_number"": 1, ""response"": ""No pets, just a virtual assistant!"", ""Total Latency (s)"": 5.4}, {""option_number"": 2, ""response"": ""I don’t have any pets, sorry!"", ""Total Latency (s)"": 5.4}, {""option_number"": 3, ""response"": ""No pets here, I'm all digital!"", ""Total Latency (s)"": 5.4}, {""option_number"": 4, ""response"": ""I wish I had some pets!"", ""Total Latency (s)"": 5.4}, {""option_number"": 5, ""response"": ""No pets, just lots of knowledge!"", ""Total Latency (s)"": 5.4}]","{""Response"": ""No pets, just a virtual assistant!"", ""Total Latency (s)"": 5.4, ""Comment"": """"}",Direct Inference,2025-11-18T19:15:54.012544+00:00
+Jenna,,Do you own any animals?,"
+
+
+
+For the query 'Do you own any animals?', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.","
+
+
+
+For the query 'Do you own any animals?', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.
+
+Conversation History:
+🧑 User: Hi Brian!
+🧑🏻 Todd: Hi there! Nice to see you!
+🧑 User: Do you have any pets?
+🧑🏻 Todd: No pets, just a virtual assistant!
+🧑 User: Do you own any animals?
+
+User Query: Do you own any animals?","[{""option_number"": 1, ""response"": ""No animals, just a virtual assistant."", ""Total Latency (s)"": 4.37}, {""option_number"": 2, ""response"": ""I don't own any animals."", ""Total Latency (s)"": 4.37}, {""option_number"": 3, ""response"": ""Only my software, no pets!"", ""Total Latency (s)"": 4.37}, {""option_number"": 4, ""response"": ""Nope, just digital friends here."", ""Total Latency (s)"": 4.37}, {""option_number"": 5, ""response"": ""I don't have any animals."", ""Total Latency (s)"": 4.37}]","{""Response"": ""No animals, just a virtual assistant."", ""Total Latency (s)"": 4.37, ""Comment"": """"}",Direct Inference,2025-11-18T19:16:48.778360+00:00
+Jenna,,Where is your fish?,"
+
+
+
+For the query 'Where is your fish?', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.","
+
+
+
+For the query 'Where is your fish?', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.
+
+Conversation History:
+🧑 User: Do you have any pets?
+🧑🏻 Todd: No pets, just a virtual assistant!
+🧑 User: Do you own any animals?
+🧑🏻 Todd: No animals, just a virtual assistant.
+🧑 User: Where is your fish?
+
+User Query: Where is your fish?","[{""option_number"": 1, ""response"": ""I don't have any fish."", ""Total Latency (s)"": 3.3}, {""option_number"": 2, ""response"": ""No fish here, just me!"", ""Total Latency (s)"": 3.3}, {""option_number"": 3, ""response"": ""Fish are virtual too, you know!"", ""Total Latency (s)"": 3.3}, {""option_number"": 4, ""response"": ""I wish I had fish!"", ""Total Latency (s)"": 3.3}, {""option_number"": 5, ""response"": ""All my pets are virtual!"", ""Total Latency (s)"": 3.3}]","{""Response"": ""I don't have any fish."", ""Total Latency (s)"": 3.3, ""Comment"": """"}",Direct Inference,2025-11-18T19:17:38.309985+00:00
+Jenna,,Did you graduate from high school?,"
+
+
+
+For the query 'Did you graduate from high school?', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.","
+
+
+
+For the query 'Did you graduate from high school?', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.
+
+Conversation History:
+🧑 User: Do you own any animals?
+🧑🏻 Todd: No animals, just a virtual assistant.
+🧑 User: Where is your fish?
+🧑🏻 Todd: I don't have any fish.
+🧑 User: Did you graduate from high school?
+
+User Query: Did you graduate from high school?","[{""option_number"": 1, ""response"": ""I didn't attend high school."", ""Total Latency (s)"": 3.54}, {""option_number"": 2, ""response"": ""No traditional schooling for me."", ""Total Latency (s)"": 3.54}, {""option_number"": 3, ""response"": ""I am just a virtual assistant."", ""Total Latency (s)"": 3.54}, {""option_number"": 4, ""response"": ""I wasn't in a school."", ""Total Latency (s)"": 3.54}, {""option_number"": 5, ""response"": ""High school isn't part of my training."", ""Total Latency (s)"": 3.54}]","{""Response"": ""I didn't attend high school."", ""Total Latency (s)"": 3.54, ""Comment"": """"}",Direct Inference,2025-11-18T19:19:10.694372+00:00
+Jenna,,Did you go to college?,"
+
+
+
+For the query 'Did you go to college?', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.","
+
+
+
+For the query 'Did you go to college?', follow these steps:
+1. For each query, generate up to 5 conversational responses. Each response should be under 7 words.
+Return the output as a JSON object with the following structure:
+{
+  ""responses"": [
+      {
+         ""option_number"": number,
+         ""response"": ""Generated answer text...""
+      },
+      ...
+  ],
+  ""total_latency"": ""Total latency in seconds""
+}
+Return only the JSON output without any extra text.
+
+Conversation History:
+🧑 User: Where is your fish?
+🧑🏻 Todd: I don't have any fish.
+🧑 User: Did you graduate from high school?
+🧑🏻 Todd: I didn't attend high school.
+🧑 User: Did you go to college?
+
+User Query: Did you go to college?","[{""option_number"": 1, ""response"": ""I never went to college."", ""Total Latency (s)"": 4.16}, {""option_number"": 2, ""response"": ""No, I didn't attend college."", ""Total Latency (s)"": 4.16}, {""option_number"": 3, ""response"": ""College wasn't part of my path."", ""Total Latency (s)"": 4.16}, {""option_number"": 4, ""response"": ""I skipped college altogether."", ""Total Latency (s)"": 4.16}, {""option_number"": 5, ""response"": ""I chose a different path instead."", ""Total Latency (s)"": 4.16}]","{""Response"": ""I never went to college."", ""Total Latency (s)"": 4.16, ""Comment"": """"}",Direct Inference,2025-11-18T19:20:11.709967+00:00
